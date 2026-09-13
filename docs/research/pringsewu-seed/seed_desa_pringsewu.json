@@ -1,0 +1,1312 @@
+[
+ {
+  "kode": "18.10.01.1001",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Fajaresuk",
+  "status": "kelurahan",
+  "lat": -5.35398,
+  "lon": 104.95683,
+  "luas_ha_big": 408.71
+ },
+ {
+  "kode": "18.10.01.1002",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Pringsewu Utara",
+  "status": "kelurahan",
+  "lat": -5.35018,
+  "lon": 104.98053,
+  "luas_ha_big": 150.49
+ },
+ {
+  "kode": "18.10.01.1003",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Pringsewu Selatan",
+  "status": "kelurahan",
+  "lat": -5.3612,
+  "lon": 104.97126,
+  "luas_ha_big": 176.95
+ },
+ {
+  "kode": "18.10.01.1004",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Pringsewu Barat",
+  "status": "kelurahan",
+  "lat": -5.34972,
+  "lon": 104.97039,
+  "luas_ha_big": 158.04
+ },
+ {
+  "kode": "18.10.01.1005",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Pringsewu Timur",
+  "status": "kelurahan",
+  "lat": -5.36182,
+  "lon": 104.98109,
+  "luas_ha_big": 112.77
+ },
+ {
+  "kode": "18.10.01.2006",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Margakaya",
+  "status": "pekon",
+  "lat": -5.37782,
+  "lon": 104.97671,
+  "luas_ha_big": 536.41
+ },
+ {
+  "kode": "18.10.01.2007",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Waluyojati",
+  "status": "pekon",
+  "lat": -5.37777,
+  "lon": 104.95677,
+  "luas_ha_big": 376.14
+ },
+ {
+  "kode": "18.10.01.2008",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Sidoharjo",
+  "status": "pekon",
+  "lat": -5.36161,
+  "lon": 104.99303,
+  "luas_ha_big": 359.44
+ },
+ {
+  "kode": "18.10.01.2009",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Podomoro",
+  "status": "pekon",
+  "lat": -5.34306,
+  "lon": 104.9926,
+  "luas_ha_big": 376.12
+ },
+ {
+  "kode": "18.10.01.2010",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Bumi Arum",
+  "status": "pekon",
+  "lat": -5.33889,
+  "lon": 104.94897,
+  "luas_ha_big": 368.7
+ },
+ {
+  "kode": "18.10.01.2011",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Fajar Agung",
+  "status": "pekon",
+  "lat": -5.36911,
+  "lon": 104.94792,
+  "luas_ha_big": 349.62
+ },
+ {
+  "kode": "18.10.01.2012",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Rejo Sari",
+  "status": "pekon",
+  "lat": -5.33784,
+  "lon": 104.9659,
+  "luas_ha_big": 238.66
+ },
+ {
+  "kode": "18.10.01.2013",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Bumi Ayu",
+  "status": "pekon",
+  "lat": -5.34322,
+  "lon": 104.93366,
+  "luas_ha_big": 414.82
+ },
+ {
+  "kode": "18.10.01.2014",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Podosari",
+  "status": "pekon",
+  "lat": -5.33313,
+  "lon": 104.98193,
+  "luas_ha_big": 219.83
+ },
+ {
+  "kode": "18.10.01.2015",
+  "kode_kec": "18.10.01",
+  "kecamatan": "Pringsewu",
+  "nama": "Fajar Agung Barat",
+  "status": "pekon",
+  "lat": -5.37123,
+  "lon": 104.93643,
+  "luas_ha_big": 155.07
+ },
+ {
+  "kode": "18.10.02.2001",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Parerejo",
+  "status": "pekon",
+  "lat": -5.41882,
+  "lon": 104.98782,
+  "luas_ha_big": 659.61
+ },
+ {
+  "kode": "18.10.02.2002",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Blitarejo",
+  "status": "pekon",
+  "lat": -5.39728,
+  "lon": 104.99076,
+  "luas_ha_big": 386.99
+ },
+ {
+  "kode": "18.10.02.2003",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Panjerejo",
+  "status": "pekon",
+  "lat": -5.38319,
+  "lon": 104.99952,
+  "luas_ha_big": 426.26
+ },
+ {
+  "kode": "18.10.02.2004",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Bulokarto",
+  "status": "pekon",
+  "lat": -5.35815,
+  "lon": 105.00318,
+  "luas_ha_big": 307.58
+ },
+ {
+  "kode": "18.10.02.2005",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Wates",
+  "status": "pekon",
+  "lat": -5.37547,
+  "lon": 105.00927,
+  "luas_ha_big": 213.53
+ },
+ {
+  "kode": "18.10.02.2006",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Tambahrejo",
+  "status": "pekon",
+  "lat": -5.37734,
+  "lon": 105.03304,
+  "luas_ha_big": 304.6
+ },
+ {
+  "kode": "18.10.02.2007",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Wonodadi",
+  "status": "pekon",
+  "lat": -5.37647,
+  "lon": 105.05178,
+  "luas_ha_big": 343.2
+ },
+ {
+  "kode": "18.10.02.2008",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Gadingrejo",
+  "status": "pekon",
+  "lat": -5.38292,
+  "lon": 105.06908,
+  "luas_ha_big": 299.26
+ },
+ {
+  "kode": "18.10.02.2009",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Tegalsari",
+  "status": "pekon",
+  "lat": -5.34906,
+  "lon": 105.06203,
+  "luas_ha_big": 436.93
+ },
+ {
+  "kode": "18.10.02.2010",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Tulung Agung",
+  "status": "pekon",
+  "lat": -5.35599,
+  "lon": 105.04572,
+  "luas_ha_big": 494.48
+ },
+ {
+  "kode": "18.10.02.2011",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Bulurejo",
+  "status": "pekon",
+  "lat": -5.35766,
+  "lon": 105.01906,
+  "luas_ha_big": 364.18
+ },
+ {
+  "kode": "18.10.02.2012",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Yogyakarta",
+  "status": "pekon",
+  "lat": -5.33751,
+  "lon": 105.01996,
+  "luas_ha_big": 357.87
+ },
+ {
+  "kode": "18.10.02.2013",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Kediri",
+  "status": "pekon",
+  "lat": -5.34705,
+  "lon": 105.0331,
+  "luas_ha_big": 241.99
+ },
+ {
+  "kode": "18.10.02.2014",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Mataram",
+  "status": "pekon",
+  "lat": -5.33265,
+  "lon": 105.04825,
+  "luas_ha_big": 620.47
+ },
+ {
+  "kode": "18.10.02.2015",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Wonosari",
+  "status": "pekon",
+  "lat": -5.38328,
+  "lon": 105.04604,
+  "luas_ha_big": 156.33
+ },
+ {
+  "kode": "18.10.02.2016",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Klaten",
+  "status": "pekon",
+  "lat": -5.3458,
+  "lon": 105.01369,
+  "luas_ha_big": 130.99
+ },
+ {
+  "kode": "18.10.02.2017",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Wates Timur",
+  "status": "pekon",
+  "lat": -5.3707,
+  "lon": 105.01827,
+  "luas_ha_big": 200.72
+ },
+ {
+  "kode": "18.10.02.2018",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Wates Selatan",
+  "status": "pekon",
+  "lat": -5.392,
+  "lon": 105.01736,
+  "luas_ha_big": 177.35
+ },
+ {
+  "kode": "18.10.02.2019",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Gading Rejo Timur",
+  "status": "pekon",
+  "lat": -5.37121,
+  "lon": 105.0778,
+  "luas_ha_big": 112.79
+ },
+ {
+  "kode": "18.10.02.2020",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Gading Rejo Utara",
+  "status": "pekon",
+  "lat": -5.36745,
+  "lon": 105.06794,
+  "luas_ha_big": 240.72
+ },
+ {
+  "kode": "18.10.02.2021",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Tambah Rejo Barat",
+  "status": "pekon",
+  "lat": -5.384,
+  "lon": 105.02465,
+  "luas_ha_big": 164.86
+ },
+ {
+  "kode": "18.10.02.2022",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Wonodadi Utara",
+  "status": "pekon",
+  "lat": -5.36677,
+  "lon": 105.05594,
+  "luas_ha_big": 103.76
+ },
+ {
+  "kode": "18.10.02.2023",
+  "kode_kec": "18.10.02",
+  "kecamatan": "Gading Rejo",
+  "nama": "Yogyakarta Selatan",
+  "status": "pekon",
+  "lat": -5.35494,
+  "lon": 105.02791,
+  "luas_ha_big": 111.24
+ },
+ {
+  "kode": "18.10.03.2001",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Ambarawa",
+  "status": "pekon",
+  "lat": -5.42098,
+  "lon": 104.96208,
+  "luas_ha_big": 511.09
+ },
+ {
+  "kode": "18.10.03.2002",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Ambarawa Barat",
+  "status": "pekon",
+  "lat": -5.41485,
+  "lon": 104.95014,
+  "luas_ha_big": 313.62
+ },
+ {
+  "kode": "18.10.03.2003",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Kresno Mulyo",
+  "status": "pekon",
+  "lat": -5.42251,
+  "lon": 104.92308,
+  "luas_ha_big": 541.25
+ },
+ {
+  "kode": "18.10.03.2004",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Sumber Agung",
+  "status": "pekon",
+  "lat": -5.41228,
+  "lon": 104.93275,
+  "luas_ha_big": 376.14
+ },
+ {
+  "kode": "18.10.03.2005",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Tanjung Anom",
+  "status": "pekon",
+  "lat": -5.39709,
+  "lon": 104.93178,
+  "luas_ha_big": 209.8
+ },
+ {
+  "kode": "18.10.03.2006",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Jati Agung",
+  "status": "pekon",
+  "lat": -5.39532,
+  "lon": 104.94673,
+  "luas_ha_big": 360.04
+ },
+ {
+  "kode": "18.10.03.2007",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Margodadi",
+  "status": "pekon",
+  "lat": -5.39488,
+  "lon": 104.96797,
+  "luas_ha_big": 510.52
+ },
+ {
+  "kode": "18.10.03.2008",
+  "kode_kec": "18.10.03",
+  "kecamatan": "Ambarawa",
+  "nama": "Ambarawa Timur",
+  "status": "pekon",
+  "lat": -5.41803,
+  "lon": 104.97349,
+  "luas_ha_big": 473.73
+ },
+ {
+  "kode": "18.10.04.2001",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Kedaung",
+  "status": "pekon",
+  "lat": -5.54193,
+  "lon": 104.92138,
+  "luas_ha_big": 1026.63
+ },
+ {
+  "kode": "18.10.04.2002",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Pardasuka",
+  "status": "pekon",
+  "lat": -5.46769,
+  "lon": 104.9316,
+  "luas_ha_big": 581.96
+ },
+ {
+  "kode": "18.10.04.2003",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Suka Negeri",
+  "status": "pekon",
+  "lat": -5.48716,
+  "lon": 104.9231,
+  "luas_ha_big": 18.96
+ },
+ {
+  "kode": "18.10.04.2004",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Tanjung Rusia",
+  "status": "pekon",
+  "lat": -5.47676,
+  "lon": 104.91463,
+  "luas_ha_big": 595.32
+ },
+ {
+  "kode": "18.10.04.2005",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Warga Mulyo",
+  "status": "pekon",
+  "lat": -5.45019,
+  "lon": 104.93802,
+  "luas_ha_big": 453.58
+ },
+ {
+  "kode": "18.10.04.2006",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Pujodadi",
+  "status": "pekon",
+  "lat": -5.43316,
+  "lon": 104.9418,
+  "luas_ha_big": 484.62
+ },
+ {
+  "kode": "18.10.04.2007",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Sukorejo",
+  "status": "pekon",
+  "lat": -5.43668,
+  "lon": 104.90601,
+  "luas_ha_big": 445.51
+ },
+ {
+  "kode": "18.10.04.2008",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Selapan",
+  "status": "pekon",
+  "lat": -5.53681,
+  "lon": 104.90478,
+  "luas_ha_big": 1378.85
+ },
+ {
+  "kode": "18.10.04.2009",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Rantau Tijang",
+  "status": "pekon",
+  "lat": -5.5408,
+  "lon": 104.94376,
+  "luas_ha_big": 2553.25
+ },
+ {
+  "kode": "18.10.04.2010",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Sidodadi",
+  "status": "pekon",
+  "lat": -5.44289,
+  "lon": 104.92895,
+  "luas_ha_big": 404.86
+ },
+ {
+  "kode": "18.10.04.2011",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Pardasuka Timur",
+  "status": "pekon",
+  "lat": -5.4847,
+  "lon": 104.93604,
+  "luas_ha_big": 108.72
+ },
+ {
+  "kode": "18.10.04.2012",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Tanjung Rusia Timur",
+  "status": "pekon",
+  "lat": -5.50149,
+  "lon": 104.91169,
+  "luas_ha_big": 463.42
+ },
+ {
+  "kode": "18.10.04.2013",
+  "kode_kec": "18.10.04",
+  "kecamatan": "Pardasuka",
+  "nama": "Pardasuka Selatan",
+  "status": "pekon",
+  "lat": -5.4929,
+  "lon": 104.92701,
+  "luas_ha_big": 215.25
+ },
+ {
+  "kode": "18.10.05.2001",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Candi Retno",
+  "status": "pekon",
+  "lat": -5.39766,
+  "lon": 104.92162,
+  "luas_ha_big": 249.98
+ },
+ {
+  "kode": "18.10.05.2002",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Tanjung Dalom",
+  "status": "pekon",
+  "lat": -5.40197,
+  "lon": 104.90733,
+  "luas_ha_big": 376.61
+ },
+ {
+  "kode": "18.10.05.2003",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Way Ngison",
+  "status": "pekon",
+  "lat": -5.39584,
+  "lon": 104.89669,
+  "luas_ha_big": 199.69
+ },
+ {
+  "kode": "18.10.05.2004",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Suka Wangi",
+  "status": "pekon",
+  "lat": -5.36396,
+  "lon": 104.87053,
+  "luas_ha_big": 106.39
+ },
+ {
+  "kode": "18.10.05.2005",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Suka Ratu",
+  "status": "pekon",
+  "lat": -5.36671,
+  "lon": 104.87593,
+  "luas_ha_big": 137.71
+ },
+ {
+  "kode": "18.10.05.2006",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Pagelaran",
+  "status": "pekon",
+  "lat": -5.3668,
+  "lon": 104.88632,
+  "luas_ha_big": 295.06
+ },
+ {
+  "kode": "18.10.05.2007",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Patoman",
+  "status": "pekon",
+  "lat": -5.37389,
+  "lon": 104.89862,
+  "luas_ha_big": 261.62
+ },
+ {
+  "kode": "18.10.05.2008",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Karangsari",
+  "status": "pekon",
+  "lat": -5.38454,
+  "lon": 104.92406,
+  "luas_ha_big": 453.99
+ },
+ {
+  "kode": "18.10.05.2009",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Gumuk Mas",
+  "status": "pekon",
+  "lat": -5.36735,
+  "lon": 104.91261,
+  "luas_ha_big": 205.36
+ },
+ {
+  "kode": "18.10.05.2010",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Bumi Ratu",
+  "status": "pekon",
+  "lat": -5.34812,
+  "lon": 104.91807,
+  "luas_ha_big": 406.4
+ },
+ {
+  "kode": "18.10.05.2011",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Panutan",
+  "status": "pekon",
+  "lat": -5.36339,
+  "lon": 104.89663,
+  "luas_ha_big": 175.11
+ },
+ {
+  "kode": "18.10.05.2012",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Lugusari",
+  "status": "pekon",
+  "lat": -5.34898,
+  "lon": 104.87867,
+  "luas_ha_big": 399.13
+ },
+ {
+  "kode": "18.10.05.2019",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Pamenang",
+  "status": "pekon",
+  "lat": -5.35177,
+  "lon": 104.9062,
+  "luas_ha_big": 226.37
+ },
+ {
+  "kode": "18.10.05.2020",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Gemah Ripah",
+  "status": "pekon",
+  "lat": -5.38645,
+  "lon": 104.89444,
+  "luas_ha_big": 152.13
+ },
+ {
+  "kode": "18.10.05.2023",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Pasir Ukir",
+  "status": "pekon",
+  "lat": -5.34893,
+  "lon": 104.89604,
+  "luas_ha_big": 205.02
+ },
+ {
+  "kode": "18.10.05.2024",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Gumukrejo",
+  "status": "pekon",
+  "lat": -5.3724,
+  "lon": 104.92388,
+  "luas_ha_big": 267.92
+ },
+ {
+  "kode": "18.10.05.2027",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Puji Harjo",
+  "status": "pekon",
+  "lat": -5.37523,
+  "lon": 104.87394,
+  "luas_ha_big": 106.17
+ },
+ {
+  "kode": "18.10.05.2028",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Padang Rejo",
+  "status": "pekon",
+  "lat": -5.38203,
+  "lon": 104.90556,
+  "luas_ha_big": 128.92
+ },
+ {
+  "kode": "18.10.05.2029",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Sidodadi",
+  "status": "pekon",
+  "lat": -5.38369,
+  "lon": 104.88294,
+  "luas_ha_big": 104.17
+ },
+ {
+  "kode": "18.10.05.2030",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Sumber Rejo",
+  "status": "pekon",
+  "lat": -5.41126,
+  "lon": 104.90888,
+  "luas_ha_big": 148.89
+ },
+ {
+  "kode": "18.10.05.2031",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Ganjaran",
+  "status": "pekon",
+  "lat": -5.36259,
+  "lon": 104.93537,
+  "luas_ha_big": 118.95
+ },
+ {
+  "kode": "18.10.05.2032",
+  "kode_kec": "18.10.05",
+  "kecamatan": "Pagelaran",
+  "nama": "Bumi Rejo",
+  "status": "pekon",
+  "lat": -5.35584,
+  "lon": 104.9292,
+  "luas_ha_big": 185.62
+ },
+ {
+  "kode": "18.10.06.2001",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Banyumas",
+  "status": "pekon",
+  "lat": -5.28556,
+  "lon": 104.91011,
+  "luas_ha_big": 286.87
+ },
+ {
+  "kode": "18.10.06.2002",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Banyuwangi",
+  "status": "pekon",
+  "lat": -5.26975,
+  "lon": 104.89837,
+  "luas_ha_big": 502.27
+ },
+ {
+  "kode": "18.10.06.2003",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Sukamulya",
+  "status": "pekon",
+  "lat": -5.28632,
+  "lon": 104.929,
+  "luas_ha_big": 230.91
+ },
+ {
+  "kode": "18.10.06.2004",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Sriwungu",
+  "status": "pekon",
+  "lat": -5.30103,
+  "lon": 104.917,
+  "luas_ha_big": 335.18
+ },
+ {
+  "kode": "18.10.06.2005",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Banjarejo",
+  "status": "pekon",
+  "lat": -5.32123,
+  "lon": 104.92018,
+  "luas_ha_big": 1235.52
+ },
+ {
+  "kode": "18.10.06.2006",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Waya Krui",
+  "status": "pekon",
+  "lat": -5.26827,
+  "lon": 104.93618,
+  "luas_ha_big": 245.64
+ },
+ {
+  "kode": "18.10.06.2007",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Sri Rahayu",
+  "status": "pekon",
+  "lat": -5.27283,
+  "lon": 104.92332,
+  "luas_ha_big": 246.91
+ },
+ {
+  "kode": "18.10.06.2008",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Nusa Wungu",
+  "status": "pekon",
+  "lat": -5.2611,
+  "lon": 104.91122,
+  "luas_ha_big": 253.8
+ },
+ {
+  "kode": "18.10.06.2009",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Sinar Mulya",
+  "status": "pekon",
+  "lat": -5.30122,
+  "lon": 104.89993,
+  "luas_ha_big": 354.08
+ },
+ {
+  "kode": "18.10.06.2010",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Banyu Urip",
+  "status": "pekon",
+  "lat": -5.28192,
+  "lon": 104.91782,
+  "luas_ha_big": 124.61
+ },
+ {
+  "kode": "18.10.06.2011",
+  "kode_kec": "18.10.06",
+  "kecamatan": "Banyumas",
+  "nama": "Mulyo Rejo",
+  "status": "pekon",
+  "lat": -5.25053,
+  "lon": 104.89907,
+  "luas_ha_big": 289.1
+ },
+ {
+  "kode": "18.10.07.2001",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Adiluwih",
+  "status": "pekon",
+  "lat": -5.22608,
+  "lon": 105.02762,
+  "luas_ha_big": 348.37
+ },
+ {
+  "kode": "18.10.07.2002",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Bandung Baru",
+  "status": "pekon",
+  "lat": -5.2538,
+  "lon": 104.98091,
+  "luas_ha_big": 577.52
+ },
+ {
+  "kode": "18.10.07.2003",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Sinarwayah",
+  "status": "pekon",
+  "lat": -5.25923,
+  "lon": 104.95878,
+  "luas_ha_big": 617.96
+ },
+ {
+  "kode": "18.10.07.2004",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Enggal Rejo",
+  "status": "pekon",
+  "lat": -5.2433,
+  "lon": 105.0408,
+  "luas_ha_big": 275.14
+ },
+ {
+  "kode": "18.10.07.2005",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Sukoharum",
+  "status": "pekon",
+  "lat": -5.23451,
+  "lon": 105.06973,
+  "luas_ha_big": 412.23
+ },
+ {
+  "kode": "18.10.07.2006",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Waringin Sari Timur",
+  "status": "pekon",
+  "lat": -5.25556,
+  "lon": 105.01936,
+  "luas_ha_big": 848.77
+ },
+ {
+  "kode": "18.10.07.2007",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Tri Tunggal Mulya",
+  "status": "pekon",
+  "lat": -5.26463,
+  "lon": 105.03915,
+  "luas_ha_big": 573.7
+ },
+ {
+  "kode": "18.10.07.2008",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Purwodadi",
+  "status": "pekon",
+  "lat": -5.27614,
+  "lon": 105.02055,
+  "luas_ha_big": 449.87
+ },
+ {
+  "kode": "18.10.07.2009",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Srikaton",
+  "status": "pekon",
+  "lat": -5.22679,
+  "lon": 105.04517,
+  "luas_ha_big": 543.44
+ },
+ {
+  "kode": "18.10.07.2010",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Tunggul Pawenang",
+  "status": "pekon",
+  "lat": -5.22408,
+  "lon": 105.06064,
+  "luas_ha_big": 463.57
+ },
+ {
+  "kode": "18.10.07.2011",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Bandung Baru Barat",
+  "status": "pekon",
+  "lat": -5.27229,
+  "lon": 104.95883,
+  "luas_ha_big": 250.53
+ },
+ {
+  "kode": "18.10.07.2012",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Totokarto",
+  "status": "pekon",
+  "lat": -5.25363,
+  "lon": 104.99751,
+  "luas_ha_big": 330.62
+ },
+ {
+  "kode": "18.10.07.2013",
+  "kode_kec": "18.10.07",
+  "kecamatan": "Adiluwih",
+  "nama": "Kuta Waringin",
+  "status": "pekon",
+  "lat": -5.23836,
+  "lon": 105.00799,
+  "luas_ha_big": 604.89
+ },
+ {
+  "kode": "18.10.08.2001",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sinar Baru",
+  "status": "pekon",
+  "lat": -5.30231,
+  "lon": 104.94239,
+  "luas_ha_big": 644.56
+ },
+ {
+  "kode": "18.10.08.2002",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sukoharjo I",
+  "status": "pekon",
+  "lat": -5.31846,
+  "lon": 104.97049,
+  "luas_ha_big": 707.25
+ },
+ {
+  "kode": "18.10.08.2003",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sukoharjo II",
+  "status": "pekon",
+  "lat": -5.31609,
+  "lon": 104.99151,
+  "luas_ha_big": 483.05
+ },
+ {
+  "kode": "18.10.08.2004",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sukoharjo III",
+  "status": "pekon",
+  "lat": -5.29857,
+  "lon": 104.98827,
+  "luas_ha_big": 199.03
+ },
+ {
+  "kode": "18.10.08.2005",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sukoharjo IV",
+  "status": "pekon",
+  "lat": -5.3277,
+  "lon": 105.00779,
+  "luas_ha_big": 478.2
+ },
+ {
+  "kode": "18.10.08.2006",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Panggungrejo",
+  "status": "pekon",
+  "lat": -5.31722,
+  "lon": 105.03483,
+  "luas_ha_big": 595.32
+ },
+ {
+  "kode": "18.10.08.2007",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Pandan Sari",
+  "status": "pekon",
+  "lat": -5.29854,
+  "lon": 105.01754,
+  "luas_ha_big": 322.32
+ },
+ {
+  "kode": "18.10.08.2008",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Pandan Surat",
+  "status": "pekon",
+  "lat": -5.29218,
+  "lon": 105.00497,
+  "luas_ha_big": 540.1
+ },
+ {
+  "kode": "18.10.08.2009",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Keputran",
+  "status": "pekon",
+  "lat": -5.28764,
+  "lon": 104.98121,
+  "luas_ha_big": 359.83
+ },
+ {
+  "kode": "18.10.08.2010",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sukoyoso",
+  "status": "pekon",
+  "lat": -5.2898,
+  "lon": 104.95867,
+  "luas_ha_big": 253.39
+ },
+ {
+  "kode": "18.10.08.2011",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Siliwangi",
+  "status": "pekon",
+  "lat": -5.28344,
+  "lon": 104.94175,
+  "luas_ha_big": 264.98
+ },
+ {
+  "kode": "18.10.08.2012",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Waringinsari Barat",
+  "status": "pekon",
+  "lat": -5.27509,
+  "lon": 104.9831,
+  "luas_ha_big": 948.44
+ },
+ {
+  "kode": "18.10.08.2013",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Pandan Sari Selatan",
+  "status": "pekon",
+  "lat": -5.31392,
+  "lon": 105.01297,
+  "luas_ha_big": 372.76
+ },
+ {
+  "kode": "18.10.08.2014",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sinar Baru Timur",
+  "status": "pekon",
+  "lat": -5.31524,
+  "lon": 104.95328,
+  "luas_ha_big": 576.64
+ },
+ {
+  "kode": "18.10.08.2015",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Panggung Rejo Utara",
+  "status": "pekon",
+  "lat": -5.2959,
+  "lon": 105.03245,
+  "luas_ha_big": 365.03
+ },
+ {
+  "kode": "18.10.08.2016",
+  "kode_kec": "18.10.08",
+  "kecamatan": "Sukoharjo",
+  "nama": "Sukoharjo III Barat",
+  "status": "pekon",
+  "lat": -5.29837,
+  "lon": 104.97428,
+  "luas_ha_big": 216.4
+ },
+ {
+  "kode": "18.10.09.2001",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Fajar Baru",
+  "status": "pekon",
+  "lat": -5.32274,
+  "lon": 104.88402,
+  "luas_ha_big": 1728.64
+ },
+ {
+  "kode": "18.10.09.2002",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Kemilin",
+  "status": "pekon",
+  "lat": -5.32087,
+  "lon": 104.85639,
+  "luas_ha_big": 695.01
+ },
+ {
+  "kode": "18.10.09.2003",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Neglasari",
+  "status": "pekon",
+  "lat": -5.28513,
+  "lon": 104.82931,
+  "luas_ha_big": 554.01
+ },
+ {
+  "kode": "18.10.09.2004",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Fajar Mulia",
+  "status": "pekon",
+  "lat": -5.29301,
+  "lon": 104.87672,
+  "luas_ha_big": 557.03
+ },
+ {
+  "kode": "18.10.09.2005",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Margosari",
+  "status": "pekon",
+  "lat": -5.22578,
+  "lon": 104.82952,
+  "luas_ha_big": 8499.81
+ },
+ {
+  "kode": "18.10.09.2006",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Giri Tunggal",
+  "status": "pekon",
+  "lat": -5.28275,
+  "lon": 104.88664,
+  "luas_ha_big": 363.52
+ },
+ {
+  "kode": "18.10.09.2007",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Sumber Bandung",
+  "status": "pekon",
+  "lat": -5.2798,
+  "lon": 104.83729,
+  "luas_ha_big": 403.69
+ },
+ {
+  "kode": "18.10.09.2008",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Madaraya",
+  "status": "pekon",
+  "lat": -5.2872,
+  "lon": 104.85836,
+  "luas_ha_big": 280.24
+ },
+ {
+  "kode": "18.10.09.2009",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Way Kunir",
+  "status": "pekon",
+  "lat": -5.2668,
+  "lon": 104.81444,
+  "luas_ha_big": 1832.68
+ },
+ {
+  "kode": "18.10.09.2010",
+  "kode_kec": "18.10.09",
+  "kecamatan": "Pagelaran Utara",
+  "nama": "Gunung Raya",
+  "status": "pekon",
+  "lat": -5.30653,
+  "lon": 104.83975,
+  "luas_ha_big": 879.9
+ }
+]

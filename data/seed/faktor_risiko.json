@@ -1,0 +1,351 @@
+{
+  "_keterangan": "Katalog faktor risiko kemiskinan R01-R20. Berkas ini adalah kosakata bersama yang menyambungkan tiga bagian sistem: fitur model (lewat 'fitur_terkait'), aturan penandaan kasus (lewat 'ekspresi_deteksi'), dan katalog program (lewat kode faktor pada berkas program.json). Mengubah satu faktor di sini berdampak serentak pada penjelasan skor, antrean verifikasi, dan rekomendasi intervensi.",
+  "_format_ekspresi": "Ekspresi deteksi memakai dua penggabung: 'semua' berarti seluruh syarat harus terpenuhi, 'salah_satu' berarti cukup satu. Setiap syarat menunjuk nama fitur pada nadi.ml.fitur beserta operator dan nilai pembandingnya.",
+  "_sumber": "Matriks pemetaan faktor risiko pada docs/research/02-katalog-program-intervensi.md bagian 6",
+  "faktor_risiko": [
+    {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem",
+      "dimensi": "ekonomi",
+      "deskripsi": "Pengeluaran per kapita berada di bawah garis kemiskinan, atau keluarga menempati desil terbawah pemeringkatan kesejahteraan. Ini faktor paling mendasar dan biasanya menyertai faktor-faktor lain.",
+      "indikator": "Desil kesejahteraan 1 atau 2, atau pengeluaran per kapita di bawah garis kemiskinan yang berlaku.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "rasio_garis_kemiskinan", "operator": "lt", "nilai": 1.0 },
+          { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 2 }
+        ]
+      },
+      "fitur_terkait": ["rasio_garis_kemiskinan", "log_pengeluaran_per_kapita", "desil_kesejahteraan", "indeks_aset"],
+      "bobot_dasar": 3.0,
+      "urutan_tampil": 1,
+      "jenis_intervensi_utama": "bantuan_tunai"
+    },
+    {
+      "kode": "R02",
+      "nama": "Rawan pangan rumah tangga",
+      "dimensi": "pangan_gizi",
+      "deskripsi": "Keluarga kesulitan memenuhi kebutuhan pangan yang cukup dan beragam.",
+      "indikator": "PERHATIAN: variabel frekuensi makan dan keragaman pangan tidak tersedia pada DTSEN. Faktor ini dideteksi lewat penanda tidak langsung - kemiskinan dalam (pengeluaran jauh di bawah garis) atau adanya balita bermasalah gizi. Penandaan yang muncul dari faktor ini WAJIB diverifikasi lapangan sebelum ditindaklanjuti, dan tingkat keyakinannya lebih rendah dibanding faktor lain.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "rasio_garis_kemiskinan", "operator": "lt", "nilai": 0.85 },
+          { "fitur": "ada_gizi_bermasalah", "operator": "is_true" }
+        ]
+      },
+      "fitur_terkait": ["rasio_garis_kemiskinan", "ada_gizi_bermasalah", "jumlah_balita"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 2,
+      "jenis_intervensi_utama": "bantuan_pangan"
+    },
+    {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting",
+      "dimensi": "pangan_gizi",
+      "deskripsi": "Terdapat balita dengan gizi kurang, gizi buruk, atau stunting. Kekurangan gizi pada seribu hari pertama kehidupan berdampak menetap pada kemampuan belajar dan penghasilan di masa dewasa - inilah jalur kemiskinan berpindah antar-generasi.",
+      "indikator": "Tinggi badan menurut umur di bawah minus dua simpangan baku, atau berat badan menurut umur berkategori kurang.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "ada_gizi_bermasalah", "operator": "is_true" }]
+      },
+      "fitur_terkait": ["ada_gizi_bermasalah", "jumlah_balita"],
+      "bobot_dasar": 2.5,
+      "urutan_tampil": 3,
+      "jenis_intervensi_utama": "gizi_dan_stunting"
+    },
+    {
+      "kode": "R04",
+      "nama": "Ibu hamil berisiko",
+      "dimensi": "kesehatan",
+      "deskripsi": "Terdapat ibu hamil atau dalam masa nifas pada keluarga miskin, sehingga berisiko kurang energi kronis dan melahirkan bayi berat lahir rendah.",
+      "indikator": "Adanya ibu hamil pada keluarga desil bawah. Lingkar lengan atas dan kelengkapan pemeriksaan kehamilan tidak tersedia pada DTSEN sehingga tidak ikut diperiksa.",
+      "ekspresi_deteksi": {
+        "semua": [
+          { "fitur": "ada_ibu_hamil", "operator": "is_true" },
+          { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 4 }
+        ]
+      },
+      "fitur_terkait": ["ada_ibu_hamil", "desil_kesejahteraan", "cakupan_jkn"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 4,
+      "jenis_intervensi_utama": "gizi_dan_stunting"
+    },
+    {
+      "kode": "R05",
+      "nama": "Anak putus sekolah atau terancam putus sekolah",
+      "dimensi": "pendidikan",
+      "deskripsi": "Terdapat anak usia sekolah yang tidak lagi bersekolah, atau beban biaya pendidikan yang berat pada keluarga miskin.",
+      "indikator": "Anak usia tujuh sampai delapan belas tahun tidak berstatus masih sekolah.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "ada_anak_putus_sekolah", "operator": "is_true" },
+          {
+            "semua": [
+              { "fitur": "beban_anak_sekolah", "operator": "gte", "nilai": 2 },
+              { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 3 }
+            ]
+          }
+        ]
+      },
+      "fitur_terkait": ["ada_anak_putus_sekolah", "beban_anak_sekolah", "kk_tahun_sekolah", "rata_lama_sekolah_dewasa"],
+      "bobot_dasar": 2.5,
+      "urutan_tampil": 5,
+      "jenis_intervensi_utama": "bantuan_pendidikan"
+    },
+    {
+      "kode": "R06",
+      "nama": "Tidak melanjutkan ke pendidikan tinggi",
+      "dimensi": "pendidikan",
+      "deskripsi": "Lulusan sekolah menengah dari keluarga desil bawah yang tidak melanjutkan ke perguruan tinggi.",
+      "indikator": "TIDAK DIDETEKSI OTOMATIS. Status kelulusan sekolah menengah dan kelanjutan studi memerlukan pemadanan dengan data pokok pendidikan yang belum tersedia. Faktor ini hanya dapat ditandai secara manual oleh petugas.",
+      "ekspresi_deteksi": null,
+      "fitur_terkait": [],
+      "bobot_dasar": 0.5,
+      "urutan_tampil": 6,
+      "jenis_intervensi_utama": "bantuan_pendidikan"
+    },
+    {
+      "kode": "R07",
+      "nama": "Tidak memiliki jaminan kesehatan",
+      "dimensi": "kesehatan",
+      "deskripsi": "Sebagian atau seluruh anggota keluarga berada di luar perlindungan jaminan kesehatan nasional. Tanpa jaminan, satu kali rawat inap dapat menghabiskan tabungan yang dikumpulkan bertahun-tahun.",
+      "indikator": "Tidak terdaftar atau tidak aktif pada jaminan kesehatan nasional.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "tanpa_jkn_sama_sekali", "operator": "is_true" },
+          {
+            "semua": [
+              { "fitur": "cakupan_jkn", "operator": "lt", "nilai": 1.0 },
+              { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 4 }
+            ]
+          }
+        ]
+      },
+      "fitur_terkait": ["cakupan_jkn", "tanpa_jkn_sama_sekali"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 7,
+      "jenis_intervensi_utama": "jaminan_kesehatan"
+    },
+    {
+      "kode": "R08",
+      "nama": "Rumah tidak layak huni",
+      "dimensi": "hunian",
+      "deskripsi": "Salah satu atau lebih dari empat kriteria rumah layak huni tidak terpenuhi: kecukupan luas, air minum layak, sanitasi layak, dan ketahanan bangunan.",
+      "indikator": "Luas lantai per orang di bawah 7,2 meter persegi, atau bahan atap, dinding, dan lantai tidak layak, atau air minum dan sanitasi tidak layak.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "jumlah_kriteria_rtlh", "operator": "gte", "nilai": 1 }]
+      },
+      "fitur_terkait": ["jumlah_kriteria_rtlh", "ketahanan_bangunan_tidak_layak", "hunian_padat", "luas_lantai_per_kapita", "berbagi_rumah"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 8,
+      "jenis_intervensi_utama": "perbaikan_hunian"
+    },
+    {
+      "kode": "R09",
+      "nama": "Tidak memiliki akses sanitasi layak",
+      "dimensi": "air_sanitasi",
+      "deskripsi": "Fasilitas buang air besar, jenis kloset, atau pembuangan akhir tinja belum memenuhi kriteria layak. Berhubungan erat dengan kejadian diare berulang dan stunting.",
+      "indikator": "Tidak memiliki jamban, jamban tidak berkloset leher angsa, atau tinja tidak dibuang ke tangki septik.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "sanitasi_tidak_layak", "operator": "is_true" }]
+      },
+      "fitur_terkait": ["sanitasi_tidak_layak"],
+      "bobot_dasar": 1.5,
+      "urutan_tampil": 9,
+      "jenis_intervensi_utama": "sanitasi_air_bersih"
+    },
+    {
+      "kode": "R10",
+      "nama": "Tidak memiliki akses air minum layak",
+      "dimensi": "air_sanitasi",
+      "deskripsi": "Sumber air minum berasal dari sumur atau mata air tak terlindung, air permukaan, atau air hujan.",
+      "indikator": "Sumber air minum utama tidak termasuk kategori layak menurut definisi resmi.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "air_minum_tidak_layak", "operator": "is_true" }]
+      },
+      "fitur_terkait": ["air_minum_tidak_layak"],
+      "bobot_dasar": 1.5,
+      "urutan_tampil": 10,
+      "jenis_intervensi_utama": "sanitasi_air_bersih"
+    },
+    {
+      "kode": "R11",
+      "nama": "Lanjut usia telantar",
+      "dimensi": "demografi",
+      "deskripsi": "Terdapat anggota lanjut usia tanpa penopang ekonomi yang memadai, atau kepala keluarga berusia lanjut yang masih menanggung keluarga.",
+      "indikator": "Anggota berusia enam puluh tahun ke atas pada keluarga miskin yang tidak memiliki anggota bekerja, atau rasio tanggungan tinggi.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          {
+            "semua": [
+              { "fitur": "jumlah_lansia", "operator": "gte", "nilai": 1 },
+              { "fitur": "tidak_ada_yang_bekerja", "operator": "is_true" }
+            ]
+          },
+          {
+            "semua": [
+              { "fitur": "kk_lansia", "operator": "is_true" },
+              { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 3 }
+            ]
+          }
+        ]
+      },
+      "fitur_terkait": ["jumlah_lansia", "kk_lansia", "rasio_tanggungan", "tidak_ada_yang_bekerja"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 11,
+      "jenis_intervensi_utama": "layanan_lansia"
+    },
+    {
+      "kode": "R12",
+      "nama": "Penyandang disabilitas",
+      "dimensi": "kesehatan",
+      "deskripsi": "Terdapat anggota penyandang disabilitas yang memerlukan alat bantu, rehabilitasi, atau dukungan ekonomi.",
+      "indikator": "Anggota keluarga berstatus penyandang disabilitas.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "jumlah_disabilitas", "operator": "gte", "nilai": 1 }]
+      },
+      "fitur_terkait": ["jumlah_disabilitas"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 12,
+      "jenis_intervensi_utama": "layanan_disabilitas"
+    },
+    {
+      "kode": "R13",
+      "nama": "Pengangguran atau setengah pengangguran",
+      "dimensi": "pekerjaan",
+      "deskripsi": "Tidak ada anggota keluarga yang bekerja, atau seluruh penghasilan bertumpu pada satu orang dengan banyak tanggungan.",
+      "indikator": "Tidak ada anggota berstatus bekerja, atau rasio tanggungan sangat tinggi.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "tidak_ada_yang_bekerja", "operator": "is_true" },
+          { "fitur": "rasio_tanggungan", "operator": "gte", "nilai": 4.0 }
+        ]
+      },
+      "fitur_terkait": ["tidak_ada_yang_bekerja", "rasio_tanggungan", "kk_berpenghasilan_tetap"],
+      "bobot_dasar": 2.5,
+      "urutan_tampil": 13,
+      "jenis_intervensi_utama": "pelatihan_kerja"
+    },
+    {
+      "kode": "R14",
+      "nama": "Usaha mikro tanpa akses modal",
+      "dimensi": "pekerjaan",
+      "deskripsi": "Keluarga menjalankan usaha mikro namun tidak memiliki akses ke pembiayaan formal, sehingga usahanya tertahan pada skala terkecil.",
+      "indikator": "Memiliki usaha namun berada pada desil bawah dan tidak memiliki aset produktif yang memadai.",
+      "ekspresi_deteksi": {
+        "semua": [
+          { "fitur": "jumlah_usaha_keluarga", "operator": "gte", "nilai": 1 },
+          { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 5 }
+        ]
+      },
+      "fitur_terkait": ["jumlah_usaha_keluarga", "punya_aset_produktif", "indeks_aset"],
+      "bobot_dasar": 1.0,
+      "urutan_tampil": 14,
+      "jenis_intervensi_utama": "pemberdayaan_ekonomi"
+    },
+    {
+      "kode": "R15",
+      "nama": "Pekerja informal tanpa perlindungan",
+      "dimensi": "pekerjaan",
+      "deskripsi": "Kepala keluarga bekerja sebagai petani, nelayan, pedagang, atau pekerja bebas tanpa jaminan ketenagakerjaan. Kecelakaan kerja atau kematian pencari nafkah langsung menjatuhkan seluruh keluarga.",
+      "indikator": "Status kedudukan pekerjaan tergolong rentan menurut definisi Organisasi Buruh Internasional.",
+      "ekspresi_deteksi": {
+        "semua": [
+          { "fitur": "kk_pekerjaan_rentan", "operator": "is_true" },
+          { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 5 }
+        ]
+      },
+      "fitur_terkait": ["kk_pekerjaan_rentan", "kk_sektor_musiman", "kk_berpenghasilan_tetap"],
+      "bobot_dasar": 1.5,
+      "urutan_tampil": 15,
+      "jenis_intervensi_utama": "pemberdayaan_ekonomi"
+    },
+    {
+      "kode": "R16",
+      "nama": "Tidak memiliki dokumen kependudukan",
+      "dimensi": "administrasi",
+      "deskripsi": "Terdapat anggota tanpa nomor induk kependudukan yang sah, kartu keluarga, atau akta kelahiran. Ini hambatan paling mendasar sekaligus paling mudah diselesaikan: selama dokumen belum ada, tidak satu pun program dapat menjangkau keluarga ini, sebaik apa pun penargetannya.",
+      "indikator": "Anggota keluarga tanpa dokumen kependudukan yang sah.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "ada_masalah_dokumen", "operator": "is_true" }]
+      },
+      "fitur_terkait": ["ada_masalah_dokumen", "kelengkapan_data"],
+      "bobot_dasar": 2.0,
+      "urutan_tampil": 16,
+      "jenis_intervensi_utama": "administrasi_kependudukan"
+    },
+    {
+      "kode": "R17",
+      "nama": "Perempuan kepala keluarga",
+      "dimensi": "demografi",
+      "deskripsi": "Keluarga miskin dengan kepala keluarga perempuan. Menjadi kriteria eksplisit beberapa program, antara lain bantuan langsung tunai dana desa.",
+      "indikator": "Kepala keluarga berjenis kelamin perempuan pada keluarga desil bawah.",
+      "ekspresi_deteksi": {
+        "semua": [
+          { "fitur": "kk_perempuan", "operator": "is_true" },
+          { "fitur": "desil_kesejahteraan", "operator": "lte", "nilai": 4 }
+        ]
+      },
+      "fitur_terkait": ["kk_perempuan", "rasio_tanggungan", "desil_kesejahteraan"],
+      "bobot_dasar": 1.0,
+      "urutan_tampil": 17,
+      "jenis_intervensi_utama": "pemberdayaan_ekonomi"
+    },
+    {
+      "kode": "R18",
+      "nama": "Anggota keluarga berpenyakit kronis",
+      "dimensi": "kesehatan",
+      "deskripsi": "Terdapat anggota berpenyakit menahun, khususnya yang berbiaya tinggi seperti jantung, stroke, kanker, dan gagal ginjal. Pengeluaran kesehatan katastrofik adalah jalur tercepat sebuah keluarga jatuh miskin.",
+      "indikator": "Anggota keluarga menderita penyakit kronis atau menahun.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "ada_penyakit_biaya_tinggi", "operator": "is_true" },
+          {
+            "semua": [
+              { "fitur": "ada_penyakit_kronis", "operator": "is_true" },
+              { "fitur": "cakupan_jkn", "operator": "lt", "nilai": 1.0 }
+            ]
+          }
+        ]
+      },
+      "fitur_terkait": ["ada_penyakit_kronis", "ada_penyakit_biaya_tinggi", "cakupan_jkn"],
+      "bobot_dasar": 2.5,
+      "urutan_tampil": 18,
+      "jenis_intervensi_utama": "jaminan_kesehatan"
+    },
+    {
+      "kode": "R19",
+      "nama": "Kehilangan mata pencaharian mendadak",
+      "dimensi": "guncangan",
+      "deskripsi": "Keluarga mengalami guncangan pendapatan berupa pemutusan hubungan kerja, gagal panen, sakit berat, atau kematian pencari nafkah. Faktor inilah yang membedakan deteksi dini dari pencatatan biasa: kondisi keluarga belum tampak buruk pada angka, namun sudah berubah arah.",
+      "indikator": "Tercatat guncangan bersifat pendapatan pada periode berjalan, atau pengeluaran menurun dibanding periode sebelumnya.",
+      "ekspresi_deteksi": {
+        "salah_satu": [
+          { "fitur": "ada_guncangan_pendapatan", "operator": "is_true" },
+          {
+            "semua": [
+              { "fitur": "tren_menurun", "operator": "is_true" },
+              { "fitur": "delta_rasio_kemiskinan", "operator": "lte", "nilai": -0.1 }
+            ]
+          }
+        ]
+      },
+      "fitur_terkait": ["ada_guncangan_pendapatan", "bobot_guncangan", "tren_menurun", "delta_rasio_kemiskinan", "jumlah_guncangan_terkini"],
+      "bobot_dasar": 3.0,
+      "urutan_tampil": 19,
+      "jenis_intervensi_utama": "bantuan_tunai"
+    },
+    {
+      "kode": "R20",
+      "nama": "Terdampak bencana",
+      "dimensi": "guncangan",
+      "deskripsi": "Keluarga menjadi korban bencana alam atau bencana sosial. Penanganannya menempuh jalur kelembagaan tersendiri dan bersifat mendesak.",
+      "indikator": "Tercatat guncangan berjenis bencana alam pada periode berjalan.",
+      "ekspresi_deteksi": {
+        "semua": [{ "fitur": "ada_guncangan_bencana", "operator": "is_true" }]
+      },
+      "fitur_terkait": ["ada_guncangan_bencana", "bobot_guncangan"],
+      "bobot_dasar": 2.5,
+      "urutan_tampil": 20,
+      "jenis_intervensi_utama": "bantuan_tunai"
+    }
+  ]
+}

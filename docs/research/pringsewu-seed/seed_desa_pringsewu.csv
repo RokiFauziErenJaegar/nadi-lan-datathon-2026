@@ -1,0 +1,132 @@
+kode,kode_kec,kecamatan,nama,status,lat,lon,luas_ha_big
+18.10.01.1001,18.10.01,Pringsewu,Fajaresuk,kelurahan,-5.35398,104.95683,408.71
+18.10.01.1002,18.10.01,Pringsewu,Pringsewu Utara,kelurahan,-5.35018,104.98053,150.49
+18.10.01.1003,18.10.01,Pringsewu,Pringsewu Selatan,kelurahan,-5.3612,104.97126,176.95
+18.10.01.1004,18.10.01,Pringsewu,Pringsewu Barat,kelurahan,-5.34972,104.97039,158.04
+18.10.01.1005,18.10.01,Pringsewu,Pringsewu Timur,kelurahan,-5.36182,104.98109,112.77
+18.10.01.2006,18.10.01,Pringsewu,Margakaya,pekon,-5.37782,104.97671,536.41
+18.10.01.2007,18.10.01,Pringsewu,Waluyojati,pekon,-5.37777,104.95677,376.14
+18.10.01.2008,18.10.01,Pringsewu,Sidoharjo,pekon,-5.36161,104.99303,359.44
+18.10.01.2009,18.10.01,Pringsewu,Podomoro,pekon,-5.34306,104.9926,376.12
+18.10.01.2010,18.10.01,Pringsewu,Bumi Arum,pekon,-5.33889,104.94897,368.7
+18.10.01.2011,18.10.01,Pringsewu,Fajar Agung,pekon,-5.36911,104.94792,349.62
+18.10.01.2012,18.10.01,Pringsewu,Rejo Sari,pekon,-5.33784,104.9659,238.66
+18.10.01.2013,18.10.01,Pringsewu,Bumi Ayu,pekon,-5.34322,104.93366,414.82
+18.10.01.2014,18.10.01,Pringsewu,Podosari,pekon,-5.33313,104.98193,219.83
+18.10.01.2015,18.10.01,Pringsewu,Fajar Agung Barat,pekon,-5.37123,104.93643,155.07
+18.10.02.2001,18.10.02,Gading Rejo,Parerejo,pekon,-5.41882,104.98782,659.61
+18.10.02.2002,18.10.02,Gading Rejo,Blitarejo,pekon,-5.39728,104.99076,386.99
+18.10.02.2003,18.10.02,Gading Rejo,Panjerejo,pekon,-5.38319,104.99952,426.26
+18.10.02.2004,18.10.02,Gading Rejo,Bulokarto,pekon,-5.35815,105.00318,307.58
+18.10.02.2005,18.10.02,Gading Rejo,Wates,pekon,-5.37547,105.00927,213.53
+18.10.02.2006,18.10.02,Gading Rejo,Tambahrejo,pekon,-5.37734,105.03304,304.6
+18.10.02.2007,18.10.02,Gading Rejo,Wonodadi,pekon,-5.37647,105.05178,343.2
+18.10.02.2008,18.10.02,Gading Rejo,Gadingrejo,pekon,-5.38292,105.06908,299.26
+18.10.02.2009,18.10.02,Gading Rejo,Tegalsari,pekon,-5.34906,105.06203,436.93
+18.10.02.2010,18.10.02,Gading Rejo,Tulung Agung,pekon,-5.35599,105.04572,494.48
+18.10.02.2011,18.10.02,Gading Rejo,Bulurejo,pekon,-5.35766,105.01906,364.18
+18.10.02.2012,18.10.02,Gading Rejo,Yogyakarta,pekon,-5.33751,105.01996,357.87
+18.10.02.2013,18.10.02,Gading Rejo,Kediri,pekon,-5.34705,105.0331,241.99
+18.10.02.2014,18.10.02,Gading Rejo,Mataram,pekon,-5.33265,105.04825,620.47
+18.10.02.2015,18.10.02,Gading Rejo,Wonosari,pekon,-5.38328,105.04604,156.33
+18.10.02.2016,18.10.02,Gading Rejo,Klaten,pekon,-5.3458,105.01369,130.99
+18.10.02.2017,18.10.02,Gading Rejo,Wates Timur,pekon,-5.3707,105.01827,200.72
+18.10.02.2018,18.10.02,Gading Rejo,Wates Selatan,pekon,-5.392,105.01736,177.35
+18.10.02.2019,18.10.02,Gading Rejo,Gading Rejo Timur,pekon,-5.37121,105.0778,112.79
+18.10.02.2020,18.10.02,Gading Rejo,Gading Rejo Utara,pekon,-5.36745,105.06794,240.72
+18.10.02.2021,18.10.02,Gading Rejo,Tambah Rejo Barat,pekon,-5.384,105.02465,164.86
+18.10.02.2022,18.10.02,Gading Rejo,Wonodadi Utara,pekon,-5.36677,105.05594,103.76
+18.10.02.2023,18.10.02,Gading Rejo,Yogyakarta Selatan,pekon,-5.35494,105.02791,111.24
+18.10.03.2001,18.10.03,Ambarawa,Ambarawa,pekon,-5.42098,104.96208,511.09
+18.10.03.2002,18.10.03,Ambarawa,Ambarawa Barat,pekon,-5.41485,104.95014,313.62
+18.10.03.2003,18.10.03,Ambarawa,Kresno Mulyo,pekon,-5.42251,104.92308,541.25
+18.10.03.2004,18.10.03,Ambarawa,Sumber Agung,pekon,-5.41228,104.93275,376.14
+18.10.03.2005,18.10.03,Ambarawa,Tanjung Anom,pekon,-5.39709,104.93178,209.8
+18.10.03.2006,18.10.03,Ambarawa,Jati Agung,pekon,-5.39532,104.94673,360.04
+18.10.03.2007,18.10.03,Ambarawa,Margodadi,pekon,-5.39488,104.96797,510.52
+18.10.03.2008,18.10.03,Ambarawa,Ambarawa Timur,pekon,-5.41803,104.97349,473.73
+18.10.04.2001,18.10.04,Pardasuka,Kedaung,pekon,-5.54193,104.92138,1026.63
+18.10.04.2002,18.10.04,Pardasuka,Pardasuka,pekon,-5.46769,104.9316,581.96
+18.10.04.2003,18.10.04,Pardasuka,Suka Negeri,pekon,-5.48716,104.9231,18.96
+18.10.04.2004,18.10.04,Pardasuka,Tanjung Rusia,pekon,-5.47676,104.91463,595.32
+18.10.04.2005,18.10.04,Pardasuka,Warga Mulyo,pekon,-5.45019,104.93802,453.58
+18.10.04.2006,18.10.04,Pardasuka,Pujodadi,pekon,-5.43316,104.9418,484.62
+18.10.04.2007,18.10.04,Pardasuka,Sukorejo,pekon,-5.43668,104.90601,445.51
+18.10.04.2008,18.10.04,Pardasuka,Selapan,pekon,-5.53681,104.90478,1378.85
+18.10.04.2009,18.10.04,Pardasuka,Rantau Tijang,pekon,-5.5408,104.94376,2553.25
+18.10.04.2010,18.10.04,Pardasuka,Sidodadi,pekon,-5.44289,104.92895,404.86
+18.10.04.2011,18.10.04,Pardasuka,Pardasuka Timur,pekon,-5.4847,104.93604,108.72
+18.10.04.2012,18.10.04,Pardasuka,Tanjung Rusia Timur,pekon,-5.50149,104.91169,463.42
+18.10.04.2013,18.10.04,Pardasuka,Pardasuka Selatan,pekon,-5.4929,104.92701,215.25
+18.10.05.2001,18.10.05,Pagelaran,Candi Retno,pekon,-5.39766,104.92162,249.98
+18.10.05.2002,18.10.05,Pagelaran,Tanjung Dalom,pekon,-5.40197,104.90733,376.61
+18.10.05.2003,18.10.05,Pagelaran,Way Ngison,pekon,-5.39584,104.89669,199.69
+18.10.05.2004,18.10.05,Pagelaran,Suka Wangi,pekon,-5.36396,104.87053,106.39
+18.10.05.2005,18.10.05,Pagelaran,Suka Ratu,pekon,-5.36671,104.87593,137.71
+18.10.05.2006,18.10.05,Pagelaran,Pagelaran,pekon,-5.3668,104.88632,295.06
+18.10.05.2007,18.10.05,Pagelaran,Patoman,pekon,-5.37389,104.89862,261.62
+18.10.05.2008,18.10.05,Pagelaran,Karangsari,pekon,-5.38454,104.92406,453.99
+18.10.05.2009,18.10.05,Pagelaran,Gumuk Mas,pekon,-5.36735,104.91261,205.36
+18.10.05.2010,18.10.05,Pagelaran,Bumi Ratu,pekon,-5.34812,104.91807,406.4
+18.10.05.2011,18.10.05,Pagelaran,Panutan,pekon,-5.36339,104.89663,175.11
+18.10.05.2012,18.10.05,Pagelaran,Lugusari,pekon,-5.34898,104.87867,399.13
+18.10.05.2019,18.10.05,Pagelaran,Pamenang,pekon,-5.35177,104.9062,226.37
+18.10.05.2020,18.10.05,Pagelaran,Gemah Ripah,pekon,-5.38645,104.89444,152.13
+18.10.05.2023,18.10.05,Pagelaran,Pasir Ukir,pekon,-5.34893,104.89604,205.02
+18.10.05.2024,18.10.05,Pagelaran,Gumukrejo,pekon,-5.3724,104.92388,267.92
+18.10.05.2027,18.10.05,Pagelaran,Puji Harjo,pekon,-5.37523,104.87394,106.17
+18.10.05.2028,18.10.05,Pagelaran,Padang Rejo,pekon,-5.38203,104.90556,128.92
+18.10.05.2029,18.10.05,Pagelaran,Sidodadi,pekon,-5.38369,104.88294,104.17
+18.10.05.2030,18.10.05,Pagelaran,Sumber Rejo,pekon,-5.41126,104.90888,148.89
+18.10.05.2031,18.10.05,Pagelaran,Ganjaran,pekon,-5.36259,104.93537,118.95
+18.10.05.2032,18.10.05,Pagelaran,Bumi Rejo,pekon,-5.35584,104.9292,185.62
+18.10.06.2001,18.10.06,Banyumas,Banyumas,pekon,-5.28556,104.91011,286.87
+18.10.06.2002,18.10.06,Banyumas,Banyuwangi,pekon,-5.26975,104.89837,502.27
+18.10.06.2003,18.10.06,Banyumas,Sukamulya,pekon,-5.28632,104.929,230.91
+18.10.06.2004,18.10.06,Banyumas,Sriwungu,pekon,-5.30103,104.917,335.18
+18.10.06.2005,18.10.06,Banyumas,Banjarejo,pekon,-5.32123,104.92018,1235.52
+18.10.06.2006,18.10.06,Banyumas,Waya Krui,pekon,-5.26827,104.93618,245.64
+18.10.06.2007,18.10.06,Banyumas,Sri Rahayu,pekon,-5.27283,104.92332,246.91
+18.10.06.2008,18.10.06,Banyumas,Nusa Wungu,pekon,-5.2611,104.91122,253.8
+18.10.06.2009,18.10.06,Banyumas,Sinar Mulya,pekon,-5.30122,104.89993,354.08
+18.10.06.2010,18.10.06,Banyumas,Banyu Urip,pekon,-5.28192,104.91782,124.61
+18.10.06.2011,18.10.06,Banyumas,Mulyo Rejo,pekon,-5.25053,104.89907,289.1
+18.10.07.2001,18.10.07,Adiluwih,Adiluwih,pekon,-5.22608,105.02762,348.37
+18.10.07.2002,18.10.07,Adiluwih,Bandung Baru,pekon,-5.2538,104.98091,577.52
+18.10.07.2003,18.10.07,Adiluwih,Sinarwayah,pekon,-5.25923,104.95878,617.96
+18.10.07.2004,18.10.07,Adiluwih,Enggal Rejo,pekon,-5.2433,105.0408,275.14
+18.10.07.2005,18.10.07,Adiluwih,Sukoharum,pekon,-5.23451,105.06973,412.23
+18.10.07.2006,18.10.07,Adiluwih,Waringin Sari Timur,pekon,-5.25556,105.01936,848.77
+18.10.07.2007,18.10.07,Adiluwih,Tri Tunggal Mulya,pekon,-5.26463,105.03915,573.7
+18.10.07.2008,18.10.07,Adiluwih,Purwodadi,pekon,-5.27614,105.02055,449.87
+18.10.07.2009,18.10.07,Adiluwih,Srikaton,pekon,-5.22679,105.04517,543.44
+18.10.07.2010,18.10.07,Adiluwih,Tunggul Pawenang,pekon,-5.22408,105.06064,463.57
+18.10.07.2011,18.10.07,Adiluwih,Bandung Baru Barat,pekon,-5.27229,104.95883,250.53
+18.10.07.2012,18.10.07,Adiluwih,Totokarto,pekon,-5.25363,104.99751,330.62
+18.10.07.2013,18.10.07,Adiluwih,Kuta Waringin,pekon,-5.23836,105.00799,604.89
+18.10.08.2001,18.10.08,Sukoharjo,Sinar Baru,pekon,-5.30231,104.94239,644.56
+18.10.08.2002,18.10.08,Sukoharjo,Sukoharjo I,pekon,-5.31846,104.97049,707.25
+18.10.08.2003,18.10.08,Sukoharjo,Sukoharjo II,pekon,-5.31609,104.99151,483.05
+18.10.08.2004,18.10.08,Sukoharjo,Sukoharjo III,pekon,-5.29857,104.98827,199.03
+18.10.08.2005,18.10.08,Sukoharjo,Sukoharjo IV,pekon,-5.3277,105.00779,478.2
+18.10.08.2006,18.10.08,Sukoharjo,Panggungrejo,pekon,-5.31722,105.03483,595.32
+18.10.08.2007,18.10.08,Sukoharjo,Pandan Sari,pekon,-5.29854,105.01754,322.32
+18.10.08.2008,18.10.08,Sukoharjo,Pandan Surat,pekon,-5.29218,105.00497,540.1
+18.10.08.2009,18.10.08,Sukoharjo,Keputran,pekon,-5.28764,104.98121,359.83
+18.10.08.2010,18.10.08,Sukoharjo,Sukoyoso,pekon,-5.2898,104.95867,253.39
+18.10.08.2011,18.10.08,Sukoharjo,Siliwangi,pekon,-5.28344,104.94175,264.98
+18.10.08.2012,18.10.08,Sukoharjo,Waringinsari Barat,pekon,-5.27509,104.9831,948.44
+18.10.08.2013,18.10.08,Sukoharjo,Pandan Sari Selatan,pekon,-5.31392,105.01297,372.76
+18.10.08.2014,18.10.08,Sukoharjo,Sinar Baru Timur,pekon,-5.31524,104.95328,576.64
+18.10.08.2015,18.10.08,Sukoharjo,Panggung Rejo Utara,pekon,-5.2959,105.03245,365.03
+18.10.08.2016,18.10.08,Sukoharjo,Sukoharjo III Barat,pekon,-5.29837,104.97428,216.4
+18.10.09.2001,18.10.09,Pagelaran Utara,Fajar Baru,pekon,-5.32274,104.88402,1728.64
+18.10.09.2002,18.10.09,Pagelaran Utara,Kemilin,pekon,-5.32087,104.85639,695.01
+18.10.09.2003,18.10.09,Pagelaran Utara,Neglasari,pekon,-5.28513,104.82931,554.01
+18.10.09.2004,18.10.09,Pagelaran Utara,Fajar Mulia,pekon,-5.29301,104.87672,557.03
+18.10.09.2005,18.10.09,Pagelaran Utara,Margosari,pekon,-5.22578,104.82952,8499.81
+18.10.09.2006,18.10.09,Pagelaran Utara,Giri Tunggal,pekon,-5.28275,104.88664,363.52
+18.10.09.2007,18.10.09,Pagelaran Utara,Sumber Bandung,pekon,-5.2798,104.83729,403.69
+18.10.09.2008,18.10.09,Pagelaran Utara,Madaraya,pekon,-5.2872,104.85836,280.24
+18.10.09.2009,18.10.09,Pagelaran Utara,Way Kunir,pekon,-5.2668,104.81444,1832.68
+18.10.09.2010,18.10.09,Pagelaran Utara,Gunung Raya,pekon,-5.30653,104.83975,879.9

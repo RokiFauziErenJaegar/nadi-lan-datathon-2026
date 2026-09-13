@@ -1,0 +1,38 @@
+# ============================================================
+# NADI - Navigasi AI Data Intervensi
+# Dependensi backend (Python 3.10+)
+# Dipilih ringan & tanpa PyTorch/CUDA agar hemat ruang disk.
+# ============================================================
+
+# --- Kerangka web & API ---
+fastapi>=0.115,<0.120
+uvicorn[standard]>=0.32,<0.40
+python-multipart>=0.0.12
+pydantic>=2.9,<3
+pydantic-settings>=2.6,<3
+
+# --- Basis data (SQLite lokal <-> PostgreSQL cloud, kode sama) ---
+SQLAlchemy>=2.0.36,<2.1
+alembic>=1.14,<2
+
+# --- Keamanan & autentikasi ---
+PyJWT>=2.9,<3
+bcrypt>=4.2,<6
+
+# --- Data & pembelajaran mesin ---
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.13,<2
+scikit-learn>=1.5,<2
+lightgbm>=4.5,<5
+joblib>=1.4
+
+# --- Layanan AI / RAG ---
+httpx>=0.27,<0.30
+rank-bm25>=0.2.2
+
+# --- Utilitas ---
+orjson>=3.10
+python-dotenv>=1.0
+rich>=13.9
+typer>=0.13

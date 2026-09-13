@@ -1,0 +1,13 @@
+-r requirements.txt
+
+# --- Pengujian ---
+pytest>=8.3
+pytest-asyncio>=0.24
+pytest-cov>=6.0
+
+# --- Kualitas kode ---
+ruff>=0.8
+
+# --- Analisis & visualisasi model (offline, tidak dipakai saat runtime) ---
+shap>=0.46
+matplotlib>=3.9

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+  }
+
+  /* Angka pada tabel dan kartu memakai lebar digit yang seragam agar kolom
+     tidak bergoyang saat nilainya berubah - penting pada layar yang
+     memuat ratusan angka sekaligus. */
+  .angka {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer components {
+  .kartu {
+    @apply rounded-lg border border-slate-200 bg-white shadow-kartu;
+  }
+
+  .kartu-judul {
+    @apply border-b border-slate-100 px-4 py-3 text-sm font-semibold text-slate-700;
+  }
+
+  .lencana {
+    @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-2xs font-medium;
+  }
+
+  .tombol {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-3 py-2 text-sm
+           font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .tombol-utama {
+    @apply tombol bg-nadi-700 text-white hover:bg-nadi-800;
+  }
+
+  .tombol-halus {
+    @apply tombol border border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+  }
+
+  .masukan {
+    @apply w-full rounded-md border border-slate-300 px-3 py-2 text-sm
+           outline-none focus:border-nadi-500 focus:ring-2 focus:ring-nadi-100;
+  }
+
+  /* Panel penafian muncul di banyak layar. Nadanya sengaja tenang, bukan
+     peringatan merah: batas sebuah sistem adalah keterangan biasa yang perlu
+     dibaca, bukan bahaya yang perlu ditakuti. */
+  .penafian {
+    @apply rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-xs leading-relaxed text-slate-600;
+  }
+}
+
+/* Leaflet menyisipkan gayanya sendiri; beberapa perlu diselaraskan. */
+.leaflet-container {
+  @apply font-sans;
+  background: #eef2f7;
+}
+
+.leaflet-popup-content {
+  margin: 0.75rem 0.9rem;
+}

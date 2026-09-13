@@ -1,0 +1,44 @@
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Node ---
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# --- Rahasia (JANGAN PERNAH di-commit) ---
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# --- Basis data & artefak lokal ---
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+data/generated/*
+!data/generated/.gitkeep
+models/artifacts/*
+!models/artifacts/.gitkeep
+
+# --- Keluaran bangunan uji ---
+frontend/uji/dist/
+
+# --- Log & sementara ---
+*.log
+logs/
+.DS_Store
+Thumbs.db
