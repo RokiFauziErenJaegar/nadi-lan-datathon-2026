@@ -125,19 +125,19 @@ export function KartuStat({
   }[nada];
 
   return (
-    <div className="kartu p-4">
+    <div className={`kartu kartu-stat kartu-stat-${nada} p-4`}>
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0">
-          <div className="text-xs font-medium text-slate-500">{label}</div>
-          <div className={`angka mt-1 text-2xl font-bold leading-tight ${warnaNada}`}>
+          <div className="kartu-stat-label text-xs font-medium text-slate-500">{label}</div>
+          <div className={`kartu-stat-nilai angka mt-1 text-2xl font-bold leading-tight ${warnaNada}`}>
             {nilai}
             {satuan && <span className="ml-1 text-sm font-medium text-slate-400">{satuan}</span>}
           </div>
         </div>
-        {Ikon && <Ikon size={20} className="shrink-0 text-slate-300" />}
+        {Ikon && <span className="kartu-stat-ikon"><Ikon size={20} className="shrink-0 text-slate-300" /></span>}
       </div>
       {keterangan && (
-        <p className="mt-2 text-xs leading-relaxed text-slate-500">{keterangan}</p>
+        <p className="kartu-stat-keterangan mt-2 text-xs leading-relaxed text-slate-500">{keterangan}</p>
       )}
       {bawah && <div className="mt-3 border-t border-slate-100 pt-3">{bawah}</div>}
     </div>

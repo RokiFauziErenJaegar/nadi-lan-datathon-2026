@@ -1,0 +1,188 @@
+/* Observatory: lapisan tema terpisah agar tampilan Klasik tetap tersedia. */
+.futuristik-saja { display: none; }
+.nadi-sidebar { display: flex; flex-direction: column; flex-shrink: 0; height: 100dvh; overflow-y: auto; }
+.nadi-brand { flex-shrink: 0; }
+.nadi-account { margin-top: auto; flex-shrink: 0; }
+.nadi-data-note { margin-bottom: 22px; }
+.nadi-icon-button { padding: 7px; border-radius: 8px; }
+.nadi-region { align-items: center; gap: 10px; }
+.nadi-main .grid > * { min-width: 0; }
+.lewati-navigasi { position: fixed; top: -100px; left: 16px; z-index: 100; padding: 12px 18px; border-radius: 10px; background: #53dfdc; color: #08212b; font-weight: 600; }
+.lewati-navigasi:focus { top: 12px; }
+:where(button, a, input, select, textarea, summary):focus-visible { outline: 2px solid #2c99bd; outline-offset: 4px; }
+
+html[data-theme="futuristik"] {
+  color-scheme: dark;
+  --tinta-utama: #edf5fc;
+  --tinta-kedua: #a8b9cd;
+  --tinta-redup: #8b9db4;
+  --tinta-kisi: #223045;
+  --tinta-sumbu: #34445b;
+  --tinta-permukaan: #111e30;
+  --nadi-canvas: #080f1b;
+  --nadi-panel: #101b2b;
+  --nadi-line: #243348;
+  --nadi-cyan: #53dfdc;
+  scrollbar-color: #34475f #0a1320;
+}
+[data-theme="futuristik"] body { background: var(--nadi-canvas); color: var(--tinta-utama); }
+[data-theme="futuristik"] ::selection { background: #53dfdc40; color: #fff; }
+[data-theme="futuristik"] :where(button, a, input, select, textarea, summary):focus-visible { outline-color: var(--nadi-cyan); }
+[data-theme="futuristik"] .futuristik-saja { display: flex; }
+[data-theme="futuristik"] .nadi-app {
+  background: radial-gradient(ellipse at 82% 0%, #16414a24, transparent 44%), var(--nadi-canvas);
+}
+[data-theme="futuristik"] .nadi-sidebar {
+  width: 248px;
+  background: #0b1421;
+  border-right: 1px solid #233043;
+  scrollbar-width: thin;
+}
+[data-theme="futuristik"] .nadi-brand { height: 92px; padding: 0 23px; border-color: #233043; }
+[data-theme="futuristik"] .nadi-brand-mark {
+  width: 39px; height: 43px; align-items: center; justify-content: center; flex-shrink: 0;
+  border: 1px solid #53dfdc65; border-radius: 12px; color: var(--nadi-cyan);
+  background: linear-gradient(140deg, #53dfdc24, #53dfdc04); box-shadow: inset 0 0 18px #53dfdc08;
+}
+[data-theme="futuristik"] .nadi-wordmark { display: flex; font-size: 26px; line-height: 30px; letter-spacing: 1px; }
+[data-theme="futuristik"] .nadi-brand-dot { display: inline; color: var(--nadi-cyan); }
+[data-theme="futuristik"] .nadi-brand-description { margin-top: 3px; font-size: 9px; color: #8b9db4; white-space: nowrap; }
+[data-theme="futuristik"] .nadi-navigation { padding: 20px 14px 14px; }
+[data-theme="futuristik"] .nadi-nav-caption { padding: 0 13px 13px; color: #8395ac; font-size: 9px; font-weight: 600; letter-spacing: 1.8px; }
+[data-theme="futuristik"] .nadi-nav-caption-secondary { margin-top: 22px; }
+[data-theme="futuristik"] .nadi-nav-link { position: relative; min-height: 43px; padding: 10px 12px; border: 1px solid transparent; border-radius: 8px; font-size: 12px; color: #a5b5c9; }
+[data-theme="futuristik"] .nadi-nav-link > svg { width: 17px; height: 17px; }
+[data-theme="futuristik"] .nadi-nav-link:hover { background: #142435; color: #e2f8ff; }
+[data-theme="futuristik"] .nadi-nav-link[aria-current="page"] { background: linear-gradient(100deg, #53dfdc19, #53dfdc07); border-color: #53dfdc30; color: #7aeeea; }
+[data-theme="futuristik"] .nadi-nav-link[aria-current="page"]::before { content: ""; position: absolute; left: -15px; width: 3px; height: 20px; border-radius: 0 3px 3px 0; background: #53dfdc; box-shadow: 0 0 14px #53dfdc60; }
+[data-theme="futuristik"] .nadi-nav-index { font-family: ui-monospace, monospace; font-size: 9px; opacity: .55; }
+[data-theme="futuristik"] .nadi-data-note { margin: 14px 20px 24px; padding: 13px; border-color: #a4834638; border-radius: 10px; background: linear-gradient(120deg, #b58b3910, #b58b3904); }
+[data-theme="futuristik"] .nadi-data-note .text-amber-100 { color: #b4ac97; font-size: 10px; line-height: 1.7; }
+[data-theme="futuristik"] .nadi-data-note .font-semibold { margin-bottom: 4px; color: #e5cb8c; font-size: 11px; }
+[data-theme="futuristik"] .nadi-data-note svg { color: #d3b66f; }
+[data-theme="futuristik"] .nadi-account { padding: 17px 18px 14px; border-color: #233043; }
+[data-theme="futuristik"] .nadi-user-row { display: flex; align-items: center; gap: 10px; padding: 0; }
+[data-theme="futuristik"] .nadi-user-row .text-sm { font-size: 12px; }
+[data-theme="futuristik"] .nadi-user-row .text-nadi-300 { color: #91a6bc; font-size: 10px; margin-top: 3px; }
+[data-theme="futuristik"] .nadi-avatar { width: 35px; height: 35px; align-items: center; justify-content: center; flex-shrink: 0; border: 1px solid #37506a; border-radius: 50%; background: #1c3044; font-size: 11px; color: #c6e1ef; }
+[data-theme="futuristik"] .nadi-logout { margin-top: 12px; color: #8d9eb4; font-size: 11px; padding: 7px; }
+[data-theme="futuristik"] .nadi-logout:hover { background: #172639; color: #f1f7ff; }
+[data-theme="futuristik"] .nadi-topbar { height: 77px; gap: 22px; padding: 0 32px; border-color: #263449; background: #0b1421ed; backdrop-filter: blur(20px); }
+[data-theme="futuristik"] .nadi-topbar > .min-w-0 { display: flex; align-items: center; gap: 10px; }
+[data-theme="futuristik"] .nadi-breadcrumb { align-items: center; gap: 12px; color: #8c9cb2; font-size: 11px; }
+[data-theme="futuristik"] .nadi-page-title { font-size: 12px; font-weight: 500; }
+[data-theme="futuristik"] .nadi-page-description { display: none; }
+[data-theme="futuristik"] .nadi-region { border-right: 1px solid #2a394d; padding-right: 22px; }
+[data-theme="futuristik"] .nadi-region > svg { color: #53dfdc; }
+[data-theme="futuristik"] .nadi-region .text-xs { font-size: 10px; }
+[data-theme="futuristik"] .nadi-region .text-2xs { margin-top: 2px; font-size: 9px; }
+[data-theme="futuristik"] .nadi-main { padding: 28px 32px 24px; width: 100%; max-width: 1780px; margin-inline: auto; }
+[data-theme="futuristik"] .nadi-footer { margin: 0 32px; padding: 18px 0; border-top: 1px solid #223045; justify-content: space-between; gap: 12px; font-size: 9px; color: #8598af; letter-spacing: .3px; }
+[data-theme="futuristik"] .nadi-footer > span { display: flex; align-items: center; gap: 7px; }
+[data-theme="futuristik"] .nadi-footer-divider { color: #40546c; margin: 0 3px; }
+
+/* Kelas utilitas yang ada mengikuti warna tema di seluruh halaman. */
+[data-theme="futuristik"] :is(.text-slate-950, .text-slate-900, .text-slate-800) { color: #edf5fc; }
+[data-theme="futuristik"] .text-slate-700 { color: #d9e4f1; }
+[data-theme="futuristik"] .text-slate-600 { color: #b5c4d6; }
+[data-theme="futuristik"] .text-slate-500 { color: #a0b1c7; }
+[data-theme="futuristik"] .text-slate-400 { color: #8fa2ba; }
+[data-theme="futuristik"] .text-slate-300 { color: #7892ac; }
+[data-theme="futuristik"] :is(.bg-white, .bg-white\/95) { background-color: #101b2b; }
+[data-theme="futuristik"] :is(.bg-slate-50, .bg-slate-50\/50, .bg-slate-50\/60) { background-color: #0c1726; }
+[data-theme="futuristik"] .bg-slate-100 { background-color: #1a293c; }
+[data-theme="futuristik"] .bg-slate-200 { background-color: #2b3c52; }
+[data-theme="futuristik"] :is(.border-slate-50, .border-slate-100, .border-slate-200) { border-color: #253449; }
+[data-theme="futuristik"] .border-slate-300 { border-color: #3b4d64; }
+[data-theme="futuristik"] :is(.divide-slate-100, .divide-slate-200) > :not([hidden]) ~ :not([hidden]) { border-color: #253449; }
+[data-theme="futuristik"] :is(.hover\:bg-slate-50, .hover\:bg-slate-50\/60, .hover\:bg-slate-100):hover { background-color: #1b2c40; }
+[data-theme="futuristik"] :is(.hover\:text-slate-800, .hover\:text-slate-700, .hover\:text-slate-600):hover { color: #f1f7ff; }
+[data-theme="futuristik"] :is(.text-nadi-950, .text-nadi-900, .text-nadi-800, .text-nadi-700, .text-nadi-600) { color: #74e1df; }
+[data-theme="futuristik"] :is(.bg-nadi-50, .bg-nadi-50\/50, .bg-nadi-100) { background-color: #12313b; }
+[data-theme="futuristik"] :is(.border-nadi-100, .border-nadi-200, .border-nadi-300) { border-color: #325963; }
+[data-theme="futuristik"] :is(.hover\:bg-nadi-50, .hover\:bg-nadi-100):hover { background-color: #1c404a; }
+[data-theme="futuristik"] :is(.hover\:text-nadi-700, .hover\:text-nadi-800, .hover\:text-nadi-900):hover { color: #b1fffc; }
+
+/* Warna status tetap disertai ikon dan label untuk menjaga maknanya. */
+[data-theme="futuristik"] :is(.bg-red-50, .bg-red-50\/40, .bg-red-100) { background-color: #3b222d; }
+[data-theme="futuristik"] :is(.text-red-600, .text-red-700, .text-red-800, .text-red-900) { color: #ffb4b7; }
+[data-theme="futuristik"] :is(.border-red-100, .border-red-200, .border-red-300) { border-color: #70404e; }
+[data-theme="futuristik"] :is(.bg-amber-50, .bg-amber-100) { background-color: #322b1e; }
+[data-theme="futuristik"] :is(.text-amber-600, .text-amber-700, .text-amber-800, .text-amber-900) { color: #eec787; }
+[data-theme="futuristik"] :is(.border-amber-100, .border-amber-200, .border-amber-300) { border-color: #615239; }
+[data-theme="futuristik"] :is(.bg-orange-50, .bg-orange-100) { background-color: #39291f; }
+[data-theme="futuristik"] :is(.text-orange-600, .text-orange-700, .text-orange-800, .text-orange-900) { color: #ffc29d; }
+[data-theme="futuristik"] .border-orange-200 { border-color: #6c4b36; }
+[data-theme="futuristik"] :is(.bg-emerald-50, .bg-emerald-100, .bg-green-50) { background-color: #15342e; }
+[data-theme="futuristik"] :is(.text-emerald-600, .text-emerald-700, .text-emerald-800, .text-emerald-900, .text-green-700) { color: #94e2c2; }
+[data-theme="futuristik"] :is(.border-emerald-100, .border-emerald-200, .border-green-200) { border-color: #315b4c; }
+[data-theme="futuristik"] :is(.bg-sky-50, .bg-sky-100, .bg-blue-50) { background-color: #193248; }
+[data-theme="futuristik"] :is(.text-sky-600, .text-sky-700, .text-sky-800, .text-sky-900, .text-blue-700) { color: #9ed6f8; }
+[data-theme="futuristik"] :is(.border-sky-200, .border-blue-200) { border-color: #36556c; }
+
+[data-theme="futuristik"] .kartu {
+  border: 1px solid #29384d; border-radius: 14px;
+  background: linear-gradient(125deg, #122032, #0f1929 72%);
+  box-shadow: 0 4px 24px #00000014, inset 0 1px 0 #ffffff03;
+}
+[data-theme="futuristik"] .kartu > header { padding: 18px 20px 15px; border-color: #253449; }
+[data-theme="futuristik"] .kartu > header h2 { font-size: 13px; letter-spacing: -.1px; }
+[data-theme="futuristik"] .kartu > .p-4 { padding: 20px; }
+[data-theme="futuristik"] .kartu-stat { position: relative; overflow: hidden; padding: 21px 20px 18px; }
+[data-theme="futuristik"] .kartu-stat::before { content: ""; position: absolute; left: 20px; right: 20px; top: 0; height: 1px; background: linear-gradient(90deg, #53dfdc88, transparent 90%); }
+[data-theme="futuristik"] .kartu-stat-label { margin-top: 2px; font-size: 11px; color: #b4c5d9; }
+[data-theme="futuristik"] .kartu-stat-nilai { margin-top: 13px; font-size: clamp(26px, 2.5vw, 36px); font-weight: 600; letter-spacing: -1.2px; color: #f0f7ff; }
+[data-theme="futuristik"] .kartu-stat-ikon { display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; flex-shrink: 0; background: #53dfdc0c; border: 1px solid #53dfdc24; border-radius: 10px; }
+[data-theme="futuristik"] .kartu-stat-ikon svg { width: 17px; height: 17px; color: #6cdbd9; }
+[data-theme="futuristik"] .kartu-stat-genting .kartu-stat-ikon { background: #ff9f9f0a; border-color: #ff9f9f20; }
+[data-theme="futuristik"] .kartu-stat-genting .kartu-stat-ikon svg { color: #eea3a8; }
+[data-theme="futuristik"] .kartu-stat-perhatian .kartu-stat-ikon { background: #edc4840a; border-color: #edc48420; }
+[data-theme="futuristik"] .kartu-stat-perhatian .kartu-stat-ikon svg { color: #edc484; }
+[data-theme="futuristik"] .kartu-stat-keterangan { margin-top: 14px; font-size: 10px; line-height: 1.7; }
+[data-theme="futuristik"] .kartu-stat > .mt-3 { margin-top: 12px; padding-top: 10px; }
+[data-theme="futuristik"] .penafian { border: 1px solid #28394d; border-radius: 10px; background: #101b2b; color: #a7b7ca; }
+[data-theme="futuristik"] .tombol { border-radius: 9px; }
+[data-theme="futuristik"] .tombol-utama { border: 1px solid #7ff3e96b; border-radius: 9px; background: linear-gradient(130deg, #76ece3, #42cecf); color: #062a30; box-shadow: 0 2px 12px #42cecf12; }
+[data-theme="futuristik"] .tombol-utama:hover:not(:disabled) { background: #97f7ef; box-shadow: 0 2px 18px #42cecf25; }
+[data-theme="futuristik"] .tombol-halus { border-color: #384d63; border-radius: 9px; background: #17263a; color: #dce9f7; }
+[data-theme="futuristik"] .tombol-halus:hover:not(:disabled) { border-color: #569598; background: #20384a; }
+[data-theme="futuristik"] .masukan { border-color: #3b4f65; border-radius: 9px; background: #0c1726; color: #e5eef8; }
+[data-theme="futuristik"] .masukan::placeholder { color: #8598b1; }
+[data-theme="futuristik"] .masukan:focus { border-color: #53dfdc; box-shadow: 0 0 0 3px #53dfdc18; }
+[data-theme="futuristik"] :is(input[type="range"], input[type="checkbox"], input[type="radio"]) { accent-color: #53dfdc; }
+[data-theme="futuristik"] table { border-collapse: collapse; }
+[data-theme="futuristik"] th { background: #0c1726; font-size: 10px; letter-spacing: .35px; }
+[data-theme="futuristik"] td { border-color: #253449; }
+[data-theme="futuristik"] .recharts-default-tooltip { background: #152338 !important; border: 1px solid #3b536d !important; border-radius: 10px !important; box-shadow: 0 12px 36px #0005; }
+[data-theme="futuristik"] :is(.recharts-tooltip-label, .recharts-tooltip-item) { color: #e4effa !important; }
+[data-theme="futuristik"] .recharts-tooltip-cursor { fill: #8ebac612; }
+[data-theme="futuristik"] .recharts-cartesian-axis-tick-value { fill: #a8b9cd; }
+[data-theme="futuristik"] .recharts-legend-item-text { color: #b7c9dc !important; }
+[data-theme="futuristik"] .leaflet-container { background: #122132; }
+[data-theme="futuristik"] .leaflet-tile-pane { filter: brightness(.72) saturate(.65); }
+[data-theme="futuristik"] :is(.leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-tooltip) { background: #142338; color: #edf5fc; border-color: #42566e; }
+[data-theme="futuristik"] .leaflet-tooltip [style*="color"] { color: #b7c9dc !important; }
+[data-theme="futuristik"] .leaflet-bar a { background: #17263b; border-color: #3b4f65; color: #dbe9f7; }
+[data-theme="futuristik"] .leaflet-bar a:hover { background: #2a4156; }
+[data-theme="futuristik"] .leaflet-control-attribution { background: #e8f0f5e6; color: #223045; }
+
+@media (max-width: 1279px) {
+  [data-theme="futuristik"] .nadi-main { padding: 24px; }
+  [data-theme="futuristik"] .nadi-topbar { padding: 0 24px; }
+}
+@media (max-width: 1023px) {
+  .nadi-sidebar { visibility: hidden; }
+  .nadi-sidebar.translate-x-0 { visibility: visible; }
+}
+@media (max-width: 767px) {
+  [data-theme="futuristik"] .nadi-topbar { height: 66px; gap: 10px; padding: 0 15px; }
+  [data-theme="futuristik"] .nadi-breadcrumb { display: none; }
+  [data-theme="futuristik"] .nadi-main { padding: 21px 15px; }
+  [data-theme="futuristik"] .nadi-footer { margin-inline: 15px; flex-wrap: wrap; font-size: 8px; }
+  [data-theme="futuristik"] .kartu-stat-nilai { font-size: 30px; }
+  [data-theme="futuristik"] .kartu > header { padding: 16px; }
+  [data-theme="futuristik"] .kartu > .p-4 { padding: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

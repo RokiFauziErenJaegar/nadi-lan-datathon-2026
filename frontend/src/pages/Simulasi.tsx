@@ -219,7 +219,8 @@ export default function Simulasi() {
 
                 {rtlh.data.rincian_sumber.length > 0 && (
                   <Kartu judul="Rincian per sumber dana" padat>
-                    <table className="w-full text-sm">
+                    <div className="overflow-x-auto">
+                    <table className="w-full min-w-[420px] text-sm">
                       <thead>
                         <tr className="border-b border-slate-200 text-left text-2xs uppercase tracking-wide text-slate-500">
                           <th className="px-4 py-2 font-medium">Sumber</th>
@@ -246,6 +247,7 @@ export default function Simulasi() {
                         ))}
                       </tbody>
                     </table>
+                    </div>
                   </Kartu>
                 )}
               </>

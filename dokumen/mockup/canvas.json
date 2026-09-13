@@ -1,0 +1,360 @@
+{
+ "pages": [
+  {
+   "id": "sketsa",
+   "name": "Blueprint awal"
+  },
+  {
+   "id": "mockup",
+   "name": "Mockup"
+  }
+ ],
+ "artboards": [
+  {
+   "file": "SketsaMasuk.dc.html",
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 900,
+   "title": "Masuk",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaCommandCenter.dc.html",
+   "x": 1560,
+   "y": 0,
+   "w": 1440,
+   "h": 900,
+   "title": "01 Executive Command Center",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaDigitalTwin.dc.html",
+   "x": 3120,
+   "y": 0,
+   "w": 1440,
+   "h": 900,
+   "title": "02 Household Digital Twin",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaGeoAI.dc.html",
+   "x": 0,
+   "y": 1100,
+   "w": 1440,
+   "h": 900,
+   "title": "03 GeoAI Poverty Radar",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaMismatch.dc.html",
+   "x": 1560,
+   "y": 1100,
+   "w": 1440,
+   "h": 900,
+   "title": "04 Mismatch & Anomaly Queue",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaRecommender.dc.html",
+   "x": 3120,
+   "y": 1100,
+   "w": 1440,
+   "h": 900,
+   "title": "05 Intervention Recommender",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaSimulator.dc.html",
+   "x": 0,
+   "y": 2200,
+   "w": 1440,
+   "h": 900,
+   "title": "06 What-if Policy Simulator",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaCopilot.dc.html",
+   "x": 1560,
+   "y": 2200,
+   "w": 1440,
+   "h": 900,
+   "title": "07 AI Policy Copilot",
+   "page": "sketsa"
+  },
+  {
+   "file": "SketsaOutcome.dc.html",
+   "x": 3120,
+   "y": 2200,
+   "w": 1440,
+   "h": 900,
+   "title": "08 Outcome Monitoring",
+   "page": "sketsa"
+  },
+  {
+   "file": "Masuk.dc.html",
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 900,
+   "title": "Halaman masuk",
+   "page": "mockup"
+  },
+  {
+   "file": "Main.dc.html",
+   "x": 1560,
+   "y": 0,
+   "w": 1440,
+   "h": 900,
+   "title": "Ringkasan",
+   "page": "mockup"
+  },
+  {
+   "file": "Peta.dc.html",
+   "x": 3120,
+   "y": 0,
+   "w": 1440,
+   "h": 900,
+   "title": "Peta Risiko",
+   "page": "mockup"
+  },
+  {
+   "file": "Antrean.dc.html",
+   "x": 0,
+   "y": 1100,
+   "w": 1440,
+   "h": 900,
+   "title": "Antrean Kasus",
+   "page": "mockup"
+  },
+  {
+   "file": "Profil.dc.html",
+   "x": 1560,
+   "y": 1100,
+   "w": 1440,
+   "h": 900,
+   "title": "Profil Keluarga",
+   "page": "mockup"
+  },
+  {
+   "file": "Program.dc.html",
+   "x": 3120,
+   "y": 1100,
+   "w": 1440,
+   "h": 900,
+   "title": "Katalog Program",
+   "page": "mockup"
+  },
+  {
+   "file": "Simulasi.dc.html",
+   "x": 0,
+   "y": 2200,
+   "w": 1440,
+   "h": 900,
+   "title": "Simulasi",
+   "page": "mockup"
+  },
+  {
+   "file": "Copilot.dc.html",
+   "x": 1560,
+   "y": 2200,
+   "w": 1440,
+   "h": 900,
+   "title": "Copilot",
+   "page": "mockup"
+  },
+  {
+   "file": "Monitoring.dc.html",
+   "x": 3120,
+   "y": 2200,
+   "w": 1440,
+   "h": 900,
+   "title": "Monitoring Hasil",
+   "page": "mockup"
+  },
+  {
+   "file": "Model.dc.html",
+   "x": 0,
+   "y": 3300,
+   "w": 1440,
+   "h": 900,
+   "title": "Transparansi Model",
+   "page": "mockup"
+  },
+  {
+   "file": "Pengaturan.dc.html",
+   "x": 1560,
+   "y": 3300,
+   "w": 1440,
+   "h": 900,
+   "title": "Pengaturan AI",
+   "page": "mockup"
+  }
+ ],
+ "annotations": [
+  {
+   "id": "sketsa-commandcenter",
+   "x": 1560,
+   "y": -96,
+   "w": 420,
+   "page": "sketsa",
+   "text": "01 Executive Command Center\nProposal: Ringkasan tren kerentanan, prioritas wilayah, indikator risiko, status intervensi, dan alert baru."
+  },
+  {
+   "id": "sketsa-digitaltwin",
+   "x": 3120,
+   "y": -96,
+   "w": 420,
+   "page": "sketsa",
+   "text": "02 Household Digital Twin\nProposal: Profil keluarga dinamis, riwayat perubahan, program diterima, NADI Score, dan top risk drivers."
+  },
+  {
+   "id": "sketsa-geoai",
+   "x": 0,
+   "y": 1004,
+   "w": 420,
+   "page": "sketsa",
+   "text": "03 GeoAI Poverty Radar\nProposal: Peta cluster risiko sampai tingkat wilayah yang aman ditampilkan; drill-down sesuai hak akses."
+  },
+  {
+   "id": "sketsa-mismatch",
+   "x": 1560,
+   "y": 1004,
+   "w": 420,
+   "page": "sketsa",
+   "text": "04 Mismatch & Anomaly Queue\nProposal: Daftar kasus prioritas untuk verifikasi, lengkap dengan alasan flag dan status tindak lanjut."
+  },
+  {
+   "id": "sketsa-recommender",
+   "x": 3120,
+   "y": 1004,
+   "w": 420,
+   "page": "sketsa",
+   "text": "05 Intervention Recommender\nProposal: Rekomendasi program/OPD berdasarkan kebutuhan, beserta alasan dan rule/kriteria yang dirujuk."
+  },
+  {
+   "id": "sketsa-simulator",
+   "x": 0,
+   "y": 2104,
+   "w": 420,
+   "page": "sketsa",
+   "text": "06 What-if Policy Simulator\nProposal: Perbandingan skenario intervensi, cakupan sasaran, kebutuhan sumber daya, dan proyeksi indikatif."
+  },
+  {
+   "id": "sketsa-copilot",
+   "x": 1560,
+   "y": 2104,
+   "w": 420,
+   "page": "sketsa",
+   "text": "07 AI Policy Copilot\nProposal: Tanya-jawab berbasis knowledge base untuk menjelaskan kondisi, tren, faktor risiko, dan program."
+  },
+  {
+   "id": "sketsa-outcome",
+   "x": 3120,
+   "y": 2104,
+   "w": 420,
+   "page": "sketsa",
+   "text": "08 Outcome Monitoring\nProposal: Before-after state, status verifikasi, intervensi, outcome, serta feedback untuk evaluasi model."
+  },
+  {
+   "id": "pengantar-sketsa",
+   "x": 0,
+   "y": -560,
+   "w": 760,
+   "page": "sketsa",
+   "text": "NADI — Blueprint awal\n\nSketsa rancangan sebelum aplikasi dibangun, digambar dari deskripsi delapan modul pada proposal LAN Datathon 2026. Kotak bersilang adalah penampung grafik dan peta; coretan biru adalah catatan perancang.\n\nBandingkan dengan halaman Mockup untuk melihat gambaran awal ini menjadi kenyataan."
+  },
+  {
+   "id": "mvp-main",
+   "x": 1560,
+   "y": -92,
+   "w": 360,
+   "page": "mockup",
+   "text": "01 Executive Command Center\nMenu: Ringkasan"
+  },
+  {
+   "id": "mvp-peta",
+   "x": 3120,
+   "y": -92,
+   "w": 360,
+   "page": "mockup",
+   "text": "03 GeoAI Poverty Radar\nMenu: Peta Risiko"
+  },
+  {
+   "id": "mvp-antrean",
+   "x": 0,
+   "y": 1008,
+   "w": 360,
+   "page": "mockup",
+   "text": "04 Mismatch & Anomaly Queue\nMenu: Antrean Kasus"
+  },
+  {
+   "id": "mvp-profil",
+   "x": 1560,
+   "y": 1008,
+   "w": 360,
+   "page": "mockup",
+   "text": "02 Household Digital Twin\nMenu: Profil Keluarga"
+  },
+  {
+   "id": "mvp-program",
+   "x": 3120,
+   "y": 1008,
+   "w": 360,
+   "page": "mockup",
+   "text": "05 Intervention Recommender\nMenu: Katalog Program"
+  },
+  {
+   "id": "mvp-simulasi",
+   "x": 0,
+   "y": 2108,
+   "w": 360,
+   "page": "mockup",
+   "text": "06 What-if Policy Simulator\nMenu: Simulasi"
+  },
+  {
+   "id": "mvp-copilot",
+   "x": 1560,
+   "y": 2108,
+   "w": 360,
+   "page": "mockup",
+   "text": "07 AI Policy Copilot\nMenu: Copilot"
+  },
+  {
+   "id": "mvp-monitoring",
+   "x": 3120,
+   "y": 2108,
+   "w": 360,
+   "page": "mockup",
+   "text": "08 Outcome Monitoring\nMenu: Monitoring Hasil"
+  },
+  {
+   "id": "mvp-model",
+   "x": 0,
+   "y": 3208,
+   "w": 360,
+   "page": "mockup",
+   "text": "Tambahan — tidak ada di proposal\nMenu: Transparansi Model"
+  },
+  {
+   "id": "mvp-pengaturan",
+   "x": 1560,
+   "y": 3208,
+   "w": 360,
+   "page": "mockup",
+   "text": "Tambahan — tidak ada di proposal\nMenu: Pengaturan AI"
+  },
+  {
+   "id": "pengantar",
+   "x": 0,
+   "y": -520,
+   "w": 720,
+   "page": "mockup",
+   "text": "NADI — Mockup sebelas layar\n\nDibangun dari kode sumber aplikasi: token warna tailwind.config.js, kelas komponen index.css, tata letak Tata.tsx. Setiap angka dibaca dari basis data lewat API yang sama dengan layar sesungguhnya; batas desa pada peta adalah poligon BIG yang sama.\n\nNomor pada tiap catatan merujuk ke delapan MVP pada proposal LAN Datathon 2026."
+  }
+ ],
+ "launch": {
+  "view": "canvas",
+  "page": "sketsa"
+ }
+}

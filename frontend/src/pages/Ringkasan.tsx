@@ -29,11 +29,13 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { HeartPulse, TrendingDown, Users, Wallet } from "lucide-react";
+import { ArrowRight, ArrowUpRight, HeartPulse, Layers3, MapPinned, TrendingDown, Users, Wallet } from "lucide-react";
 import { Link } from "react-router-dom";
 import { api, format } from "../lib/api";
+import { KEWENANGAN, useAuth } from "../lib/auth";
 import { TINTA, WARNA_RISIKO, type KategoriRisiko } from "../lib/warna";
 import { Galat, Kartu, KartuStat, LencanaRisiko, Memuat, Penafian } from "../components/dasar";
+import "../styles/ringkasan.css";
 
 interface DataRingkasan {
   gelombang: number;
@@ -106,7 +108,7 @@ function Tooltiptip({
 }) {
   if (!active || !payload?.length) return null;
   return (
-    <div className="rounded-md border border-slate-200 bg-white px-3 py-2 shadow-naik">
+    <div className="ringkasan-tooltip rounded-md border border-slate-200 bg-white px-3 py-2 shadow-naik">
       <div className="text-2xs font-medium text-slate-500">{label}</div>
       {payload.map((p) => (
         <div key={p.name} className="angka mt-0.5 text-sm font-semibold text-slate-800">
@@ -119,6 +121,7 @@ function Tooltiptip({
 }
 
 export default function Ringkasan() {
+  const { punya } = useAuth();
   const ringkasan = useQuery({
     queryKey: ["ringkasan"],
     queryFn: () => api.ambil<DataRingkasan>("/ringkasan"),
@@ -138,11 +141,65 @@ export default function Ringkasan() {
     label: labelGelombang(t.tanggal),
   }));
   const totalRisiko = d.risiko.sebaran.reduce((a, b) => a + b.jumlah, 0) || 1;
+  const terkini = tren.find((t) => t.gelombang === d.gelombang);
+  const bolehPeta = punya(KEWENANGAN.BACA_PETA);
+  const bolehAntrean = punya(KEWENANGAN.BACA_ANTREAN);
 
   return (
-    <div className="space-y-5">
+    <div className="ringkasan-page space-y-5">
+      <section className="ringkasan-hero" aria-labelledby="ringkasan-hero-title">
+        <div className="ringkasan-hero-copy">
+          <div className="ringkasan-eyebrow"><span />Pusat kendali intervensi</div>
+          <h2 id="ringkasan-hero-title">Membaca risiko.<br /><span>Mengarahkan intervensi.</span></h2>
+          <p>Gambaran kesejahteraan keluarga Kabupaten Pringsewu.<br className="ringkasan-desktop-break" /> Dari data yang terhubung, menuju pemeriksaan yang terarah.</p>
+          <div className="ringkasan-hero-actions">
+            {bolehAntrean && (
+              <Link to="/antrean" className="ringkasan-action-primary">Tinjau antrean kasus <ArrowUpRight size={16} /></Link>
+            )}
+            {bolehPeta && (
+              <Link to="/peta" className="ringkasan-action-secondary"><MapPinned size={15} /> Jelajahi peta risiko <ArrowRight size={15} /></Link>
+            )}
+          </div>
+          <div className="ringkasan-hero-meta">
+            <span><Layers3 size={12} /> Cakupan desil 1–5</span>
+            <i aria-hidden="true" />
+            <span>Data sintetis untuk demonstrasi</span>
+          </div>
+        </div>
+        <div className="ringkasan-observatory">
+          <svg className="ringkasan-orbit" viewBox="0 0 340 280" fill="none" aria-hidden="true">
+            <defs>
+              <radialGradient id="ringkasan-orbit-glow"><stop stopColor="#53dfdc" stopOpacity=".13" /><stop offset="1" stopColor="#53dfdc" stopOpacity="0" /></radialGradient>
+              <linearGradient id="ringkasan-orbit-line" x1="45" y1="230" x2="280" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#53dfdc" stopOpacity="0" /><stop offset=".5" stopColor="#53dfdc" stopOpacity=".8" /><stop offset="1" stopColor="#53dfdc" stopOpacity=".1" /></linearGradient>
+            </defs>
+            <circle cx="174" cy="139" r="139" fill="url(#ringkasan-orbit-glow)" />
+            <g stroke="#53dfdc" strokeOpacity=".13">
+              <circle cx="174" cy="139" r="112" />
+              <circle cx="174" cy="139" r="87" strokeDasharray="2 7" />
+              <circle cx="174" cy="139" r="61" />
+              <path d="M174 13V265M48 139H300" strokeDasharray="3 6" />
+              <ellipse cx="174" cy="139" rx="135" ry="47" transform="rotate(-34 174 139)" />
+              <ellipse cx="174" cy="139" rx="113" ry="50" transform="rotate(54 174 139)" />
+            </g>
+            <path d="M67 197C125 211 249 113 283 67" stroke="url(#ringkasan-orbit-line)" strokeWidth="1.6" />
+            <path d="M174 27A112 112 0 0 1 286 139" stroke="#53dfdc" strokeOpacity=".65" strokeWidth="1.5" />
+            <g fill="#53dfdc">
+              <circle cx="174" cy="27" r="3.5" /><circle cx="251" cy="98" r="3.5" /><circle cx="93" cy="181" r="3" /><circle cx="235" cy="233" r="2.5" /><circle cx="68" cy="103" r="2" />
+            </g>
+            <circle cx="251" cy="98" r="8" stroke="#53dfdc" strokeOpacity=".25" />
+            <circle cx="93" cy="181" r="7" stroke="#53dfdc" strokeOpacity=".25" />
+            <g stroke="#53dfdc" strokeOpacity=".32"><path d="M30 31H43M36.5 24.5V37.5M301 240H314M307.5 233.5V246.5" /></g>
+          </svg>
+          <div className="ringkasan-orbit-value"><span>Gelombang</span><strong>{String(d.gelombang).padStart(2, "0")}</strong><span>{terkini?.label ?? "Pemutakhiran terkini"}</span></div>
+          <div className="ringkasan-orbit-caption"><span className="ringkasan-orbit-caption-line" />{format.angka(d.cakupan.keluarga)} keluarga dalam cakupan</div>
+        </div>
+      </section>
+      <div className="ringkasan-section-heading">
+        <div><span className="ringkasan-section-index">01</span><h2>Gambaran kabupaten</h2></div>
+        <span className="ringkasan-section-note">Gelombang {d.gelombang}{terkini ? ` · ${terkini.label}` : ""}</span>
+      </div>
       {/* ---------- Kartu angka pokok ---------- */}
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="ringkasan-stat-grid grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <KartuStat
           label="Keluarga terdata"
           nilai={format.angka(d.cakupan.keluarga)}
@@ -169,47 +226,51 @@ export default function Ringkasan() {
           ikon={TrendingDown}
           nada="genting"
           keterangan={d.risiko.keterangan_memburuk}
-          bawah={
+          bawah={bolehAntrean && (
             <Link
               to="/antrean"
               className="text-xs font-medium text-nadi-700 hover:text-nadi-900"
             >
               Lihat {format.angka(d.antrean.total)} kasus pada antrean →
             </Link>
-          }
+          )}
         />
       </div>
 
       {/* ---------- Tren kemiskinan ---------- */}
-      <div className="grid gap-5 lg:grid-cols-2">
+      <div className="ringkasan-section-heading">
+        <div><span className="ringkasan-section-index">02</span><h2>Dinamika & prioritas risiko</h2></div>
+        <span className="ringkasan-section-note">{d.tren.length} gelombang pemutakhiran</span>
+      </div>
+      <div className="ringkasan-analysis-grid grid gap-5 lg:grid-cols-2">
         <Kartu
           judul="Jiwa miskin dalam cakupan sistem"
           keterangan="Enam gelombang pemutakhiran, Maret 2023 sampai September 2025"
         >
           <ResponsiveContainer width="100%" height={230}>
             <LineChart data={tren} margin={{ top: 8, right: 12, bottom: 4, left: 4 }}>
-              <CartesianGrid stroke={TINTA.kisi} strokeDasharray="3 3" vertical={false} />
+              <CartesianGrid stroke={`var(--ringkasan-chart-grid, ${TINTA.kisi})`} strokeDasharray="3 3" vertical={false} />
               <XAxis
                 dataKey="label"
-                tick={{ fontSize: 11, fill: TINTA.kedua }}
-                axisLine={{ stroke: TINTA.sumbu }}
+                tick={{ fontSize: 11, fill: `var(--ringkasan-chart-label, ${TINTA.kedua})` }}
+                axisLine={{ stroke: `var(--ringkasan-chart-axis, ${TINTA.sumbu})` }}
                 tickLine={false}
               />
               <YAxis
-                tick={{ fontSize: 11, fill: TINTA.kedua }}
+                tick={{ fontSize: 11, fill: `var(--ringkasan-chart-label, ${TINTA.kedua})` }}
                 axisLine={false}
                 tickLine={false}
                 width={52}
                 tickFormatter={(v) => format.angka(v as number)}
               />
-              <Tooltip content={<Tooltiptip />} cursor={{ stroke: TINTA.sumbu }} />
+              <Tooltip content={<Tooltiptip />} cursor={{ stroke: `var(--ringkasan-chart-axis, ${TINTA.sumbu})` }} />
               <Line
                 type="monotone"
                 dataKey="jiwa_miskin"
                 name="jiwa"
-                stroke="#2a78d6"
+                stroke="var(--ringkasan-chart-series, #2a78d6)"
                 strokeWidth={2}
-                dot={{ r: 4, strokeWidth: 2, fill: "#fff" }}
+                dot={{ r: 4, strokeWidth: 2, fill: "var(--ringkasan-chart-dot, #fff)" }}
                 activeDot={{ r: 6 }}
               />
             </LineChart>
@@ -229,7 +290,7 @@ export default function Ringkasan() {
           judul="Sebaran kategori risiko"
           keterangan="Perkiraan peluang keluarga berada di bawah garis kemiskinan pada pemutakhiran berikutnya"
         >
-          <div className="space-y-3">
+          <div className="ringkasan-risk-bars space-y-3">
             {(["sangat_tinggi", "tinggi", "sedang", "rendah"] as KategoriRisiko[]).map((k) => {
               const b = d.risiko.sebaran.find((x) => x.kategori === k);
               const jumlah = b?.jumlah ?? 0;
@@ -259,7 +320,7 @@ export default function Ringkasan() {
             })}
           </div>
 
-          <div className="mt-4 grid grid-cols-2 gap-3 border-t border-slate-100 pt-4">
+          <div className="ringkasan-risk-footer mt-4 grid grid-cols-2 gap-3 border-t border-slate-100 pt-4">
             <div>
               <div className="text-2xs text-slate-500">Tidak menerima bantuan apa pun</div>
               <div className="angka text-lg font-bold text-slate-800">
@@ -277,14 +338,18 @@ export default function Ringkasan() {
       </div>
 
       {/* ---------- Kecamatan ---------- */}
+      <div className="ringkasan-section-heading">
+        <div><span className="ringkasan-section-index">03</span><h2>Perspektif wilayah</h2></div>
+        {kecamatan.data && <span className="ringkasan-section-note">{kecamatan.data.kecamatan.length} kecamatan terdata</span>}
+      </div>
       <Kartu
         judul="Kecamatan menurut tingkat kemiskinan"
         keterangan="Persentase keluarga miskin pada gelombang terkini"
-        aksi={
+        aksi={bolehPeta && (
           <Link to="/peta" className="text-xs font-medium text-nadi-700 hover:text-nadi-900">
             Buka peta →
           </Link>
-        }
+        )}
       >
         {kecamatan.isLoading ? (
           <Memuat pesan="Memuat data kecamatan..." />
@@ -296,10 +361,10 @@ export default function Ringkasan() {
                 layout="vertical"
                 margin={{ top: 4, right: 48, bottom: 4, left: 4 }}
               >
-                <CartesianGrid stroke={TINTA.kisi} strokeDasharray="3 3" horizontal={false} />
+                <CartesianGrid stroke={`var(--ringkasan-chart-grid, ${TINTA.kisi})`} strokeDasharray="3 3" horizontal={false} />
                 <XAxis
                   type="number"
-                  tick={{ fontSize: 11, fill: TINTA.kedua }}
+                  tick={{ fontSize: 11, fill: `var(--ringkasan-chart-label, ${TINTA.kedua})` }}
                   axisLine={false}
                   tickLine={false}
                   tickFormatter={(v) => `${v}%`}
@@ -307,28 +372,28 @@ export default function Ringkasan() {
                 <YAxis
                   type="category"
                   dataKey="nama"
-                  tick={{ fontSize: 11, fill: TINTA.kedua }}
+                  tick={{ fontSize: 11, fill: `var(--ringkasan-chart-label, ${TINTA.kedua})` }}
                   axisLine={false}
                   tickLine={false}
                   width={110}
                 />
                 <Tooltip
                   content={<Tooltiptip satuan="persen" />}
-                  cursor={{ fill: "rgba(15,23,42,0.04)" }}
+                  cursor={{ fill: "var(--ringkasan-chart-hover, rgba(15,23,42,0.04))" }}
                 />
                 {/* Satu warna untuk seluruh batang: panjangnya sudah
                     menyampaikan nilainya. */}
                 <Bar
                   dataKey="persen_keluarga_miskin"
                   name="keluarga miskin"
-                  fill="#2a78d6"
+                  fill="var(--ringkasan-chart-series, #2a78d6)"
                   radius={[0, 4, 4, 0]}
                   barSize={16}
                 />
               </BarChart>
             </ResponsiveContainer>
 
-            <div className="mt-4 overflow-x-auto">
+            <div className="ringkasan-region-table mt-4 overflow-x-auto">
               <table className="w-full min-w-[560px] text-sm">
                 <thead>
                   <tr className="border-b border-slate-200 text-left text-2xs uppercase tracking-wide text-slate-500">
@@ -371,18 +436,22 @@ export default function Ringkasan() {
       </Kartu>
 
       {/* ---------- Antrean ---------- */}
+      <div className="ringkasan-section-heading">
+        <div><span className="ringkasan-section-index">04</span><h2>Langkah berikutnya</h2></div>
+        <span className="ringkasan-section-note">{format.angka(d.antrean.total)} kasus dalam antrean</span>
+      </div>
       <Kartu
         judul="Antrean kasus menunggu pemeriksaan"
         keterangan="Setiap kasus adalah usulan pemeriksaan, bukan keputusan"
-        aksi={
+        aksi={bolehAntrean && (
           <Link to="/antrean" className="text-xs font-medium text-nadi-700 hover:text-nadi-900">
             Buka antrean →
           </Link>
-        }
+        )}
       >
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="ringkasan-queue-grid grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {d.antrean.per_jenis.map((j) => (
-            <div key={j.jenis} className="rounded-md border border-slate-200 p-3">
+            <div key={j.jenis} className="ringkasan-queue-item rounded-md border border-slate-200 p-3">
               <div className="angka text-xl font-bold text-slate-800">
                 {format.angka(j.jumlah)}
               </div>

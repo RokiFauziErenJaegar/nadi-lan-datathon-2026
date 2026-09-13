@@ -163,10 +163,10 @@ export function warnaKategori(indeks: number): string {
  * menyampaikan identitasnya.
  */
 export const TINTA = {
-  utama: "#0f172a",
-  kedua: "#475569",
-  redup: "#94a3b8",
-  kisi: "#e2e8f0",
-  sumbu: "#cbd5e1",
-  permukaan: "#ffffff",
+  utama: "var(--tinta-utama, #0f172a)",
+  kedua: "var(--tinta-kedua, #475569)",
+  redup: "var(--tinta-redup, #94a3b8)",
+  kisi: "var(--tinta-kisi, #e2e8f0)",
+  sumbu: "var(--tinta-sumbu, #cbd5e1)",
+  permukaan: "var(--tinta-permukaan, #ffffff)",
 } as const;

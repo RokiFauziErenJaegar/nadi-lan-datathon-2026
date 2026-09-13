@@ -13,6 +13,8 @@ Skrip memeriksa setiap prasyarat lalu hanya mengerjakan yang belum ada. Penyiapa
 
 Aplikasi terbuka di **http://127.0.0.1:8000**
 
+Tombol **Tampilan** di kanan atas menyediakan pilihan **Futuristik** (tema gelap dengan aksen cyan) dan **Klasik** (tema terang). Pilihan berlaku di seluruh aplikasi, termasuk halaman masuk, dan tersimpan di peramban. Tema Futuristik menjadi tampilan awal.
+
 ### Akun untuk mencoba
 
 | Pengguna | Sandi | Peran | Cakupan |

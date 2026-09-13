@@ -1,0 +1,42 @@
+.tampilan-pemilih { position: relative; z-index: 90; flex-shrink: 0; }
+.tampilan-pemicu { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 38px; padding: 8px 12px; border: 1px solid #dbe2ea; border-radius: 10px; background: #fff; color: #334155; font-size: 12px; font-weight: 600; cursor: pointer; transition: border-color 160ms, background 160ms; }
+.tampilan-pemicu:hover { border-color: #0d9488; background: #f0fdfa; }
+.tampilan-pemicu:focus-visible, .tampilan-pilihan:focus-visible { outline: 2px solid #14b8a6; outline-offset: 4px; }
+.tampilan-panah { transition: transform 160ms; }
+.tampilan-panah.terbuka { transform: rotate(180deg); }
+.tampilan-panel { position: absolute; top: calc(100% + 12px); right: 0; width: min(340px, calc(100vw - 32px)); padding: 20px; border: 1px solid #dbe2ea; border-radius: 18px; background: #fff; color: #0f172a; box-shadow: 0 18px 60px #0f172a26, 0 3px 10px #0f172a0d; animation: tampilan-muncul 160ms ease-out; }
+.tampilan-panel-judul { font-size: 14px; font-weight: 700; letter-spacing: -.02em; }
+.tampilan-panel-keterangan { margin-top: 4px; color: #64748b; font-size: 11px; }
+.tampilan-opsi { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+.tampilan-pilihan { min-width: 0; padding: 0 0 10px; text-align: left; border: 1px solid #e2e8f0; border-radius: 11px; background: transparent; color: inherit; cursor: pointer; }
+.tampilan-pilihan:hover { border-color: #94a3b8; }
+.tampilan-pilihan.terpilih { border-color: #0d9488; box-shadow: 0 0 0 1px #0d9488; }
+.tampilan-pratinjau { position: relative; display: flex; height: 78px; margin: 6px 6px 10px; overflow: hidden; border-radius: 6px; }
+.tampilan-pratinjau-klasik { background: #f1f5f9; }
+.tampilan-pratinjau-futuristik { background: radial-gradient(ellipse at top right, #143b4e, #0b1526 70%); }
+.tampilan-mini-sidebar { display: flex; width: 27%; flex-direction: column; gap: 6px; padding: 12px 6px; background: #164e63; }
+.tampilan-mini-sidebar i { height: 3px; border-radius: 4px; background: #ffffff50; }
+.tampilan-mini-sidebar i:first-child { width: 65%; background: #67e8f9; margin-bottom: 6px; }
+.tampilan-mini-isi { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 7px; padding: 12px 7px; }
+.tampilan-mini-isi > i { width: 65%; height: 4px; border-radius: 4px; background: #94a3b8; }
+.tampilan-mini-isi > span { display: flex; gap: 4px; }
+.tampilan-mini-isi > span i { height: 14px; flex: 1; border-radius: 3px; background: white; border: 1px solid #dbe2ea; }
+.tampilan-mini-isi > b { display: block; flex: 1; border-radius: 3px; background: linear-gradient(155deg, transparent 45%, #0d948880 46%, #0d948880 50%, #0d94880d 51%); border-bottom: 1px solid #cbd5e1; }
+.tampilan-pratinjau-futuristik .tampilan-mini-sidebar { background: #08101e; border-right: 1px solid #ffffff10; }
+.tampilan-pratinjau-futuristik .tampilan-mini-isi > i { background: #c5d9e8; }
+.tampilan-pratinjau-futuristik .tampilan-mini-isi > span i { border-color: #2dd4bf26; background: #18303c; }
+.tampilan-pratinjau-futuristik .tampilan-mini-isi > b { border-color: #ffffff16; background: linear-gradient(155deg, transparent 45%, #2dd4bf 46%, #2dd4bf 50%, #2dd4bf12 51%); }
+.tampilan-centang { position: absolute; right: 5px; top: 5px; display: grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; color: #fff; background: #0d9488; }
+.tampilan-nama { display: flex; align-items: center; gap: 5px; margin: 0 9px; font-size: 12px; font-weight: 650; }
+.tampilan-deskripsi { display: block; margin: 3px 9px 0; font-size: 9px; color: #64748b; }
+.tampilan-catatan { margin-top: 15px; padding-top: 12px; border-top: 1px solid #e2e8f0; font-size: 10px; color: #64748b; }
+[data-theme="futuristik"] .tampilan-pemicu { color: #bfcedd; border-color: #293849; background: #14202f; }
+[data-theme="futuristik"] .tampilan-pemicu:hover { border-color: #4dd8c780; background: #19303b; color: #e4fffb; }
+[data-theme="futuristik"] .tampilan-panel { color: #e9f2fb; background: #111e2e; border-color: #314253; box-shadow: 0 22px 70px #0007; }
+[data-theme="futuristik"] .tampilan-panel-keterangan, [data-theme="futuristik"] .tampilan-deskripsi, [data-theme="futuristik"] .tampilan-catatan { color: #9aaec0; }
+[data-theme="futuristik"] .tampilan-pilihan { border-color: #304255; }
+[data-theme="futuristik"] .tampilan-pilihan.terpilih { border-color: #51deca; box-shadow: 0 0 0 1px #51deca; background: #4ad9c609; }
+[data-theme="futuristik"] .tampilan-catatan { border-color: #293849; }
+@keyframes tampilan-muncul { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .tampilan-panel { animation: none; } .tampilan-pemicu, .tampilan-panah { transition: none; } }
+@media (max-width: 400px) { .tampilan-pemicu { gap: 6px; padding: 8px; font-size: 11px; } }

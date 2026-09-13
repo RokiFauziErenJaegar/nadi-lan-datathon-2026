@@ -1,3 +1,5 @@
+@import "./futuristik.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,6 +28,7 @@
 @layer components {
   .kartu {
     @apply rounded-lg border border-slate-200 bg-white shadow-kartu;
+    min-width: 0;
   }
 
   .kartu-judul {
@@ -66,6 +69,9 @@
 .leaflet-container {
   @apply font-sans;
   background: #eef2f7;
+  /* Pane Leaflet memiliki z-index tinggi; batasi agar tidak menutupi menu. */
+  isolation: isolate;
+  z-index: 0;
 }
 
 .leaflet-popup-content {

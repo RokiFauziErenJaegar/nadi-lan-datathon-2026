@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import { PenyediaAuth } from "./lib/auth";
+import { TemaProvider } from "./lib/tema";
 import "./styles/index.css";
 import "leaflet/dist/leaflet.css";
 
@@ -22,12 +23,14 @@ const klien = new QueryClient({
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <QueryClientProvider client={klien}>
-      <BrowserRouter>
-        <PenyediaAuth>
-          <App />
-        </PenyediaAuth>
-      </BrowserRouter>
-    </QueryClientProvider>
+    <TemaProvider>
+      <QueryClientProvider client={klien}>
+        <BrowserRouter>
+          <PenyediaAuth>
+            <App />
+          </PenyediaAuth>
+        </BrowserRouter>
+      </QueryClientProvider>
+    </TemaProvider>
   </React.StrictMode>,
 );

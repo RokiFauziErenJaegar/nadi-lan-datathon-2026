@@ -175,8 +175,8 @@ export default function Peta() {
           <div className="h-[520px] w-full overflow-hidden rounded-b-lg">
             <MapContainer center={PUSAT} zoom={11} className="h-full w-full" scrollWheelZoom>
               <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
               {batas.data && (
                 <GeoJSON

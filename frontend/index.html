@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Apply the saved appearance before the first paint, including login.
+      (function () {
+        var tema = "futuristik";
+        try { if (localStorage.getItem("nadi-tampilan") === "klasik") tema = "klasik"; } catch (_) {}
+        document.documentElement.dataset.theme = tema;
+        document.documentElement.style.colorScheme = tema === "futuristik" ? "dark" : "light";
+      })();
+    </script>
+    <style>html[data-theme="futuristik"] { background: #09111e; }</style>
     <meta name="description" content="NADI - Navigasi AI Data Intervensi. Sistem pendukung keputusan deteksi dini kerentanan kemiskinan Kabupaten Pringsewu." />
     <title>NADI - Navigasi AI Data Intervensi</title>
   </head>

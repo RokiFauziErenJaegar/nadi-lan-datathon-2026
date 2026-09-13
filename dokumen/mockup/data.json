@@ -1,0 +1,3931 @@
+{
+ "ringkasan": {
+  "gelombang": 5,
+  "cakupan": {
+   "keluarga": 40000,
+   "jiwa": 132984,
+   "keterangan": "Cakupan sistem ini adalah keluarga desil 1 sampai 5 menurut DTSEN. yakni sekitar 73.879 keluarga di Kabupaten Pringsewu. Data yang ditampilkan bersifat sintetis."
+  },
+  "kemiskinan": {
+   "keluarga_miskin": 4193,
+   "jiwa_miskin": 16808,
+   "persen_jiwa_miskin": 12.64,
+   "keluarga_rentan": 10813,
+   "keterangan_rentan": "Rentan berarti pengeluaran per kapita berada antara satu sampai satu setengah kali garis kemiskinan (Rp583.425 sampai Rp875.138). Kelompok ini belum tercatat miskin. namun satu guncangan sudah cukup menjatuhkannya.",
+   "garis_kemiskinan": 583425.0,
+   "garis_kerentanan": 875137.5,
+   "garis_kerentanan_turunan": true,
+   "rasio_rata_rata": 1.939,
+   "desil_rata_rata": 3.15
+  },
+  "risiko": {
+   "sebaran": [
+    {
+     "kategori": "rendah",
+     "jumlah": 37489,
+     "skor_rata": 7.2
+    },
+    {
+     "kategori": "sangat_tinggi",
+     "jumlah": 177,
+     "skor_rata": 85.9
+    },
+    {
+     "kategori": "sedang",
+     "jumlah": 1629,
+     "skor_rata": 50.7
+    },
+    {
+     "kategori": "tinggi",
+     "jumlah": 705,
+     "skor_rata": 70.8
+    }
+   ],
+   "memburuk_tajam": 1357,
+   "keterangan_memburuk": "Keluarga yang skor kerentanannya naik dua belas poin atau lebih sejak pemutakhiran sebelumnya. Sebagian besar di antaranya belum tercatat miskin."
+  },
+  "perlindungan_sosial": {
+   "tanpa_bantuan": 10648,
+   "nilai_bantuan_bulanan": 12563922000.0,
+   "nilai_bantuan_tahunan": 150767064000.0
+  },
+  "antrean": {
+   "total": 1834,
+   "per_jenis": [
+    {
+     "jenis": "perubahan_belum_ditindak",
+     "label": "Kondisi memburuk namun penanganan belum berubah",
+     "jumlah": 688,
+     "prioritas_rata": 67.9
+    },
+    {
+     "jenis": "exclusion_mismatch",
+     "label": "Sangat rentan namun belum tersentuh program relevan",
+     "jumlah": 579,
+     "prioritas_rata": 69.6
+    },
+    {
+     "jenis": "pola_tidak_lazim",
+     "label": "Pola data menyimpang dari keluarga sebanding",
+     "jumlah": 400,
+     "prioritas_rata": 21.1
+    },
+    {
+     "jenis": "inkonsistensi_data",
+     "label": "Isian data saling bertentangan",
+     "jumlah": 141,
+     "prioritas_rata": 54.9
+    },
+    {
+     "jenis": "inclusion_mismatch",
+     "label": "Menerima program yang kriterianya tidak lagi terpenuhi",
+     "jumlah": 20,
+     "prioritas_rata": 59.6
+    },
+    {
+     "jenis": "data_kedaluwarsa",
+     "label": "Data belum dimutakhirkan melewati batas kewajaran",
+     "jumlah": 6,
+     "prioritas_rata": 55.6
+    }
+   ]
+  },
+  "tren": [
+   {
+    "gelombang": 0,
+    "tanggal": "2023-03-01",
+    "jiwa": 132984,
+    "jiwa_miskin": 20648,
+    "persen_jiwa_miskin": 15.53,
+    "persen_keluarga_miskin": 13.13
+   },
+   {
+    "gelombang": 1,
+    "tanggal": "2023-09-01",
+    "jiwa": 132984,
+    "jiwa_miskin": 19802,
+    "persen_jiwa_miskin": 14.89,
+    "persen_keluarga_miskin": 12.38
+   },
+   {
+    "gelombang": 2,
+    "tanggal": "2024-03-01",
+    "jiwa": 132984,
+    "jiwa_miskin": 18939,
+    "persen_jiwa_miskin": 14.24,
+    "persen_keluarga_miskin": 11.79
+   },
+   {
+    "gelombang": 3,
+    "tanggal": "2024-09-01",
+    "jiwa": 132984,
+    "jiwa_miskin": 18180,
+    "persen_jiwa_miskin": 13.67,
+    "persen_keluarga_miskin": 11.29
+   },
+   {
+    "gelombang": 4,
+    "tanggal": "2025-03-01",
+    "jiwa": 132984,
+    "jiwa_miskin": 17416,
+    "persen_jiwa_miskin": 13.1,
+    "persen_keluarga_miskin": 10.91
+   },
+   {
+    "gelombang": 5,
+    "tanggal": "2025-09-01",
+    "jiwa": 132984,
+    "jiwa_miskin": 16808,
+    "persen_jiwa_miskin": 12.64,
+    "persen_keluarga_miskin": 10.48
+   }
+  ],
+  "acuan_bps": {
+   "persen_miskin_kabupaten_2023": 9.14,
+   "persen_miskin_kabupaten_2024": 8.32,
+   "persen_miskin_kabupaten_2025": 7.6,
+   "keterangan": "Angka kabupaten dihitung terhadap seluruh penduduk menurut proyeksi BPS. Angka pada sistem ini dihitung terhadap cakupan desil 1 sampai 5, sehingga persentasenya lebih tinggi meski jumlah orangnya sama."
+  },
+  "cakupan_pengguna": "seluruh_kabupaten"
+ },
+ "kecamatan": {
+  "gelombang": 5,
+  "kecamatan": [
+   {
+    "kode": "18.10.09",
+    "nama": "Pagelaran Utara",
+    "penduduk_dukcapil": 16852,
+    "luas_km2": 158.19,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 1525,
+    "jiwa_terdata": 5012,
+    "keluarga_miskin": 243,
+    "persen_keluarga_miskin": 15.93,
+    "skor_rata_rata": 15.8,
+    "risiko_tinggi": 82,
+    "tanpa_bantuan": 301,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.04",
+    "nama": "Pardasuka",
+    "penduduk_dukcapil": 38594,
+    "luas_km2": 87.31,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 3496,
+    "jiwa_terdata": 11758,
+    "keluarga_miskin": 509,
+    "persen_keluarga_miskin": 14.56,
+    "skor_rata_rata": 14.3,
+    "risiko_tinggi": 123,
+    "tanpa_bantuan": 748,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.08",
+    "nama": "Sukoharjo",
+    "penduduk_dukcapil": 54760,
+    "luas_km2": 65.59,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 5061,
+    "jiwa_terdata": 16818,
+    "keluarga_miskin": 552,
+    "persen_keluarga_miskin": 10.91,
+    "skor_rata_rata": 10.5,
+    "risiko_tinggi": 130,
+    "tanpa_bantuan": 1306,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.06",
+    "nama": "Banyumas",
+    "penduduk_dukcapil": 23610,
+    "luas_km2": 42.71,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 2148,
+    "jiwa_terdata": 7209,
+    "keluarga_miskin": 225,
+    "persen_keluarga_miskin": 10.47,
+    "skor_rata_rata": 10.3,
+    "risiko_tinggi": 44,
+    "tanpa_bantuan": 601,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.05",
+    "nama": "Pagelaran",
+    "penduduk_dukcapil": 56839,
+    "luas_km2": 48.42,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 5119,
+    "jiwa_terdata": 16893,
+    "keluarga_miskin": 529,
+    "persen_keluarga_miskin": 10.33,
+    "skor_rata_rata": 10.3,
+    "risiko_tinggi": 113,
+    "tanpa_bantuan": 1376,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.01",
+    "nama": "Pringsewu",
+    "penduduk_dukcapil": 88758,
+    "luas_km2": 45.28,
+    "klasifikasi": "perkotaan",
+    "keluarga_terdata": 7838,
+    "jiwa_terdata": 26018,
+    "keluarga_miskin": 776,
+    "persen_keluarga_miskin": 9.9,
+    "skor_rata_rata": 9.8,
+    "risiko_tinggi": 135,
+    "tanpa_bantuan": 2173,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.07",
+    "nama": "Adiluwih",
+    "penduduk_dukcapil": 39457,
+    "luas_km2": 68.8,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 3494,
+    "jiwa_terdata": 11581,
+    "keluarga_miskin": 341,
+    "persen_keluarga_miskin": 9.76,
+    "skor_rata_rata": 10.0,
+    "risiko_tinggi": 56,
+    "tanpa_bantuan": 980,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.02",
+    "nama": "Gading Rejo",
+    "penduduk_dukcapil": 85447,
+    "luas_km2": 67.79,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 7682,
+    "jiwa_terdata": 25548,
+    "keluarga_miskin": 718,
+    "persen_keluarga_miskin": 9.35,
+    "skor_rata_rata": 9.4,
+    "risiko_tinggi": 135,
+    "tanpa_bantuan": 2143,
+    "aman_ditampilkan": true
+   },
+   {
+    "kode": "18.10.03",
+    "nama": "Ambarawa",
+    "penduduk_dukcapil": 40517,
+    "luas_km2": 33.11,
+    "klasifikasi": "perdesaan",
+    "keluarga_terdata": 3637,
+    "jiwa_terdata": 12147,
+    "keluarga_miskin": 300,
+    "persen_keluarga_miskin": 8.25,
+    "skor_rata_rata": 8.5,
+    "risiko_tinggi": 64,
+    "tanpa_bantuan": 1020,
+    "aman_ditampilkan": true
+   }
+  ],
+  "ambang_sel_kecil": 10
+ },
+ "antrean": {
+  "gelombang": 5,
+  "jumlah_ditampilkan": 7,
+  "kasus": [
+   {
+    "kode": "KSS-4PY0-1KA8",
+    "kode_keluarga": "KLG-WS65-ZCQR",
+    "gelombang": 5,
+    "jenis": "perubahan_belum_ditindak",
+    "label_jenis": "Kondisi memburuk namun penanganan belum berubah",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 100.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Risiko keluarga ini meningkat tajam (+59 poin) namun penanganannya belum berubah.",
+    "alasan": [
+     {
+      "kode": "skor_melonjak",
+      "ringkasan": "Skor kerentanan naik 59 poin sejak pemutakhiran sebelumnya",
+      "bukti": {
+       "skor_kini": 93.75,
+       "kenaikan": 58.53
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "faktor_pendorong",
+      "ringkasan": "Faktor pendorong utama: Pendapatan sangat rendah atau miskin ekstrem, Tidak memiliki dokumen kependudukan, Pengangguran atau setengah pengangguran",
+      "bukti": {
+       "faktor": [
+        "Pendapatan sangat rendah atau miskin ekstrem",
+        "Tidak memiliki dokumen kependudukan",
+        "Pengangguran atau setengah pengangguran"
+       ]
+      },
+      "keyakinan": "sedang"
+     },
+     {
+      "kode": "belum_ditangani",
+      "ringkasan": "Belum menerima program apa pun meski risiko meningkat",
+      "bukti": {
+       "jumlah_program": 0
+      },
+      "keyakinan": "tinggi"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Sukamulya",
+    "kecamatan": "Banyumas",
+    "opd_ditugaskan": "Dinsos",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 93.8,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 4,
+     "jumlah_program": 0
+    }
+   },
+   {
+    "kode": "KSS-7ZKA-1D6Q",
+    "kode_keluarga": "KLG-CQJM-DA2X",
+    "gelombang": 5,
+    "jenis": "perubahan_belum_ditindak",
+    "label_jenis": "Kondisi memburuk namun penanganan belum berubah",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 100.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Risiko keluarga ini meningkat tajam (+49 poin) namun penanganannya belum berubah.",
+    "alasan": [
+     {
+      "kode": "skor_melonjak",
+      "ringkasan": "Skor kerentanan naik 49 poin sejak pemutakhiran sebelumnya",
+      "bukti": {
+       "skor_kini": 83.91,
+       "kenaikan": 48.69
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "faktor_pendorong",
+      "ringkasan": "Faktor pendorong utama: Pendapatan sangat rendah atau miskin ekstrem, Pengangguran atau setengah pengangguran, Anak putus sekolah atau terancam putus sekolah",
+      "bukti": {
+       "faktor": [
+        "Pendapatan sangat rendah atau miskin ekstrem",
+        "Pengangguran atau setengah pengangguran",
+        "Anak putus sekolah atau terancam putus sekolah"
+       ]
+      },
+      "keyakinan": "sedang"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Pandan Sari Selatan",
+    "kecamatan": "Sukoharjo",
+    "opd_ditugaskan": "Dinsos",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 83.9,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 8,
+     "jumlah_program": 4
+    }
+   },
+   {
+    "kode": "KSS-DV5H-AJEY",
+    "kode_keluarga": "KLG-R5NE-SC3V",
+    "gelombang": 5,
+    "jenis": "perubahan_belum_ditindak",
+    "label_jenis": "Kondisi memburuk namun penanganan belum berubah",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 99.1,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Risiko keluarga ini meningkat tajam (+44 poin) namun penanganannya belum berubah.",
+    "alasan": [
+     {
+      "kode": "skor_melonjak",
+      "ringkasan": "Skor kerentanan naik 44 poin sejak pemutakhiran sebelumnya",
+      "bukti": {
+       "skor_kini": 83.91,
+       "kenaikan": 44.4
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "faktor_pendorong",
+      "ringkasan": "Faktor pendorong utama: Pendapatan sangat rendah atau miskin ekstrem, Rumah tidak layak huni, Kehilangan mata pencaharian mendadak",
+      "bukti": {
+       "faktor": [
+        "Pendapatan sangat rendah atau miskin ekstrem",
+        "Rumah tidak layak huni",
+        "Kehilangan mata pencaharian mendadak"
+       ]
+      },
+      "keyakinan": "sedang"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Pandan Sari",
+    "kecamatan": "Sukoharjo",
+    "opd_ditugaskan": "Dinsos",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 83.9,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 5,
+     "jumlah_program": 3
+    }
+   },
+   {
+    "kode": "KSS-VBHF-8H72",
+    "kode_keluarga": "KLG-C43K-TSQ6",
+    "gelombang": 5,
+    "jenis": "exclusion_mismatch",
+    "label_jenis": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 98.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Keluarga berisiko sangat_tinggi pada desil 1 belum menerima bantuan apa pun, dan penghalangnya adalah dokumen kependudukan yang belum lengkap. Urus dokumen lebih dahulu; pendaftaran program sebelum itu akan ditolak.",
+    "alasan": [
+     {
+      "kode": "skor_tinggi",
+      "ringkasan": "Skor kerentanan 100 dari 100",
+      "bukti": {
+       "skor": 99.5,
+       "kategori": "sangat_tinggi"
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "desil_bawah",
+      "ringkasan": "Desil kesejahteraan 1 - termasuk sasaran program reguler",
+      "bukti": {
+       "desil": 1
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "tanpa_program",
+      "ringkasan": "Tidak menerima satu pun program bantuan",
+      "bukti": {
+       "jumlah_program": 0
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "terhalang_dokumen",
+      "ringkasan": "1 anggota belum memiliki dokumen kependudukan yang sah - inilah penghalangnya, bukan kelayakannya",
+      "bukti": {
+       "jumlah_tanpa_dokumen": 1
+      },
+      "keyakinan": "tinggi"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Margosari",
+    "kecamatan": "Pagelaran Utara",
+    "opd_ditugaskan": "Disdukcapil",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 99.5,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 3,
+     "jumlah_program": 0
+    }
+   },
+   {
+    "kode": "KSS-KR4B-413Y",
+    "kode_keluarga": "KLG-25J8-7HCZ",
+    "gelombang": 5,
+    "jenis": "exclusion_mismatch",
+    "label_jenis": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 98.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Keluarga berisiko sangat_tinggi pada desil 1 belum menerima bantuan apa pun, dan penghalangnya adalah dokumen kependudukan yang belum lengkap. Urus dokumen lebih dahulu; pendaftaran program sebelum itu akan ditolak.",
+    "alasan": [
+     {
+      "kode": "skor_tinggi",
+      "ringkasan": "Skor kerentanan 100 dari 100",
+      "bukti": {
+       "skor": 99.5,
+       "kategori": "sangat_tinggi"
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "desil_bawah",
+      "ringkasan": "Desil kesejahteraan 1 - termasuk sasaran program reguler",
+      "bukti": {
+       "desil": 1
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "tanpa_program",
+      "ringkasan": "Tidak menerima satu pun program bantuan",
+      "bukti": {
+       "jumlah_program": 0
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "terhalang_dokumen",
+      "ringkasan": "1 anggota belum memiliki dokumen kependudukan yang sah - inilah penghalangnya, bukan kelayakannya",
+      "bukti": {
+       "jumlah_tanpa_dokumen": 1
+      },
+      "keyakinan": "tinggi"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Patoman",
+    "kecamatan": "Pagelaran",
+    "opd_ditugaskan": "Disdukcapil",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 99.5,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 6,
+     "jumlah_program": 0
+    }
+   },
+   {
+    "kode": "KSS-H4ZR-FP0M",
+    "kode_keluarga": "KLG-Y35G-VS57",
+    "gelombang": 5,
+    "jenis": "exclusion_mismatch",
+    "label_jenis": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 98.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Keluarga berisiko sangat_tinggi pada desil 1 belum menerima bantuan apa pun, dan penghalangnya adalah dokumen kependudukan yang belum lengkap. Urus dokumen lebih dahulu; pendaftaran program sebelum itu akan ditolak.",
+    "alasan": [
+     {
+      "kode": "skor_tinggi",
+      "ringkasan": "Skor kerentanan 100 dari 100",
+      "bukti": {
+       "skor": 99.5,
+       "kategori": "sangat_tinggi"
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "desil_bawah",
+      "ringkasan": "Desil kesejahteraan 1 - termasuk sasaran program reguler",
+      "bukti": {
+       "desil": 1
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "tanpa_program",
+      "ringkasan": "Tidak menerima satu pun program bantuan",
+      "bukti": {
+       "jumlah_program": 0
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "terhalang_dokumen",
+      "ringkasan": "1 anggota belum memiliki dokumen kependudukan yang sah - inilah penghalangnya, bukan kelayakannya",
+      "bukti": {
+       "jumlah_tanpa_dokumen": 1
+      },
+      "keyakinan": "tinggi"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Sriwungu",
+    "kecamatan": "Banyumas",
+    "opd_ditugaskan": "Disdukcapil",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 99.5,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 5,
+     "jumlah_program": 0
+    }
+   },
+   {
+    "kode": "KSS-5Z62-BAN5",
+    "kode_keluarga": "KLG-8DV1-SPFT",
+    "gelombang": 5,
+    "jenis": "perubahan_belum_ditindak",
+    "label_jenis": "Kondisi memburuk namun penanganan belum berubah",
+    "status": "baru",
+    "label_status": "Baru",
+    "skor_prioritas": 97.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Risiko keluarga ini meningkat tajam (+38 poin) namun penanganannya belum berubah.",
+    "alasan": [
+     {
+      "kode": "skor_melonjak",
+      "ringkasan": "Skor kerentanan naik 38 poin sejak pemutakhiran sebelumnya",
+      "bukti": {
+       "skor_kini": 83.91,
+       "kenaikan": 37.92
+      },
+      "keyakinan": "tinggi"
+     },
+     {
+      "kode": "faktor_pendorong",
+      "ringkasan": "Faktor pendorong utama: Pendapatan sangat rendah atau miskin ekstrem, Rumah tidak layak huni, Pengangguran atau setengah pengangguran",
+      "bukti": {
+       "faktor": [
+        "Pendapatan sangat rendah atau miskin ekstrem",
+        "Rumah tidak layak huni",
+        "Pengangguran atau setengah pengangguran"
+       ]
+      },
+      "keyakinan": "sedang"
+     }
+    ],
+    "sumber_deteksi": "aturan",
+    "desa": "Bumi Ayu",
+    "kecamatan": "Pringsewu",
+    "opd_ditugaskan": "Dinsos",
+    "tenggat": "2026-09-24",
+    "keluarga": {
+     "skor": 83.9,
+     "kategori": "sangat_tinggi",
+     "desil": 1,
+     "jumlah_anggota": 7,
+     "jumlah_program": 3
+    }
+   }
+  ],
+  "rekap": [
+   {
+    "jenis": "data_kedaluwarsa",
+    "label": "Data belum dimutakhirkan melewati batas kewajaran",
+    "status": "baru",
+    "jumlah": 6
+   },
+   {
+    "jenis": "exclusion_mismatch",
+    "label": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "baru",
+    "jumlah": 579
+   },
+   {
+    "jenis": "inclusion_mismatch",
+    "label": "Menerima program yang kriterianya tidak lagi terpenuhi",
+    "status": "baru",
+    "jumlah": 20
+   },
+   {
+    "jenis": "inkonsistensi_data",
+    "label": "Isian data saling bertentangan",
+    "status": "baru",
+    "jumlah": 141
+   },
+   {
+    "jenis": "perubahan_belum_ditindak",
+    "label": "Kondisi memburuk namun penanganan belum berubah",
+    "status": "baru",
+    "jumlah": 688
+   },
+   {
+    "jenis": "pola_tidak_lazim",
+    "label": "Pola data menyimpang dari keluarga sebanding",
+    "status": "baru",
+    "jumlah": 400
+   }
+  ],
+  "catatan": "Setiap kasus adalah usulan pemeriksaan, bukan keputusan. Tidak ada jalur pada sistem ini yang mengubahnya menjadi penghentian bantuan tanpa verifikasi manusia."
+ },
+ "kasus_rinci": {
+  "kode": "KSS-4PY0-1KA8",
+  "kode_keluarga": "KLG-WS65-ZCQR",
+  "gelombang": 5,
+  "jenis": "perubahan_belum_ditindak",
+  "label_jenis": "Kondisi memburuk namun penanganan belum berubah",
+  "status": "baru",
+  "terbuka": true,
+  "skor_prioritas": 100.0,
+  "tingkat_prioritas": 1,
+  "ringkasan": "Risiko keluarga ini meningkat tajam (+59 poin) namun penanganannya belum berubah.",
+  "alasan": [
+   {
+    "kode": "skor_melonjak",
+    "ringkasan": "Skor kerentanan naik 59 poin sejak pemutakhiran sebelumnya",
+    "bukti": {
+     "skor_kini": 93.75,
+     "kenaikan": 58.53
+    },
+    "keyakinan": "tinggi"
+   },
+   {
+    "kode": "faktor_pendorong",
+    "ringkasan": "Faktor pendorong utama: Pendapatan sangat rendah atau miskin ekstrem, Tidak memiliki dokumen kependudukan, Pengangguran atau setengah pengangguran",
+    "bukti": {
+     "faktor": [
+      "Pendapatan sangat rendah atau miskin ekstrem",
+      "Tidak memiliki dokumen kependudukan",
+      "Pengangguran atau setengah pengangguran"
+     ]
+    },
+    "keyakinan": "sedang"
+   },
+   {
+    "kode": "belum_ditangani",
+    "ringkasan": "Belum menerima program apa pun meski risiko meningkat",
+    "bukti": {
+     "jumlah_program": 0
+    },
+    "keyakinan": "tinggi"
+   }
+  ],
+  "sumber_deteksi": "aturan",
+  "opd_ditugaskan": "Dinsos",
+  "tenggat": "2026-09-24",
+  "verifikasi": []
+ },
+ "profil": {
+  "keluarga": {
+   "kode": "KLG-WS65-ZCQR",
+   "wilayah": {
+    "desa": "Sukamulya",
+    "kode_desa": "18.10.06.2003",
+    "jenis": "pekon",
+    "kecamatan": "Banyumas",
+    "kode_kecamatan": "18.10.06",
+    "klasifikasi": "perdesaan"
+   },
+   "koordinat": {
+    "lintang": -5.28685,
+    "bujur": 104.93002,
+    "catatan": "Koordinat digeser acak dalam radius 250 meter demi privasi."
+   },
+   "sumber_data": "sintetis",
+   "tanggal_terdaftar": "2023-03-01"
+  },
+  "anggota": [
+   {
+    "kode": "IND-PFBS-YA2B",
+    "urutan": 0,
+    "hubungan": "Kepala keluarga",
+    "jenis_kelamin": "Laki-laki",
+    "umur": 21,
+    "status_perkawinan": "Kawin",
+    "partisipasi_sekolah": "Tidak bersekolah lagi",
+    "pendidikan": "Diploma IV/S1",
+    "kegiatan": "Bekerja",
+    "lapangan_usaha": "Pertanian padi/palawija",
+    "status_pekerjaan": "Pekerja bebas pertanian",
+    "jumlah_usaha": 0,
+    "disabilitas": "Tidak ada",
+    "penyakit_kronis": "Tidak ada",
+    "status_gizi": "Tidak ada balita",
+    "sedang_hamil": false,
+    "punya_jkn": false
+   },
+   {
+    "kode": "IND-D0RJ-ZHXD",
+    "urutan": 1,
+    "hubungan": "Istri/suami",
+    "jenis_kelamin": "Perempuan",
+    "umur": 20,
+    "status_perkawinan": "Kawin",
+    "partisipasi_sekolah": "Tidak bersekolah lagi",
+    "pendidikan": "Diploma IV/S1",
+    "kegiatan": "Mengurus rumah tangga",
+    "lapangan_usaha": "Tidak bekerja",
+    "status_pekerjaan": "Tidak bekerja",
+    "jumlah_usaha": 0,
+    "disabilitas": "Tidak ada",
+    "penyakit_kronis": "Tidak ada",
+    "status_gizi": "Tidak ada balita",
+    "sedang_hamil": false,
+    "punya_jkn": false
+   },
+   {
+    "kode": "IND-BEGN-DPYM",
+    "urutan": 2,
+    "hubungan": "Anak",
+    "jenis_kelamin": "Laki-laki",
+    "umur": 3,
+    "status_perkawinan": "Belum kawin",
+    "partisipasi_sekolah": "Tidak/belum pernah sekolah",
+    "pendidikan": "Tidak/belum pernah sekolah",
+    "kegiatan": "Lainnya",
+    "lapangan_usaha": "Tidak bekerja",
+    "status_pekerjaan": "Tidak bekerja",
+    "jumlah_usaha": 0,
+    "disabilitas": "Tidak ada",
+    "penyakit_kronis": "Tidak ada",
+    "status_gizi": "Gizi baik",
+    "sedang_hamil": false,
+    "punya_jkn": false
+   },
+   {
+    "kode": "IND-NHPY-BY6R",
+    "urutan": 3,
+    "hubungan": "Anak",
+    "jenis_kelamin": "Laki-laki",
+    "umur": 3,
+    "status_perkawinan": "Belum kawin",
+    "partisipasi_sekolah": "Tidak/belum pernah sekolah",
+    "pendidikan": "Tidak/belum pernah sekolah",
+    "kegiatan": "Lainnya",
+    "lapangan_usaha": "Tidak bekerja",
+    "status_pekerjaan": "Tidak bekerja",
+    "jumlah_usaha": 0,
+    "disabilitas": "Tidak ada",
+    "penyakit_kronis": "Tidak ada",
+    "status_gizi": "Gizi baik",
+    "sedang_hamil": false,
+    "punya_jkn": false
+   }
+  ],
+  "riwayat": [
+   {
+    "gelombang": 0,
+    "tanggal": "2023-03-01",
+    "pengeluaran_per_kapita": 488521.0,
+    "rasio_garis_kemiskinan": 0.837,
+    "miskin": true,
+    "rentan": false,
+    "desil": 1,
+    "jumlah_anggota": 4,
+    "jumlah_program": 0,
+    "nilai_bantuan_bulanan": 0.0,
+    "cakupan_jkn": 0.0,
+    "umur_data_bulan": 3,
+    "kelengkapan_data": 0.79,
+    "hunian": {
+     "luas_lantai_m2": 55.55060880426841,
+     "luas_per_kapita": 13.9,
+     "lantai": "Semen/bata merah",
+     "dinding": "Tembok",
+     "atap": "Seng",
+     "air_minum": "Sumur bor/pompa",
+     "fasilitas_bab": "Sendiri",
+     "kloset": "Leher angsa",
+     "pembuangan_tinja": "Lubang tanah",
+     "daya_listrik": "900 VA",
+     "bahan_bakar": "Kayu bakar"
+    },
+    "skor": 99.5,
+    "kategori": "sangat_tinggi",
+    "probabilitas": 0.995,
+    "perubahan_skor": null,
+    "peringkat_kabupaten": 9,
+    "faktor_dominan": [],
+    "kontribusi_fitur": []
+   },
+   {
+    "gelombang": 1,
+    "tanggal": "2023-09-01",
+    "pengeluaran_per_kapita": 518504.0,
+    "rasio_garis_kemiskinan": 0.889,
+    "miskin": true,
+    "rentan": false,
+    "desil": 2,
+    "jumlah_anggota": 4,
+    "jumlah_program": 0,
+    "nilai_bantuan_bulanan": 0.0,
+    "cakupan_jkn": 0.0,
+    "umur_data_bulan": 3,
+    "kelengkapan_data": 1.0,
+    "hunian": {
+     "luas_lantai_m2": 55.55060880426841,
+     "luas_per_kapita": 13.9,
+     "lantai": "Semen/bata merah",
+     "dinding": "Tembok",
+     "atap": "Seng",
+     "air_minum": "Sumur bor/pompa",
+     "fasilitas_bab": "Sendiri",
+     "kloset": "Leher angsa",
+     "pembuangan_tinja": "Lubang tanah",
+     "daya_listrik": "900 VA",
+     "bahan_bakar": "Kayu bakar"
+    },
+    "skor": 83.9,
+    "kategori": "sangat_tinggi",
+    "probabilitas": 0.8391,
+    "perubahan_skor": -15.6,
+    "peringkat_kabupaten": 280,
+    "faktor_dominan": [],
+    "kontribusi_fitur": []
+   },
+   {
+    "gelombang": 2,
+    "tanggal": "2024-03-01",
+    "pengeluaran_per_kapita": 511927.0,
+    "rasio_garis_kemiskinan": 0.877,
+    "miskin": true,
+    "rentan": false,
+    "desil": 2,
+    "jumlah_anggota": 4,
+    "jumlah_program": 0,
+    "nilai_bantuan_bulanan": 0.0,
+    "cakupan_jkn": 0.0,
+    "umur_data_bulan": 3,
+    "kelengkapan_data": 1.0,
+    "hunian": {
+     "luas_lantai_m2": 55.55060880426841,
+     "luas_per_kapita": 13.9,
+     "lantai": "Semen/bata merah",
+     "dinding": "Tembok",
+     "atap": "Seng",
+     "air_minum": "Sumur bor/pompa",
+     "fasilitas_bab": "Sendiri",
+     "kloset": "Leher angsa",
+     "pembuangan_tinja": "Lubang tanah",
+     "daya_listrik": "900 VA",
+     "bahan_bakar": "Kayu bakar"
+    },
+    "skor": 85.7,
+    "kategori": "sangat_tinggi",
+    "probabilitas": 0.8571,
+    "perubahan_skor": 1.8,
+    "peringkat_kabupaten": 79,
+    "faktor_dominan": [],
+    "kontribusi_fitur": []
+   },
+   {
+    "gelombang": 3,
+    "tanggal": "2024-09-01",
+    "pengeluaran_per_kapita": 472708.0,
+    "rasio_garis_kemiskinan": 0.81,
+    "miskin": true,
+    "rentan": false,
+    "desil": 3,
+    "jumlah_anggota": 4,
+    "jumlah_program": 0,
+    "nilai_bantuan_bulanan": 0.0,
+    "cakupan_jkn": 0.0,
+    "umur_data_bulan": 3,
+    "kelengkapan_data": 1.0,
+    "hunian": {
+     "luas_lantai_m2": 55.55060880426841,
+     "luas_per_kapita": 13.9,
+     "lantai": "Semen/bata merah",
+     "dinding": "Tembok",
+     "atap": "Seng",
+     "air_minum": "Sumur bor/pompa",
+     "fasilitas_bab": "Sendiri",
+     "kloset": "Leher angsa",
+     "pembuangan_tinja": "Lubang tanah",
+     "daya_listrik": "900 VA",
+     "bahan_bakar": "Kayu bakar"
+    },
+    "skor": 57.0,
+    "kategori": "sedang",
+    "probabilitas": 0.5704,
+    "perubahan_skor": -28.7,
+    "peringkat_kabupaten": 1809,
+    "faktor_dominan": [],
+    "kontribusi_fitur": []
+   },
+   {
+    "gelombang": 4,
+    "tanggal": "2025-03-01",
+    "pengeluaran_per_kapita": 394498.0,
+    "rasio_garis_kemiskinan": 0.676,
+    "miskin": true,
+    "rentan": false,
+    "desil": 3,
+    "jumlah_anggota": 4,
+    "jumlah_program": 0,
+    "nilai_bantuan_bulanan": 0.0,
+    "cakupan_jkn": 0.0,
+    "umur_data_bulan": 9,
+    "kelengkapan_data": 1.0,
+    "hunian": {
+     "luas_lantai_m2": 55.55060880426841,
+     "luas_per_kapita": 13.9,
+     "lantai": "Semen/bata merah",
+     "dinding": "Tembok",
+     "atap": "Seng",
+     "air_minum": "Sumur bor/pompa",
+     "fasilitas_bab": "Sendiri",
+     "kloset": "Leher angsa",
+     "pembuangan_tinja": "Lubang tanah",
+     "daya_listrik": "900 VA",
+     "bahan_bakar": "Kayu bakar"
+    },
+    "skor": 35.2,
+    "kategori": "rendah",
+    "probabilitas": 0.3523,
+    "perubahan_skor": -21.8,
+    "peringkat_kabupaten": 3693,
+    "faktor_dominan": [
+     "R01",
+     "R16",
+     "R07"
+    ],
+    "kontribusi_fitur": [
+     {
+      "f": "ada_masalah_dokumen",
+      "n": 1.0,
+      "k": 0.6689
+     },
+     {
+      "f": "jumlah_anggota",
+      "n": 4.0,
+      "k": 0.4864
+     },
+     {
+      "f": "rata_lama_sekolah_dewasa",
+      "n": 16.0,
+      "k": 0.3639
+     },
+     {
+      "f": "cakupan_jkn",
+      "n": 0.0,
+      "k": 0.2996
+     },
+     {
+      "f": "ada_anak_putus_sekolah",
+      "n": 1.0,
+      "k": 0.2509
+     },
+     {
+      "f": "kk_tahun_sekolah",
+      "n": 16.0,
+      "k": -0.2299
+     },
+     {
+      "f": "persen_miskin_wilayah",
+      "n": 9.934,
+      "k": -0.2273
+     },
+     {
+      "f": "desil_kesejahteraan",
+      "n": 3.0,
+      "k": 0.2074
+     }
+    ]
+   },
+   {
+    "gelombang": 5,
+    "tanggal": "2025-09-01",
+    "pengeluaran_per_kapita": 461103.0,
+    "rasio_garis_kemiskinan": 0.79,
+    "miskin": true,
+    "rentan": false,
+    "desil": 1,
+    "jumlah_anggota": 4,
+    "jumlah_program": 0,
+    "nilai_bantuan_bulanan": 0.0,
+    "cakupan_jkn": 0.0,
+    "umur_data_bulan": 3,
+    "kelengkapan_data": 1.0,
+    "hunian": {
+     "luas_lantai_m2": 55.55060880426841,
+     "luas_per_kapita": 13.9,
+     "lantai": "Semen/bata merah",
+     "dinding": "Tembok",
+     "atap": "Seng",
+     "air_minum": "Sumur bor/pompa",
+     "fasilitas_bab": "Sendiri",
+     "kloset": "Leher angsa",
+     "pembuangan_tinja": "Lubang tanah",
+     "daya_listrik": "900 VA",
+     "bahan_bakar": "Kayu bakar"
+    },
+    "skor": 93.8,
+    "kategori": "sangat_tinggi",
+    "probabilitas": 0.9375,
+    "perubahan_skor": 58.5,
+    "peringkat_kabupaten": 17,
+    "faktor_dominan": [
+     "R01",
+     "R16",
+     "R13"
+    ],
+    "kontribusi_fitur": [
+     {
+      "f": "desil_kesejahteraan",
+      "n": 1.0,
+      "k": 2.4377
+     },
+     {
+      "f": "ada_masalah_dokumen",
+      "n": 1.0,
+      "k": 0.8953
+     },
+     {
+      "f": "rata_lama_sekolah_dewasa",
+      "n": 16.0,
+      "k": 0.486
+     },
+     {
+      "f": "jumlah_anggota",
+      "n": 4.0,
+      "k": 0.4526
+     },
+     {
+      "f": "cakupan_jkn",
+      "n": 0.0,
+      "k": 0.3073
+     },
+     {
+      "f": "ada_anak_putus_sekolah",
+      "n": 1.0,
+      "k": 0.2429
+     },
+     {
+      "f": "kk_tahun_sekolah",
+      "n": 16.0,
+      "k": -0.2222
+     },
+     {
+      "f": "persen_miskin_wilayah",
+      "n": 13.907,
+      "k": 0.1971
+     }
+    ]
+   }
+  ],
+  "guncangan": [
+   {
+    "gelombang": 1,
+    "tanggal": "2023-09-01",
+    "jenis": "Gagal panen",
+    "sifat": "pendapatan",
+    "keparahan": "Ringan",
+    "dampak_persen": -8.0
+   }
+  ],
+  "program": [],
+  "kasus": [
+   {
+    "kode": "KSS-4PY0-1KA8",
+    "gelombang": 5,
+    "jenis": "perubahan_belum_ditindak",
+    "label_jenis": "Kondisi memburuk namun penanganan belum berubah",
+    "status": "baru",
+    "skor_prioritas": 100.0,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Risiko keluarga ini meningkat tajam (+59 poin) namun penanganannya belum berubah."
+   },
+   {
+    "kode": "KSS-J78D-XHNH",
+    "gelombang": 5,
+    "jenis": "exclusion_mismatch",
+    "label_jenis": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "baru",
+    "skor_prioritas": 94.2,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Keluarga berisiko sangat_tinggi pada desil 1 belum menerima bantuan apa pun, dan penghalangnya adalah dokumen kependudukan yang belum lengkap. Urus dokumen lebih dahulu; pendaftaran program sebelum itu akan ditolak."
+   },
+   {
+    "kode": "KSS-5DVC-6T90",
+    "gelombang": 3,
+    "jenis": "exclusion_mismatch",
+    "label_jenis": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "terverifikasi_tidak_sesuai",
+    "skor_prioritas": 69.6,
+    "tingkat_prioritas": 3,
+    "ringkasan": "Keluarga berisiko sedang pada desil 3 belum menerima bantuan apa pun, dan penghalangnya adalah dokumen kependudukan yang belum lengkap. Urus dokumen lebih dahulu; pendaftaran program sebelum itu akan ditolak."
+   },
+   {
+    "kode": "KSS-S2XH-HSWJ",
+    "gelombang": 2,
+    "jenis": "exclusion_mismatch",
+    "label_jenis": "Sangat rentan namun belum tersentuh program relevan",
+    "status": "terverifikasi_tidak_sesuai",
+    "skor_prioritas": 88.8,
+    "tingkat_prioritas": 1,
+    "ringkasan": "Keluarga berisiko sangat_tinggi pada desil 2 belum menerima bantuan apa pun, dan penghalangnya adalah dokumen kependudukan yang belum lengkap. Urus dokumen lebih dahulu; pendaftaran program sebelum itu akan ditolak."
+   }
+  ],
+  "ringkas": {
+   "skor_terkini": 93.8,
+   "kategori_terkini": "sangat_tinggi",
+   "miskin_terkini": true,
+   "jumlah_guncangan": 1,
+   "jumlah_program_pernah": 0,
+   "jumlah_kasus_terbuka": 2
+  },
+  "penafian": "Skor kerentanan adalah perkiraan berpeluang, bukan pernyataan tentang keadaan keluarga ini. Skor tidak menghentikan, mengurangi, atau menunda bantuan apa pun. Keputusan tetap berada pada musyawarah pekon dan penetapan pejabat berwenang."
+ },
+ "rekomendasi": {
+  "kode_keluarga": "KLG-WS65-ZCQR",
+  "gelombang": 5,
+  "faktor_dominan": [
+   "R01",
+   "R16",
+   "R13"
+  ],
+  "usulan": [
+   {
+    "kode": "ADMINDUK",
+    "nama": "Layanan Jemput Bola Administrasi Kependudukan",
+    "singkatan": "Adminduk",
+    "skor_kecocokan": 100.0,
+    "peringkat": 1,
+    "layak": true,
+    "jenis_intervensi": "administrasi_kependudukan",
+    "opd": [
+     "Disdukcapil"
+    ],
+    "tindakan": "Tetapkan dan salurkan",
+    "faktor_disasar": [
+     "R16"
+    ],
+    "aturan_terpenuhi": [
+     "Terdapat anggota tanpa dokumen kependudukan yang sah."
+    ],
+    "aturan_tidak_terpenuhi": [],
+    "perkiraan_manfaat_bulanan": null,
+    "komponen_berlaku": [],
+    "alasan": "Menangani faktor risiko dominan keluarga ini (R16). Seluruh syarat wajib terpenuhi. Tindakan: Tetapkan dan salurkan melalui Disdukcapil.",
+    "tingkat_keyakinan": "cukup_kuat",
+    "catatan": "Didahulukan: selama dokumen kependudukan belum lengkap, program bantuan lain tidak dapat ditetapkan bagi keluarga ini."
+   },
+   {
+    "kode": "SEKOLAH-RAKYAT",
+    "nama": "Sekolah Rakyat",
+    "singkatan": "Sekolah Rakyat",
+    "skor_kecocokan": 53.3,
+    "peringkat": 2,
+    "layak": true,
+    "jenis_intervensi": "bantuan_pendidikan",
+    "opd": [
+     "Dinsos",
+     "Disdikbud"
+    ],
+    "tindakan": "Usulkan dan verifikasi",
+    "faktor_disasar": [
+     "R01"
+    ],
+    "aturan_terpenuhi": [
+     "Berasal dari keluarga miskin ekstrem.",
+     "Memiliki anak usia sekolah.",
+     "Terdapat anak putus sekolah, sehingga sangat diprioritaskan."
+    ],
+    "aturan_tidak_terpenuhi": [],
+    "perkiraan_manfaat_bulanan": null,
+    "komponen_berlaku": [],
+    "alasan": "Menangani faktor risiko dominan keluarga ini (R01). Seluruh syarat wajib terpenuhi. Tindakan: Usulkan dan verifikasi melalui Dinsos, Disdikbud.",
+    "tingkat_keyakinan": "cukup_kuat",
+    "catatan": "Pemerintah Kabupaten Pringsewu dilaporkan sedang mengupayakan hibah lahan untuk lokasi Sekolah Rakyat, sehingga ketersediaannya di daerah ini belum pasti. Biaya satuan tidak ditemukan dan sengaja dikosongkan alih-alih dikira-kira."
+   },
+   {
+    "kode": "PIP",
+    "nama": "Program Indonesia Pintar",
+    "singkatan": "PIP",
+    "skor_kecocokan": 49.4,
+    "peringkat": 3,
+    "layak": true,
+    "jenis_intervensi": "bantuan_pendidikan",
+    "opd": [
+     "Disdikbud"
+    ],
+    "tindakan": "Usulkan dan verifikasi",
+    "faktor_disasar": [
+     "R01"
+    ],
+    "aturan_terpenuhi": [
+     "Berasal dari keluarga desil kesejahteraan 1 sampai 4.",
+     "Memiliki anak usia sekolah.",
+     "Terdapat anak putus sekolah, memerlukan penjangkauan kembali lebih dahulu."
+    ],
+    "aturan_tidak_terpenuhi": [],
+    "perkiraan_manfaat_bulanan": 375000.0,
+    "komponen_berlaku": [
+     "sd",
+     "sd_kelas_akhir",
+     "smp",
+     "smp_kelas_akhir",
+     "sma",
+     "sma_kelas_akhir"
+    ],
+    "alasan": "Menangani faktor risiko dominan keluarga ini (R01). Seluruh syarat wajib terpenuhi. Tindakan: Usulkan dan verifikasi melalui Disdikbud.",
+    "tingkat_keyakinan": "pasti",
+    "catatan": "Memerlukan pemadanan dengan data pokok pendidikan. Anak yang sudah putus sekolah tidak otomatis terjangkau program ini, sehingga rekomendasi bagi anak putus sekolah perlu disertai penjangkauan kembali ke satuan pendidikan."
+   },
+   {
+    "kode": "KUBE",
+    "nama": "Kelompok Usaha Bersama",
+    "singkatan": "KUBE",
+    "skor_kecocokan": 47.8,
+    "peringkat": 4,
+    "layak": true,
+    "jenis_intervensi": "pemberdayaan_ekonomi",
+    "opd": [
+     "Dinsos"
+    ],
+    "tindakan": "Usulkan dan verifikasi",
+    "faktor_disasar": [
+     "R01"
+    ],
+    "aturan_terpenuhi": [
+     "Terdaftar pada DTSEN desil 1 sampai 3.",
+     "Terdapat anggota yang dapat aktif dalam kelompok usaha."
+    ],
+    "aturan_tidak_terpenuhi": [],
+    "perkiraan_manfaat_bulanan": 2500000.0,
+    "komponen_berlaku": [
+     "kelompok_5kk",
+     "kelompok_10kk"
+    ],
+    "alasan": "Menangani faktor risiko dominan keluarga ini (R01). Seluruh syarat wajib terpenuhi. Tindakan: Usulkan dan verifikasi melalui Dinsos.",
+    "tingkat_keyakinan": "cukup_kuat",
+    "catatan": "Manfaat diterima kelompok, bukan perorangan. Nilai per keluarga adalah hasil pembagian nilai kelompok. Rekomendasi bagi program ini perlu mempertimbangkan ketersediaan kelompok di pekon yang sama."
+   },
+   {
+    "kode": "MBG",
+    "nama": "Makan Bergizi Gratis",
+    "singkatan": "MBG",
+    "skor_kecocokan": 38.6,
+    "peringkat": 5,
+    "layak": true,
+    "jenis_intervensi": "gizi_dan_stunting",
+    "opd": [
+     "Dinkes",
+     "Disdikbud"
+    ],
+    "tindakan": "Usulkan dan verifikasi",
+    "faktor_disasar": [
+     "R02",
+     "R03",
+     "R04"
+    ],
+    "aturan_terpenuhi": [
+     "Memiliki anak usia sekolah.",
+     "Memiliki balita."
+    ],
+    "aturan_tidak_terpenuhi": [],
+    "perkiraan_manfaat_bulanan": 165000.0,
+    "komponen_berlaku": [
+     "porsi"
+    ],
+    "alasan": "Program gizi dan stunting. Seluruh syarat wajib terpenuhi. Tindakan: Usulkan dan verifikasi melalui Dinkes, Disdikbud.",
+    "tingkat_keyakinan": "cukup_kuat",
+    "catatan": "Bersifat menyeluruh berbasis satuan pendidikan, bukan penargetan per keluarga. Karena itu program ini tidak menyelesaikan persoalan pengecualian sasaran - ia menjangkau semua anak di sekolah yang dilayani, dan tidak menjangkau anak yang tidak bersekolah. Anak putus sekolah justru"
+   },
+   {
+    "kode": "BAPANG",
+    "nama": "Bantuan Pangan Beras",
+    "singkatan": "Bantuan Pangan",
+    "skor_kecocokan": 37.1,
+    "peringkat": 6,
+    "layak": true,
+    "jenis_intervensi": "bantuan_pangan",
+    "opd": [
+     "Dinsos",
+     "DKP"
+    ],
+    "tindakan": "Usulkan dan verifikasi",
+    "faktor_disasar": [
+     "R01"
+    ],
+    "aturan_terpenuhi": [
+     "Terdaftar pada DTSEN desil 1 sampai 3."
+    ],
+    "aturan_tidak_terpenuhi": [],
+    "perkiraan_manfaat_bulanan": null,
+    "komponen_berlaku": [],
+    "alasan": "Menangani faktor risiko dominan keluarga ini (R01). Seluruh syarat wajib terpenuhi. Tindakan: Usulkan dan verifikasi melalui Dinsos, DKP.",
+    "tingkat_keyakinan": "cukup_kuat",
+    "catatan": "Nilai rupiah tahunan adalah perkiraan berdasarkan sepuluh kilogram beras per bulan dengan harga acuan. Manfaat sesungguhnya berbentuk barang, bukan uang."
+   }
+  ],
+  "paket": {
+   "jumlah_usulan": 6,
+   "jumlah_layak": 6,
+   "perkiraan_manfaat_bulanan_total": 3040000.0,
+   "perkiraan_manfaat_tahunan_total": 36480000.0,
+   "penugasan": [
+    {
+     "opd": "Dinsos",
+     "jumlah_program": 3,
+     "program": [
+      "Sekolah Rakyat",
+      "KUBE",
+      "Bantuan Pangan"
+     ],
+     "tindakan": [
+      "Usulkan dan verifikasi"
+     ]
+    },
+    {
+     "opd": "Disdikbud",
+     "jumlah_program": 3,
+     "program": [
+      "Sekolah Rakyat",
+      "PIP",
+      "MBG"
+     ],
+     "tindakan": [
+      "Usulkan dan verifikasi"
+     ]
+    },
+    {
+     "opd": "Disdukcapil",
+     "jumlah_program": 1,
+     "program": [
+      "Adminduk"
+     ],
+     "tindakan": [
+      "Tetapkan dan salurkan"
+     ]
+    },
+    {
+     "opd": "Dinkes",
+     "jumlah_program": 1,
+     "program": [
+      "MBG"
+     ],
+     "tindakan": [
+      "Usulkan dan verifikasi"
+     ]
+    },
+    {
+     "opd": "DKP",
+     "jumlah_program": 1,
+     "program": [
+      "Bantuan Pangan"
+     ],
+     "tindakan": [
+      "Usulkan dan verifikasi"
+     ]
+    }
+   ]
+  },
+  "penafian": "Usulan ini disusun dari pencocokan aturan kelayakan dengan kondisi keluarga. Usulan BUKAN penetapan penerima. Penetapan tetap melalui musyawarah pekon dan keputusan pejabat berwenang."
+ },
+ "monitoring": {
+  "per_status": [
+   {
+    "status": "selesai",
+    "jumlah": 469
+   }
+  ],
+  "dinilai": 468,
+  "penilaian": [
+   {
+    "penilaian": "membaik",
+    "jumlah": 319,
+    "persen": 68.2,
+    "persen_pembanding": 45.5
+   },
+   {
+    "penilaian": "tetap",
+    "jumlah": 97,
+    "persen": 20.7,
+    "persen_pembanding": 37.4
+   },
+   {
+    "penilaian": "memburuk",
+    "jumlah": 52,
+    "persen": 11.1,
+    "persen_pembanding": 17.1
+   }
+  ],
+  "pembanding": {
+   "tercocokkan": 467,
+   "dari": 468,
+   "keterangan": "Kelompok pembanding adalah keluarga yang TIDAK menerima intervensi, dicocokkan pada gelombang yang sama dan pita skor awal selebar 10 poin. Sel dengan kurang dari 10 keluarga tidak dipakai."
+  },
+  "selisih_skor_rata": -13.98,
+  "keluar_dari_miskin": 113,
+  "masuk_ke_miskin": 28,
+  "per_program": [
+   {
+    "program": "Sembako",
+    "dinilai": 118,
+    "membaik": 75,
+    "persen_membaik": 63.6,
+    "selisih_rata": -12.51
+   },
+   {
+    "program": "PKH",
+    "dinilai": 104,
+    "membaik": 76,
+    "persen_membaik": 73.1,
+    "selisih_rata": -15.72
+   },
+   {
+    "program": "PBI-JKN",
+    "dinilai": 86,
+    "membaik": 59,
+    "persen_membaik": 68.6,
+    "selisih_rata": -13.59
+   },
+   {
+    "program": "Bantuan Pangan",
+    "dinilai": 63,
+    "membaik": 46,
+    "persen_membaik": 73.0,
+    "selisih_rata": -16.15
+   },
+   {
+    "program": "BLT-DD",
+    "dinilai": 53,
+    "membaik": 34,
+    "persen_membaik": 64.2,
+    "selisih_rata": -14.62
+   },
+   {
+    "program": "PIP",
+    "dinilai": 43,
+    "membaik": 28,
+    "persen_membaik": 65.1,
+    "selisih_rata": -10.65
+   }
+  ],
+  "ambang_perubahan_bermakna": 5.0,
+  "ambang_sel_kecil": 10,
+  "penafian": "Angka pada modul ini menunjukkan PERUBAHAN kondisi, bukan SEBAB. Keluarga yang membaik setelah menerima intervensi belum tentu membaik karena intervensi tersebut. Bandingkan selalu dengan kelompok pembanding yang disertakan pada setiap rekap."
+ },
+ "intervensi": {
+  "total": 469,
+  "batas": 6,
+  "lewati": 0,
+  "intervensi": [
+   {
+    "kode": "ITV-VD1W-XDV1",
+    "status": "selesai",
+    "tanggal_mulai": "2026-08-26",
+    "tanggal_selesai": "2026-08-26",
+    "gelombang_mulai": 3,
+    "nilai_manfaat_bulanan": 0.0,
+    "program": "RST",
+    "program_nama": "Rumah Sejahtera Terpadu",
+    "opd": "PUPR",
+    "kasus": "KSS-79FN-P222",
+    "keluarga": "KLG-HQD2-XSPX",
+    "pekon": "Lugusari",
+    "kecamatan": "Pagelaran",
+    "penilaian": null,
+    "selisih_skor": null,
+    "skor_sebelum": null,
+    "skor_sesudah": null,
+    "siap_dinilai": true
+   },
+   {
+    "kode": "ITV-186M-MJTD",
+    "status": "selesai",
+    "tanggal_mulai": "2026-08-26",
+    "tanggal_selesai": "2026-08-26",
+    "gelombang_mulai": 3,
+    "nilai_manfaat_bulanan": 1666666.0,
+    "program": "RST",
+    "program_nama": "Rumah Sejahtera Terpadu",
+    "opd": "PUPR",
+    "kasus": "KSS-MJ7J-RRDQ",
+    "keluarga": "KLG-086Q-V7H0",
+    "pekon": "Ambarawa Timur",
+    "kecamatan": "Ambarawa",
+    "penilaian": "membaik",
+    "selisih_skor": -16.26,
+    "skor_sebelum": 35.22,
+    "skor_sesudah": 18.96,
+    "siap_dinilai": false
+   },
+   {
+    "kode": "ITV-YR3Y-2MWT",
+    "status": "selesai",
+    "tanggal_mulai": "2024-09-01",
+    "tanggal_selesai": "2025-09-01",
+    "gelombang_mulai": 3,
+    "nilai_manfaat_bulanan": 200000.0,
+    "program": "Sembako",
+    "program_nama": "Program Sembako",
+    "opd": "Dinsos",
+    "kasus": "KSS-J0NR-C99Y",
+    "keluarga": "KLG-2DH2-QNQ3",
+    "pekon": "Pringsewu Selatan",
+    "kecamatan": "Pringsewu",
+    "penilaian": "membaik",
+    "selisih_skor": -6.48,
+    "skor_sebelum": 45.99,
+    "skor_sesudah": 39.51,
+    "siap_dinilai": false
+   },
+   {
+    "kode": "ITV-67DD-6ZQ1",
+    "status": "selesai",
+    "tanggal_mulai": "2024-09-01",
+    "tanggal_selesai": "2025-09-01",
+    "gelombang_mulai": 3,
+    "nilai_manfaat_bulanan": 168000.0,
+    "program": "PBI-JKN",
+    "program_nama": "Penerima Bantuan Iuran Jaminan Kesehatan Nasional",
+    "opd": "Dinsos",
+    "kasus": "KSS-KDS0-6J87",
+    "keluarga": "KLG-P6E6-M2T9",
+    "pekon": "Bumi Ayu",
+    "kecamatan": "Pringsewu",
+    "penilaian": "tetap",
+    "selisih_skor": -4.29,
+    "skor_sebelum": 39.51,
+    "skor_sesudah": 35.22,
+    "siap_dinilai": false
+   },
+   {
+    "kode": "ITV-30CE-5NWV",
+    "status": "selesai",
+    "tanggal_mulai": "2025-03-01",
+    "tanggal_selesai": "2025-09-01",
+    "gelombang_mulai": 4,
+    "nilai_manfaat_bulanan": 200000.0,
+    "program": "PKH",
+    "program_nama": "Program Keluarga Harapan",
+    "opd": "Dinsos",
+    "kasus": "KSS-52KG-D3W8",
+    "keluarga": "KLG-1HGQ-2TVC",
+    "pekon": "Panggung Rejo Utara",
+    "kecamatan": "Sukoharjo",
+    "penilaian": "membaik",
+    "selisih_skor": -28.3,
+    "skor_sebelum": 38.65,
+    "skor_sesudah": 10.35,
+    "siap_dinilai": false
+   },
+   {
+    "kode": "ITV-CS72-A8AF",
+    "status": "selesai",
+    "tanggal_mulai": "2025-03-01",
+    "tanggal_selesai": "2025-09-01",
+    "gelombang_mulai": 4,
+    "nilai_manfaat_bulanan": 200000.0,
+    "program": "Sembako",
+    "program_nama": "Program Sembako",
+    "opd": "Dinsos",
+    "kasus": "KSS-PN6M-SN6F",
+    "keluarga": "KLG-77Q7-E4WX",
+    "pekon": "Margosari",
+    "kecamatan": "Pagelaran Utara",
+    "penilaian": "memburuk",
+    "selisih_skor": 28.89,
+    "skor_sebelum": 38.65,
+    "skor_sesudah": 67.54,
+    "siap_dinilai": false
+   }
+  ],
+  "penafian": "Angka pada modul ini menunjukkan PERUBAHAN kondisi, bukan SEBAB. Keluarga yang membaik setelah menerima intervensi belum tentu membaik karena intervensi tersebut. Bandingkan selalu dengan kelompok pembanding yang disertakan pada setiap rekap."
+ },
+ "model": {
+  "nama": "nadi-kerentanan",
+  "versi": "v1.0.0",
+  "jenis": "gbm",
+  "algoritma": "LightGBM + kalibrasi isotonik",
+  "dilatih_pada": "2026-08-25 15:50:23.764514",
+  "gelombang_latih": [
+   0,
+   1,
+   2
+  ],
+  "gelombang_uji": [
+   4
+  ],
+  "jumlah_baris_latih": 120000,
+  "jumlah_fitur": 43,
+  "sidik_jari_dataset": "f3445744b2a2d5da",
+  "metrik": {
+   "auc": 0.8578,
+   "spearman": 0.3802,
+   "prevalensi": 0.1048,
+   "jumlah_positif": 4193,
+   "jumlah_baris": 40000,
+   "pada_anggaran": {
+    "100": {
+     "k": 100.0,
+     "recall": 0.0207,
+     "recall_maksimum": 0.0238,
+     "efisiensi_anggaran": 0.87,
+     "presisi": 0.87,
+     "pengganda": 8.2995,
+     "tertangkap": 87.0,
+     "terlewat": 4106.0,
+     "eksklusi_pada_anggaran": 0.9793
+    },
+    "300": {
+     "k": 300.0,
+     "recall": 0.0551,
+     "recall_maksimum": 0.0715,
+     "efisiensi_anggaran": 0.77,
+     "presisi": 0.77,
+     "pengganda": 7.3456,
+     "tertangkap": 231.0,
+     "terlewat": 3962.0,
+     "eksklusi_pada_anggaran": 0.9449
+    },
+    "500": {
+     "k": 500.0,
+     "recall": 0.087,
+     "recall_maksimum": 0.1192,
+     "efisiensi_anggaran": 0.73,
+     "presisi": 0.73,
+     "pengganda": 6.964,
+     "tertangkap": 365.0,
+     "terlewat": 3828.0,
+     "eksklusi_pada_anggaran": 0.913
+    },
+    "1000": {
+     "k": 1000.0,
+     "recall": 0.1619,
+     "recall_maksimum": 0.2385,
+     "efisiensi_anggaran": 0.679,
+     "presisi": 0.679,
+     "pengganda": 6.4775,
+     "tertangkap": 679.0,
+     "terlewat": 3514.0,
+     "eksklusi_pada_anggaran": 0.8381
+    },
+    "2000": {
+     "k": 2000.0,
+     "recall": 0.2874,
+     "recall_maksimum": 0.477,
+     "efisiensi_anggaran": 0.6025,
+     "presisi": 0.6025,
+     "pengganda": 5.7477,
+     "tertangkap": 1205.0,
+     "terlewat": 2988.0,
+     "eksklusi_pada_anggaran": 0.7126
+    }
+   },
+   "kalibrasi": {
+    "brier": 0.07139,
+    "ece": 0.00629,
+    "keandalan": [
+     {
+      "bin": 0,
+      "batas_bawah": 0.005,
+      "batas_atas": 0.0092,
+      "jumlah": 6223,
+      "rata_peluang": 0.0061,
+      "rata_kejadian": 0.0053,
+      "selisih": 0.0008
+     },
+     {
+      "bin": 1,
+      "batas_bawah": 0.0092,
+      "batas_atas": 0.0113,
+      "jumlah": 1895,
+      "rata_peluang": 0.0092,
+      "rata_kejadian": 0.0127,
+      "selisih": -0.0035
+     },
+     {
+      "bin": 2,
+      "batas_bawah": 0.0113,
+      "batas_atas": 0.0185,
+      "jumlah": 4910,
+      "rata_peluang": 0.0137,
+      "rata_kejadian": 0.0143,
+      "selisih": -0.0005
+     },
+     {
+      "bin": 3,
+      "batas_bawah": 0.0185,
+      "batas_atas": 0.0242,
+      "jumlah": 1713,
+      "rata_peluang": 0.0185,
+      "rata_kejadian": 0.0274,
+      "selisih": -0.0089
+     },
+     {
+      "bin": 4,
+      "batas_bawah": 0.0242,
+      "batas_atas": 0.0448,
+      "jumlah": 5177,
+      "rata_peluang": 0.0271,
+      "rata_kejadian": 0.0326,
+      "selisih": -0.0055
+     },
+     {
+      "bin": 5,
+      "batas_bawah": 0.0448,
+      "batas_atas": 0.049,
+      "jumlah": 1704,
+      "rata_peluang": 0.0448,
+      "rata_kejadian": 0.0376,
+      "selisih": 0.0072
+     },
+     {
+      "bin": 6,
+      "batas_bawah": 0.049,
+      "batas_atas": 0.0717,
+      "jumlah": 4100,
+      "rata_peluang": 0.0516,
+      "rata_kejadian": 0.0598,
+      "selisih": -0.0082
+     },
+     {
+      "bin": 7,
+      "batas_bawah": 0.0717,
+      "batas_atas": 0.1141,
+      "jumlah": 3771,
+      "rata_peluang": 0.0866,
+      "rata_kejadian": 0.0894,
+      "selisih": -0.0028
+     },
+     {
+      "bin": 8,
+      "batas_bawah": 0.1141,
+      "batas_atas": 0.1896,
+      "jumlah": 2357,
+      "rata_peluang": 0.1312,
+      "rata_kejadian": 0.1239,
+      "selisih": 0.0073
+     },
+     {
+      "bin": 9,
+      "batas_bawah": 0.1896,
+      "batas_atas": 0.3522,
+      "jumlah": 4422,
+      "rata_peluang": 0.2381,
+      "rata_kejadian": 0.237,
+      "selisih": 0.0011
+     },
+     {
+      "bin": 10,
+      "batas_bawah": 0.3522,
+      "batas_atas": 0.995,
+      "jumlah": 3728,
+      "rata_peluang": 0.5307,
+      "rata_kejadian": 0.5,
+      "selisih": 0.0307
+     }
+    ]
+   }
+  },
+  "keadilan": {
+   "kecamatan": [
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Adiluwih",
+     "jumlah_baris": 3494,
+     "prevalensi": 0.0976,
+     "auc": 0.848,
+     "k": 44,
+     "recall_pada_k": 0.0792,
+     "presisi_pada_k": 0.6136,
+     "pengganda": 6.288
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Ambarawa",
+     "jumlah_baris": 3637,
+     "prevalensi": 0.0825,
+     "auc": 0.8709,
+     "k": 45,
+     "recall_pada_k": 0.1033,
+     "presisi_pada_k": 0.6889,
+     "pengganda": 8.352
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Banyumas",
+     "jumlah_baris": 2148,
+     "prevalensi": 0.1047,
+     "auc": 0.8617,
+     "k": 27,
+     "recall_pada_k": 0.1067,
+     "presisi_pada_k": 0.8889,
+     "pengganda": 8.486
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Gading Rejo",
+     "jumlah_baris": 7682,
+     "prevalensi": 0.0935,
+     "auc": 0.8555,
+     "k": 96,
+     "recall_pada_k": 0.0933,
+     "presisi_pada_k": 0.6979,
+     "pengganda": 7.467
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Pagelaran",
+     "jumlah_baris": 5119,
+     "prevalensi": 0.1033,
+     "auc": 0.861,
+     "k": 64,
+     "recall_pada_k": 0.0945,
+     "presisi_pada_k": 0.7812,
+     "pengganda": 7.56
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Pagelaran Utara",
+     "jumlah_baris": 1525,
+     "prevalensi": 0.1593,
+     "auc": 0.8535,
+     "k": 19,
+     "recall_pada_k": 0.07,
+     "presisi_pada_k": 0.8947,
+     "pengganda": 5.615
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Pardasuka",
+     "jumlah_baris": 3496,
+     "prevalensi": 0.1456,
+     "auc": 0.8463,
+     "k": 44,
+     "recall_pada_k": 0.0648,
+     "presisi_pada_k": 0.75,
+     "pengganda": 5.151
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Pringsewu",
+     "jumlah_baris": 7838,
+     "prevalensi": 0.099,
+     "auc": 0.8577,
+     "k": 98,
+     "recall_pada_k": 0.1005,
+     "presisi_pada_k": 0.7959,
+     "pengganda": 8.039
+    },
+    {
+     "kelompok": "kecamatan",
+     "nilai": "Sukoharjo",
+     "jumlah_baris": 5061,
+     "prevalensi": 0.1091,
+     "auc": 0.8516,
+     "k": 63,
+     "recall_pada_k": 0.0761,
+     "presisi_pada_k": 0.6667,
+     "pengganda": 6.112
+    }
+   ],
+   "kepala_keluarga_perempuan": [
+    {
+     "kelompok": "kepala_keluarga_perempuan",
+     "nilai": "False",
+     "jumlah_baris": 33775,
+     "prevalensi": 0.1017,
+     "auc": 0.8573,
+     "k": 422,
+     "recall_pada_k": 0.0894,
+     "presisi_pada_k": 0.7275,
+     "pengganda": 7.155
+    },
+    {
+     "kelompok": "kepala_keluarga_perempuan",
+     "nilai": "True",
+     "jumlah_baris": 6225,
+     "prevalensi": 0.1219,
+     "auc": 0.8583,
+     "k": 78,
+     "recall_pada_k": 0.0804,
+     "presisi_pada_k": 0.7821,
+     "pengganda": 6.414
+    }
+   ],
+   "wilayah_perdesaan": [
+    {
+     "kelompok": "wilayah_perdesaan",
+     "nilai": "False",
+     "jumlah_baris": 5993,
+     "prevalensi": 0.0901,
+     "auc": 0.863,
+     "k": 75,
+     "recall_pada_k": 0.1093,
+     "presisi_pada_k": 0.7867,
+     "pengganda": 8.731
+    },
+    {
+     "kelompok": "wilayah_perdesaan",
+     "nilai": "True",
+     "jumlah_baris": 34007,
+     "prevalensi": 0.1074,
+     "auc": 0.8567,
+     "k": 425,
+     "recall_pada_k": 0.0846,
+     "presisi_pada_k": 0.7271,
+     "pengganda": 6.768
+    }
+   ]
+  },
+  "fitur_paling_berpengaruh": [
+   {
+    "nama": "desil_kesejahteraan",
+    "label": "Desil kesejahteraan DTSEN",
+    "kepentingan_persen": 41.915,
+    "dimensi": "ekonomi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "luas_lantai_per_kapita",
+    "label": "Luas lantai per orang",
+    "kepentingan_persen": 10.695,
+    "dimensi": "hunian",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "indeks_aset",
+    "label": "Indeks kepemilikan aset",
+    "kepentingan_persen": 7.759,
+    "dimensi": "ekonomi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "persen_miskin_wilayah",
+    "label": "Tingkat kemiskinan di wilayahnya",
+    "kepentingan_persen": 5.679,
+    "dimensi": "ekonomi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "rata_lama_sekolah_dewasa",
+    "label": "Rata-rata lama sekolah anggota dewasa",
+    "kepentingan_persen": 3.849,
+    "dimensi": "pendidikan",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "jumlah_kriteria_rtlh",
+    "label": "Jumlah kriteria rumah layak huni yang tidak terpenuhi",
+    "kepentingan_persen": 3.67,
+    "dimensi": "hunian",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "jumlah_anggota",
+    "label": "Jumlah anggota keluarga",
+    "kepentingan_persen": 3.281,
+    "dimensi": "demografi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "rasio_tanggungan",
+    "label": "Rasio tanggungan",
+    "kepentingan_persen": 2.787,
+    "dimensi": "demografi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "kk_tahun_sekolah",
+    "label": "Lama sekolah kepala keluarga",
+    "kepentingan_persen": 1.678,
+    "dimensi": "pendidikan",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "ada_masalah_dokumen",
+    "label": "Ada anggota tanpa dokumen kependudukan",
+    "kepentingan_persen": 1.418,
+    "dimensi": "administrasi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "beban_anak_sekolah",
+    "label": "Jumlah anak usia sekolah",
+    "kepentingan_persen": 1.33,
+    "dimensi": "pendidikan",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "memasak_bahan_bakar_tidak_layak",
+    "label": "Memasak dengan bahan bakar tidak layak",
+    "kepentingan_persen": 1.194,
+    "dimensi": "hunian",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "bobot_guncangan",
+    "label": "Bobot guncangan tertimbang keparahan",
+    "kepentingan_persen": 1.068,
+    "dimensi": "guncangan",
+    "sumber_data": "lintas_opd"
+   },
+   {
+    "nama": "jumlah_lansia",
+    "label": "Jumlah anggota lanjut usia",
+    "kepentingan_persen": 1.006,
+    "dimensi": "demografi",
+    "sumber_data": "dtsen"
+   },
+   {
+    "nama": "jumlah_balita",
+    "label": "Jumlah balita",
+    "kepentingan_persen": 0.98,
+    "dimensi": "demografi",
+    "sumber_data": "dtsen"
+   }
+  ],
+  "catatan": "Uji keluarga terpisah: AUC 0.838, presisi@500 64.2%."
+ },
+ "batas": {
+  "yang_dilakukan": [
+   "Memperkirakan peluang sebuah keluarga berada di bawah garis kemiskinan pada pemutakhiran data berikutnya.",
+   "Menjelaskan faktor apa yang mendorong perkiraan itu, per keluarga.",
+   "Menandai ketidaksesuaian sasaran untuk diperiksa petugas.",
+   "Mencocokkan faktor risiko dengan program dan dinas pelaksananya.",
+   "Menghitung aritmetika cakupan, biaya, dan kapasitas verifikasi."
+  ],
+  "yang_tidak_dilakukan": [
+   "Menetapkan siapa yang berhak menerima bantuan.",
+   "Menghentikan, mengurangi, atau menunda bantuan siapa pun.",
+   "Mendeteksi kecurangan atau penyalahgunaan bantuan.",
+   "Memperkirakan dampak sebuah kebijakan terhadap angka kemiskinan.",
+   "Menyimpan nama, nomor induk kependudukan, atau alamat."
+  ],
+  "batas_teknis": [
+   {
+    "batas": "Ketepatan model terbatas pada sifat data yang tersedia",
+    "keterangan": "Penduga tak langsung seperti proxy means test hanya menjelaskan sekitar separuh keragaman kesejahteraan antar-keluarga. Kajian lintas negara menempatkan batas atas yang wajar pada AUC sekitar 0,85. Angka di atas 0,90 pada persoalan ini lebih sering menandakan kebocoran data daripada model yang baik."
+   },
+   {
+    "batas": "Penjelasan bukan sebab-akibat",
+    "keterangan": "Nilai kontribusi fitur menerangkan apa yang dibaca model, bukan apa yang menyebabkan kemiskinan. Memperbaiki satu penanda tidak dengan sendirinya memperbaiki keadaan keluarga."
+   },
+   {
+    "batas": "Data sintetis",
+    "keterangan": "Seluruh data pada sistem ini dibangkitkan menyerupai bentuk statistik penduduk Kabupaten Pringsewu. Tidak ada keluarga nyata di dalamnya. Angka kinerja model berlaku pada data ini, dan wajib diukur ulang pada data sesungguhnya."
+   },
+   {
+    "batas": "Guncangan menuntut pemaduan data antar-dinas",
+    "keterangan": "Sinyal guncangan - kematian pencari nafkah, pemutusan hubungan kerja, gagal panen, bencana - tidak ada pada DTSEN. Keunggulan sistem ini pada deteksi dini bergantung pada kesediaan dinas berbagi data, yang merupakan pekerjaan koordinasi, bukan teknis."
+   }
+  ],
+  "tata_kelola": {
+   "keputusan_otomatis": "Tidak ada. Seluruh keluaran sistem berupa antrean prioritas pemeriksaan. Penetapan penerima melalui musyawarah pekon dan keputusan pejabat berwenang.",
+   "hak_membantah": "Setiap penandaan menyertakan alasan yang dapat diperiksa, sehingga petugas maupun warga dapat menyanggahnya. Ini pemenuhan hak atas penjelasan sebagaimana diatur Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi.",
+   "jejak_audit": "Setiap pembukaan data keluarga tercatat beserta pelakunya.",
+   "minimalisasi_data": "Nama, nomor induk kependudukan, dan alamat tidak tersimpan. Koordinat digeser acak dalam radius 250 meter.",
+   "pelajaran_sistem_lain": "Rancangan ini menempatkan tiga alasan pelarangan sistem SyRI di Belanda sebagai daftar periksa terbalik: tidak buram, data diminimalkan, dan tujuannya khusus - hanya untuk memperluas jangkauan layanan, tidak pernah untuk memutus bantuan maupun mendeteksi kecurangan."
+  },
+  "peran_dan_akses": [
+   {
+    "peran": "admin",
+    "label": "Administrator Sistem",
+    "deskripsi": "Mengelola pengguna, katalog program, dan siklus hidup model.",
+    "cakupan_data": "seluruh_kabupaten",
+    "boleh_buka_keluarga": true,
+    "kewenangan": [
+     "admin:model",
+     "admin:pengguna",
+     "admin:program",
+     "admin:sistem",
+     "baca:agregat",
+     "baca:antrean",
+     "baca:jejak_audit",
+     "baca:keluarga",
+     "baca:outcome",
+     "baca:peta",
+     "baca:rekomendasi",
+     "jalankan:copilot",
+     "jalankan:ekspor",
+     "jalankan:simulasi",
+     "tulis:intervensi",
+     "tulis:outcome",
+     "tulis:penugasan",
+     "tulis:verifikasi"
+    ]
+   },
+   {
+    "peran": "pimpinan",
+    "label": "Pimpinan Daerah (Bupati/Sekda)",
+    "deskripsi": "Memantau kondisi kabupaten dan menimbang skenario kebijakan.",
+    "cakupan_data": "agregat_saja",
+    "boleh_buka_keluarga": false,
+    "kewenangan": [
+     "baca:agregat",
+     "baca:outcome",
+     "baca:peta",
+     "jalankan:copilot",
+     "jalankan:simulasi"
+    ]
+   },
+   {
+    "peran": "perencana",
+    "label": "Perencana (Bappeda)",
+    "deskripsi": "Menganalisis wilayah, menyusun rencana, dan mengevaluasi hasil.",
+    "cakupan_data": "agregat_saja",
+    "boleh_buka_keluarga": false,
+    "kewenangan": [
+     "baca:agregat",
+     "baca:outcome",
+     "baca:peta",
+     "baca:rekomendasi",
+     "jalankan:copilot",
+     "jalankan:ekspor",
+     "jalankan:simulasi"
+    ]
+   },
+   {
+    "peran": "dinas_sosial",
+    "label": "Dinas Sosial",
+    "deskripsi": "Mengelola antrean verifikasi dan penetapan sasaran.",
+    "cakupan_data": "seluruh_kabupaten",
+    "boleh_buka_keluarga": true,
+    "kewenangan": [
+     "baca:agregat",
+     "baca:antrean",
+     "baca:jejak_audit",
+     "baca:keluarga",
+     "baca:outcome",
+     "baca:peta",
+     "baca:rekomendasi",
+     "jalankan:copilot",
+     "jalankan:ekspor",
+     "jalankan:simulasi",
+     "tulis:outcome",
+     "tulis:penugasan",
+     "tulis:verifikasi"
+    ]
+   },
+   {
+    "peran": "opd_pelaksana",
+    "label": "OPD Pelaksana Intervensi",
+    "deskripsi": "Menerima penugasan dan mencatat pelaksanaan intervensi.",
+    "cakupan_data": "wilayah_tertugas",
+    "boleh_buka_keluarga": true,
+    "kewenangan": [
+     "baca:agregat",
+     "baca:antrean",
+     "baca:keluarga",
+     "baca:outcome",
+     "baca:peta",
+     "baca:rekomendasi",
+     "jalankan:copilot",
+     "tulis:intervensi"
+    ]
+   },
+   {
+    "peran": "verifikator",
+    "label": "Verifikator Lapangan",
+    "deskripsi": "Memeriksa kondisi keluarga di lapangan dan melaporkan hasilnya.",
+    "cakupan_data": "wilayah_tertugas",
+    "boleh_buka_keluarga": true,
+    "kewenangan": [
+     "baca:agregat",
+     "baca:antrean",
+     "baca:keluarga",
+     "baca:peta",
+     "baca:rekomendasi",
+     "tulis:verifikasi"
+    ]
+   }
+  ]
+ },
+ "program": {
+  "jumlah": 28,
+  "program": [
+   {
+    "kode": "PKH",
+    "nama": "Program Keluarga Harapan",
+    "singkatan": "PKH",
+    "deskripsi": "Bantuan tunai bersyarat bagi keluarga miskin yang memiliki komponen kesehatan, pendidikan, atau kesejahteraan sosial. Besarannya bergantung pada susunan keluarga, sehingga dua keluarga pada desil yang sama dapat menerima jumlah yang jauh berbeda.",
+    "jenis_intervensi": "bantuan_tunai",
+    "kementerian": "Kementerian Sosial RI, Direktorat Jenderal Perlindungan dan Jaminan Sosial",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "triwulanan",
+    "desil_min": 1,
+    "desil_maks": 2,
+    "biaya_satuan_tahunan": 2400000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Sosial Nomor 1 Tahun 2018 tentang Program Keluarga Harapan"
+    ],
+    "catatan": "KONFLIK SUMBER pada komponen lanjut usia dan disabilitas berat: sebagian sumber menyebut Rp3.000.000 per tahun, sumber yang lebih konsisten menyebut Rp2.400.000. Katalog ini memakai Rp2.400.000. KONFLIK USIA LANSIA: Permensos 1/2018 menyebut batas 60 tahun, sedangkan praktik penyaluran umumnya memprioritaskan 70 tahun ke atas karena keterbatasan kuota. Keduanya disimpan terpisah pada aturan di bawah. Verifikasi ke Koordinator Kabupaten PKH sebelum dipakai menetapkan sasaran.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     },
+     {
+      "kode": "R04",
+      "nama": "Ibu hamil berisiko"
+     },
+     {
+      "kode": "R05",
+      "nama": "Anak putus sekolah atau terancam putus sekolah"
+     },
+     {
+      "kode": "R11",
+      "nama": "Lanjut usia telantar"
+     },
+     {
+      "kode": "R12",
+      "nama": "Penyandang disabilitas"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "ibu_hamil",
+      "label": "Ibu hamil atau masa nifas",
+      "nominal_per_tahun": 3000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "anak_usia_dini",
+      "label": "Anak usia dini nol sampai enam tahun",
+      "nominal_per_tahun": 3000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "anak_sd",
+      "label": "Anak jenjang SD, MI, atau sederajat",
+      "nominal_per_tahun": 900000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "anak_smp",
+      "label": "Anak jenjang SMP, MTs, atau sederajat",
+      "nominal_per_tahun": 1500000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "anak_sma",
+      "label": "Anak jenjang SMA, SMK, MA, atau sederajat",
+      "nominal_per_tahun": 2000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "lansia",
+      "label": "Anggota lanjut usia",
+      "nominal_per_tahun": 2400000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     },
+     {
+      "komponen": "disabilitas_berat",
+      "label": "Penyandang disabilitas berat",
+      "nominal_per_tahun": 2400000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 7
+   },
+   {
+    "kode": "SEMBAKO",
+    "nama": "Program Sembako",
+    "singkatan": "Sembako",
+    "deskripsi": "Bantuan pangan non-tunai untuk membeli bahan pangan bergizi di pedagang yang bekerja sama. Disalurkan lewat Kartu Keluarga Sejahtera dan hanya dapat dibelanjakan pada komoditas yang ditetapkan.",
+    "jenis_intervensi": "bantuan_pangan",
+    "kementerian": "Kementerian Sosial RI",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "bulanan",
+    "desil_min": 1,
+    "desil_maks": 3,
+    "biaya_satuan_tahunan": 2400000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Pedoman Umum Program Sembako, Kementerian Sosial"
+    ],
+    "catatan": "Penyaluran sering dirapel beberapa bulan sekaligus, sehingga jeda penerimaan tidak selalu berarti keluarga dikeluarkan dari daftar penerima. Perbedaan ini penting agar sistem tidak salah menandai kasus.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R02",
+      "nama": "Rawan pangan rumah tangga"
+     },
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "pokok",
+      "label": "Bantuan pangan bulanan",
+      "nominal_per_tahun": 2400000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 3
+   },
+   {
+    "kode": "PBI-JKN",
+    "nama": "Penerima Bantuan Iuran Jaminan Kesehatan Nasional",
+    "singkatan": "PBI-JKN",
+    "deskripsi": "Iuran jaminan kesehatan ditanggung pemerintah bagi penduduk miskin dan tidak mampu, sehingga keluarga terlindungi dari pengeluaran kesehatan yang membangkrutkan.",
+    "jenis_intervensi": "jaminan_kesehatan",
+    "kementerian": "Kementerian Sosial RI bersama Kementerian Kesehatan dan BPJS Kesehatan",
+    "opd": [
+     "Dinsos",
+     "Dinkes"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "bulanan",
+    "desil_min": 1,
+    "desil_maks": 4,
+    "biaya_satuan_tahunan": 2016000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Sosial Nomor 3 Tahun 2025"
+    ],
+    "catatan": "Jangkauan pusat mencapai desil 1 sampai 4. Di luar itu tersedia PBI Daerah yang dibiayai APBD. Perlu dicatat bahwa pada 2026 dilaporkan sekitar 62.000 kepesertaan di Pringsewu dinonaktifkan, dan Pemkab memiliki tunggakan iuran sekitar Rp7,94 miliar - keduanya membuat penonaktifan kepesertaan menjadi jenis kasus yang penting dipantau sistem ini.",
+    "faktor_risiko": [
+     {
+      "kode": "R04",
+      "nama": "Ibu hamil berisiko"
+     },
+     {
+      "kode": "R07",
+      "nama": "Tidak memiliki jaminan kesehatan"
+     },
+     {
+      "kode": "R18",
+      "nama": "Anggota keluarga berpenyakit kronis"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "iuran",
+      "label": "Iuran jaminan kesehatan per jiwa",
+      "nominal_per_tahun": 504000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 4
+   },
+   {
+    "kode": "PIP",
+    "nama": "Program Indonesia Pintar",
+    "singkatan": "PIP",
+    "deskripsi": "Bantuan biaya personal pendidikan bagi peserta didik dari keluarga miskin, untuk menutup biaya seragam, alat tulis, dan transportasi yang seringkali menjadi alasan sesungguhnya anak berhenti sekolah.",
+    "jenis_intervensi": "bantuan_pendidikan",
+    "kementerian": "Kementerian Pendidikan Dasar dan Menengah, Pusat Layanan Pembiayaan Pendidikan",
+    "opd": [
+     "Disdikbud"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen_dan_dapodik",
+    "sumber_dana": "apbn",
+    "frekuensi": "tahunan",
+    "desil_min": 1,
+    "desil_maks": 4,
+    "biaya_satuan_tahunan": 900000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi tentang Program Indonesia Pintar"
+    ],
+    "catatan": "Memerlukan pemadanan dengan data pokok pendidikan. Anak yang sudah putus sekolah tidak otomatis terjangkau program ini, sehingga rekomendasi bagi anak putus sekolah perlu disertai penjangkauan kembali ke satuan pendidikan.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R05",
+      "nama": "Anak putus sekolah atau terancam putus sekolah"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "sd",
+      "label": "Jenjang SD kelas satu sampai lima",
+      "nominal_per_tahun": 450000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "sd_kelas_akhir",
+      "label": "Jenjang SD kelas enam",
+      "nominal_per_tahun": 225000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "smp",
+      "label": "Jenjang SMP kelas tujuh dan delapan",
+      "nominal_per_tahun": 750000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "smp_kelas_akhir",
+      "label": "Jenjang SMP kelas sembilan",
+      "nominal_per_tahun": 375000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "sma",
+      "label": "Jenjang SMA atau SMK kelas sepuluh dan sebelas",
+      "nominal_per_tahun": 1800000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     },
+     {
+      "komponen": "sma_kelas_akhir",
+      "label": "Jenjang SMA atau SMK kelas dua belas",
+      "nominal_per_tahun": 900000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 3
+   },
+   {
+    "kode": "BLT-DD",
+    "nama": "Bantuan Langsung Tunai Dana Desa",
+    "singkatan": "BLT-DD",
+    "deskripsi": "Bantuan tunai yang ditetapkan lewat musyawarah pekon dan dibiayai Dana Desa. Menjadi jaring pengaman paling lentur di tingkat lokal karena penetapannya tidak menunggu pemutakhiran data pusat.",
+    "jenis_intervensi": "bantuan_tunai",
+    "kementerian": "Kementerian Desa dan Pembangunan Daerah Tertinggal",
+    "opd": [
+     "DPMP"
+    ],
+    "tingkat_eksekusi": "desa",
+    "tindakan_daerah": "Koordinasikan dengan pemerintah pekon",
+    "basis_data": "dtsen",
+    "sumber_dana": "dana_desa",
+    "frekuensi": "bulanan",
+    "desil_min": 1,
+    "desil_maks": 2,
+    "biaya_satuan_tahunan": 900000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Desa dan Pembangunan Daerah Tertinggal tentang Prioritas Penggunaan Dana Desa"
+    ],
+    "catatan": "Kriteria penerima secara eksplisit menyebut keluarga dengan anggota sakit menahun, perempuan kepala keluarga, dan keluarga yang kehilangan mata pencaharian. Karena ditetapkan lewat musyawarah pekon, program ini adalah jalur tercepat menjangkau keluarga yang belum tercatat pada data pusat - dan karena itu paling cocok direkomendasikan pada kasus guncangan mendadak.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R17",
+      "nama": "Perempuan kepala keluarga"
+     },
+     {
+      "kode": "R18",
+      "nama": "Anggota keluarga berpenyakit kronis"
+     },
+     {
+      "kode": "R19",
+      "nama": "Kehilangan mata pencaharian mendadak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "pokok",
+      "label": "Bantuan tunai bulanan",
+      "nominal_per_tahun": 900000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 4
+   },
+   {
+    "kode": "BAPANG",
+    "nama": "Bantuan Pangan Beras",
+    "singkatan": "Bantuan Pangan",
+    "deskripsi": "Penyaluran beras cadangan pangan pemerintah bagi keluarga penerima manfaat, untuk menahan dampak kenaikan harga pangan.",
+    "jenis_intervensi": "bantuan_pangan",
+    "kementerian": "Badan Pangan Nasional bersama Perum BULOG",
+    "opd": [
+     "Dinsos",
+     "DKP"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "bulanan",
+    "desil_min": 1,
+    "desil_maks": 3,
+    "biaya_satuan_tahunan": 1440000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Kebijakan Cadangan Pangan Pemerintah, Badan Pangan Nasional"
+    ],
+    "catatan": "Nilai rupiah tahunan adalah perkiraan berdasarkan sepuluh kilogram beras per bulan dengan harga acuan. Manfaat sesungguhnya berbentuk barang, bukan uang.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R02",
+      "nama": "Rawan pangan rumah tangga"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "beras",
+      "label": "Beras sepuluh kilogram per bulan",
+      "nominal_per_tahun": 120.0,
+      "satuan": "kilogram",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 1
+   },
+   {
+    "kode": "BLT-KESRA",
+    "nama": "Bantuan Langsung Tunai Kesejahteraan Rakyat",
+    "singkatan": "BLT Kesra",
+    "deskripsi": "Bantuan tunai sewaktu-waktu untuk menahan penurunan daya beli akibat gejolak harga.",
+    "jenis_intervensi": "bantuan_tunai",
+    "kementerian": "Kementerian Sosial RI",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "ad_hoc",
+    "desil_min": 1,
+    "desil_maks": 4,
+    "biaya_satuan_tahunan": 900000.0,
+    "kuota_tahunan": null,
+    "status": "tidak_pasti",
+    "tingkat_keyakinan": "perkiraan",
+    "dasar_hukum": [],
+    "catatan": "Program bersifat sewaktu-waktu dan bergantung kebijakan tahunan. Statusnya ditandai belum pasti agar sistem tidak merekomendasikannya seolah pasti tersedia.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R19",
+      "nama": "Kehilangan mata pencaharian mendadak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "pokok",
+      "label": "Bantuan tunai bulanan",
+      "nominal_per_tahun": 900000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "perkiraan"
+     }
+    ],
+    "jumlah_aturan": 1
+   },
+   {
+    "kode": "BSPS",
+    "nama": "Bantuan Stimulan Perumahan Swadaya",
+    "singkatan": "BSPS",
+    "deskripsi": "Bantuan bahan bangunan dan upah kerja untuk memperbaiki rumah tidak layak huni secara swadaya. Dikenal luas sebagai program bedah rumah.",
+    "jenis_intervensi": "perbaikan_hunian",
+    "kementerian": "Kementerian Perumahan dan Kawasan Permukiman",
+    "opd": [
+     "PUPR"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 4,
+    "biaya_satuan_tahunan": 20000000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat tentang Bantuan Stimulan Perumahan Swadaya"
+    ],
+    "catatan": "Di Kabupaten Pringsewu urusan perumahan berada pada Dinas PUPR, bukan pada dinas perumahan tersendiri. Sisa kebutuhan rumah tidak layak huni di Pringsewu dilaporkan sekitar 1.700 unit pada 2025.",
+    "faktor_risiko": [
+     {
+      "kode": "R08",
+      "nama": "Rumah tidak layak huni"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "stimulan",
+      "label": "Bantuan stimulan perbaikan rumah",
+      "nominal_per_tahun": 20000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 3
+   },
+   {
+    "kode": "RST",
+    "nama": "Rumah Sejahtera Terpadu",
+    "singkatan": "RST",
+    "deskripsi": "Perbaikan rumah tidak layak huni bagi keluarga penerima manfaat program perlindungan sosial. Sebelumnya dikenal sebagai Rehabilitasi Sosial Rumah Tidak Layak Huni.",
+    "jenis_intervensi": "perbaikan_hunian",
+    "kementerian": "Kementerian Sosial RI",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 2,
+    "biaya_satuan_tahunan": 20000000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Peraturan Menteri Sosial tentang Rehabilitasi Sosial Rumah Tidak Layak Huni"
+    ],
+    "catatan": "Beririsan dengan BSPS. Keduanya sebaiknya tidak direkomendasikan bersamaan pada keluarga yang sama - pencocokan ganda seperti ini justru menjadi salah satu jenis kasus yang ditandai sistem.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R08",
+      "nama": "Rumah tidak layak huni"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "stimulan",
+      "label": "Bantuan perbaikan rumah",
+      "nominal_per_tahun": 20000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "RUTILAHU-D",
+    "nama": "Bantuan Rumah Tidak Layak Huni APBD Kabupaten Pringsewu",
+    "singkatan": "Rutilahu APBD",
+    "deskripsi": "Perbaikan rumah tidak layak huni yang dibiayai anggaran daerah. Menjadi pelengkap bagi keluarga yang belum terjangkau kuota program pusat.",
+    "jenis_intervensi": "perbaikan_hunian",
+    "kementerian": null,
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbd_kabupaten",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 4,
+    "biaya_satuan_tahunan": 15000000.0,
+    "kuota_tahunan": 80,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Data nyata tahun anggaran 2025: 80 keluarga penerima dengan total anggaran Rp1,2 miliar. Kuota yang sangat terbatas dibanding kebutuhan sekitar 1.700 unit inilah yang membuat penetapan prioritas menjadi persoalan sesungguhnya - dan menjadi alasan utama sistem penilaian risiko ini dibangun.",
+    "faktor_risiko": [
+     {
+      "kode": "R08",
+      "nama": "Rumah tidak layak huni"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "stimulan",
+      "label": "Bantuan perbaikan rumah dari anggaran daerah",
+      "nominal_per_tahun": 15000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "SANIMAS",
+    "nama": "Sanitasi Berbasis Masyarakat",
+    "singkatan": "SANIMAS",
+    "deskripsi": "Pembangunan sarana pengolahan air limbah komunal atau tangki septik individual bagi kawasan permukiman padat berpenghasilan rendah.",
+    "jenis_intervensi": "sanitasi_air_bersih",
+    "kementerian": "Kementerian Pekerjaan Umum",
+    "opd": [
+     "PUPR"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "lokasi",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 5,
+    "biaya_satuan_tahunan": 5000000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Petunjuk Teknis Dana Alokasi Khusus Bidang Sanitasi"
+    ],
+    "catatan": "Sasaran program ini adalah LOKASI, bukan keluarga. Rekomendasi yang tepat karenanya bukan 'daftarkan keluarga ini', melainkan 'usulkan pekon ini sebagai lokasi'. Biaya satuan adalah perkiraan kasar per keluarga terlayani dan wajib diverifikasi.",
+    "faktor_risiko": [
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     },
+     {
+      "kode": "R09",
+      "nama": "Tidak memiliki akses sanitasi layak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "sarana",
+      "label": "Sarana sanitasi komunal atau tangki septik",
+      "nominal_per_tahun": null,
+      "satuan": "unit",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 1
+   },
+   {
+    "kode": "PAMSIMAS",
+    "nama": "Penyediaan Air Minum dan Sanitasi Berbasis Masyarakat",
+    "singkatan": "PAMSIMAS",
+    "deskripsi": "Pembangunan sarana air minum perdesaan yang dikelola masyarakat.",
+    "jenis_intervensi": "sanitasi_air_bersih",
+    "kementerian": "Kementerian Pekerjaan Umum",
+    "opd": [
+     "PUPR"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "lokasi",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 6,
+    "biaya_satuan_tahunan": null,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Sasaran berupa lokasi, bukan keluarga. Rekomendasi diarahkan pada pengusulan pekon.",
+    "faktor_risiko": [
+     {
+      "kode": "R10",
+      "nama": "Tidak memiliki akses air minum layak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "sarana",
+      "label": "Sarana air minum perdesaan",
+      "nominal_per_tahun": null,
+      "satuan": "unit",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "STBM",
+    "nama": "Sanitasi Total Berbasis Masyarakat",
+    "singkatan": "STBM",
+    "deskripsi": "Pendekatan pemicuan perubahan perilaku menuju berhenti buang air besar sembarangan, mencakup lima pilar sanitasi.",
+    "jenis_intervensi": "sanitasi_air_bersih",
+    "kementerian": "Kementerian Kesehatan RI",
+    "opd": [
+     "Dinkes"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "lokasi",
+    "sumber_dana": "apbn",
+    "frekuensi": "berkelanjutan",
+    "desil_min": 1,
+    "desil_maks": 10,
+    "biaya_satuan_tahunan": null,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Kesehatan Nomor 3 Tahun 2014 tentang Sanitasi Total Berbasis Masyarakat"
+    ],
+    "catatan": "Berupa layanan perubahan perilaku, bukan bantuan barang. Paling tepat dipasangkan dengan program penyediaan sarana - membangun jamban tanpa mengubah kebiasaan menghasilkan jamban yang tidak dipakai.",
+    "faktor_risiko": [
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     },
+     {
+      "kode": "R09",
+      "nama": "Tidak memiliki akses sanitasi layak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "layanan",
+      "label": "Pemicuan dan pendampingan sanitasi",
+      "nominal_per_tahun": null,
+      "satuan": "layanan",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 1
+   },
+   {
+    "kode": "KUR",
+    "nama": "Kredit Usaha Rakyat",
+    "singkatan": "KUR",
+    "deskripsi": "Kredit modal kerja dan investasi bagi usaha mikro dengan suku bunga bersubsidi.",
+    "jenis_intervensi": "pemberdayaan_ekonomi",
+    "kementerian": "Kementerian Koordinator Bidang Perekonomian",
+    "opd": [
+     "Diskoperindag"
+    ],
+    "tingkat_eksekusi": "mandiri_online",
+    "tindakan_daerah": "Dampingi pendaftaran",
+    "basis_data": "mandiri",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 3,
+    "desil_maks": 8,
+    "biaya_satuan_tahunan": 0.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "pasti",
+    "dasar_hukum": [
+     "Peraturan Menteri Koordinator Bidang Perekonomian tentang Pedoman Pelaksanaan Kredit Usaha Rakyat"
+    ],
+    "catatan": "Ini KREDIT, bukan hibah - keluarga menanggung kewajiban mengembalikan. Karena itu tidak layak direkomendasikan bagi keluarga desil terbawah yang belum memiliki usaha berjalan; menambah utang pada keluarga tanpa arus kas justru memperdalam kemiskinan. Biaya satuan bernilai nol karena beban APBN berupa subsidi bunga, bukan transfer langsung.",
+    "faktor_risiko": [
+     {
+      "kode": "R14",
+      "nama": "Usaha mikro tanpa akses modal"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "kredit_mikro",
+      "label": "Plafon kredit usaha mikro",
+      "nominal_per_tahun": null,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "PENA",
+    "nama": "Pahlawan Ekonomi Nusantara",
+    "singkatan": "PENA",
+    "deskripsi": "Bantuan modal usaha disertai pendampingan bagi keluarga penerima manfaat, dengan tujuan graduasi mandiri dari ketergantungan bantuan.",
+    "jenis_intervensi": "pemberdayaan_ekonomi",
+    "kementerian": "Kementerian Sosial RI, Direktorat Jenderal Pemberdayaan Sosial",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 3,
+    "biaya_satuan_tahunan": 4900000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Berbeda dari kredit, ini bantuan yang tidak dikembalikan. Ditujukan bagi keluarga penerima bantuan yang memiliki potensi berusaha - jalur keluar dari bantuan, bukan penambah bantuan. Di Pringsewu, hilirisasi singkong menjadi tepung mocaf menjadi bidang usaha yang didorong pemerintah daerah.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R14",
+      "nama": "Usaha mikro tanpa akses modal"
+     },
+     {
+      "kode": "R17",
+      "nama": "Perempuan kepala keluarga"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "modal",
+      "label": "Bantuan modal usaha",
+      "nominal_per_tahun": 4900000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 3
+   },
+   {
+    "kode": "KUBE",
+    "nama": "Kelompok Usaha Bersama",
+    "singkatan": "KUBE",
+    "deskripsi": "Bantuan usaha produktif yang dikelola bersama oleh kelompok keluarga miskin.",
+    "jenis_intervensi": "pemberdayaan_ekonomi",
+    "kementerian": "Kementerian Sosial RI",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 3,
+    "biaya_satuan_tahunan": 2000000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Manfaat diterima kelompok, bukan perorangan. Nilai per keluarga adalah hasil pembagian nilai kelompok. Rekomendasi bagi program ini perlu mempertimbangkan ketersediaan kelompok di pekon yang sama.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R14",
+      "nama": "Usaha mikro tanpa akses modal"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "kelompok_5kk",
+      "label": "Bantuan kelompok berisi lima keluarga",
+      "nominal_per_tahun": 10000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     },
+     {
+      "komponen": "kelompok_10kk",
+      "label": "Bantuan kelompok berisi sepuluh keluarga",
+      "nominal_per_tahun": 20000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "PRAKERJA",
+    "nama": "Kartu Prakerja",
+    "singkatan": "Prakerja",
+    "deskripsi": "Bantuan biaya pelatihan keterampilan disertai insentif bagi pencari kerja dan pekerja yang ingin meningkatkan kemampuan.",
+    "jenis_intervensi": "pelatihan_kerja",
+    "kementerian": "Kementerian Koordinator Bidang Perekonomian",
+    "opd": [
+     "Disnakertrans"
+    ],
+    "tingkat_eksekusi": "mandiri_online",
+    "tindakan_daerah": "Dampingi pendaftaran",
+    "basis_data": "mandiri",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 7,
+    "biaya_satuan_tahunan": 4200000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Peraturan Presiden Nomor 36 Tahun 2020 tentang Pengembangan Kompetensi Kerja Melalui Program Kartu Prakerja"
+    ],
+    "catatan": "Pendaftaran dilakukan mandiri secara daring. Bagi keluarga di pekon dengan keterbatasan akses internet dan literasi digital, rekomendasi yang bermanfaat bukanlah 'daftarkan diri', melainkan 'dampingi pendaftarannya'. Tanpa pendampingan, program ini justru paling sulit dijangkau oleh yang paling membutuhkan.",
+    "faktor_risiko": [
+     {
+      "kode": "R13",
+      "nama": "Pengangguran atau setengah pengangguran"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "paket",
+      "label": "Biaya pelatihan beserta insentif",
+      "nominal_per_tahun": 4200000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "BLK",
+    "nama": "Pelatihan Vokasi Balai Latihan Kerja",
+    "singkatan": "BLK",
+    "deskripsi": "Pelatihan keterampilan kerja bersertifikat yang diselenggarakan pemerintah, tanpa biaya bagi peserta.",
+    "jenis_intervensi": "pelatihan_kerja",
+    "kementerian": "Kementerian Ketenagakerjaan RI",
+    "opd": [
+     "Disnakertrans"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "mandiri",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 7,
+    "biaya_satuan_tahunan": 5000000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Biaya satuan merupakan perkiraan dan wajib dikonfirmasi ke Dinas Ketenagakerjaan. Berbeda dari Prakerja, pendaftaran dilakukan melalui dinas sehingga lebih terjangkau bagi keluarga dengan keterbatasan akses digital.",
+    "faktor_risiko": [
+     {
+      "kode": "R12",
+      "nama": "Penyandang disabilitas"
+     },
+     {
+      "kode": "R13",
+      "nama": "Pengangguran atau setengah pengangguran"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "pelatihan",
+      "label": "Pelatihan keterampilan bersertifikat",
+      "nominal_per_tahun": null,
+      "satuan": "layanan",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 1
+   },
+   {
+    "kode": "PKT",
+    "nama": "Padat Karya Tunai Desa",
+    "singkatan": "PKT",
+    "deskripsi": "Pekerjaan infrastruktur pekon yang mengutamakan tenaga kerja setempat dengan upah harian, sehingga pembangunan sekaligus menjadi penopang daya beli.",
+    "jenis_intervensi": "pelatihan_kerja",
+    "kementerian": "Kementerian Desa dan Pembangunan Daerah Tertinggal",
+    "opd": [
+     "PUPR",
+     "DPMP"
+    ],
+    "tingkat_eksekusi": "desa",
+    "tindakan_daerah": "Koordinasikan dengan pemerintah pekon",
+    "basis_data": "lokasi",
+    "sumber_dana": "dana_desa",
+    "frekuensi": "ad_hoc",
+    "desil_min": 1,
+    "desil_maks": 5,
+    "biaya_satuan_tahunan": 2000000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Peraturan Menteri Desa dan Pembangunan Daerah Tertinggal tentang Prioritas Penggunaan Dana Desa"
+    ],
+    "catatan": "Sangat cocok bagi keluarga yang kehilangan pendapatan secara mendadak, sebab dapat dijalankan cepat tanpa menunggu penetapan pusat. Biaya satuan merupakan perkiraan.",
+    "faktor_risiko": [
+     {
+      "kode": "R13",
+      "nama": "Pengangguran atau setengah pengangguran"
+     },
+     {
+      "kode": "R19",
+      "nama": "Kehilangan mata pencaharian mendadak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "upah",
+      "label": "Upah kerja harian",
+      "nominal_per_tahun": 2000000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "perkiraan"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "MBG",
+    "nama": "Makan Bergizi Gratis",
+    "singkatan": "MBG",
+    "deskripsi": "Penyediaan makanan bergizi bagi anak sekolah, balita, ibu hamil, dan ibu menyusui.",
+    "jenis_intervensi": "gizi_dan_stunting",
+    "kementerian": "Badan Gizi Nasional",
+    "opd": [
+     "Dinkes",
+     "Disdikbud"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "lokasi",
+    "sumber_dana": "apbn",
+    "frekuensi": "harian",
+    "desil_min": 1,
+    "desil_maks": 10,
+    "biaya_satuan_tahunan": 1980000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Peraturan Presiden tentang Badan Gizi Nasional"
+    ],
+    "catatan": "Bersifat menyeluruh berbasis satuan pendidikan, bukan penargetan per keluarga. Karena itu program ini tidak menyelesaikan persoalan pengecualian sasaran - ia menjangkau semua anak di sekolah yang dilayani, dan tidak menjangkau anak yang tidak bersekolah. Anak putus sekolah justru berada di luar jangkauannya.",
+    "faktor_risiko": [
+     {
+      "kode": "R02",
+      "nama": "Rawan pangan rumah tangga"
+     },
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     },
+     {
+      "kode": "R04",
+      "nama": "Ibu hamil berisiko"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "porsi",
+      "label": "Porsi makan bergizi harian",
+      "nominal_per_tahun": 1980000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "PMT",
+    "nama": "Pemberian Makanan Tambahan Berbahan Pangan Lokal",
+    "singkatan": "PMT",
+    "deskripsi": "Pemberian makanan tambahan bagi balita bermasalah gizi dan ibu hamil kurang energi kronis, memakai bahan pangan setempat.",
+    "jenis_intervensi": "gizi_dan_stunting",
+    "kementerian": "Kementerian Kesehatan RI",
+    "opd": [
+     "Dinkes"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "lainnya",
+    "sumber_dana": "apbn",
+    "frekuensi": "harian",
+    "desil_min": 1,
+    "desil_maks": 10,
+    "biaya_satuan_tahunan": 1620000.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Petunjuk Teknis Bantuan Operasional Kesehatan"
+    ],
+    "catatan": "Sasarannya sangat spesifik: balita bermasalah gizi dan ibu hamil kurang energi kronis. Ketepatan sasaran bergantung pada data penimbangan posyandu, yang tidak berada di dalam DTSEN.",
+    "faktor_risiko": [
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     },
+     {
+      "kode": "R04",
+      "nama": "Ibu hamil berisiko"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "siklus",
+      "label": "Makanan tambahan satu siklus sembilan puluh hari",
+      "nominal_per_tahun": 1620000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "perkiraan"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "POSYANDU-ILP",
+    "nama": "Posyandu Integrasi Layanan Primer",
+    "singkatan": "Posyandu ILP",
+    "deskripsi": "Layanan kesehatan dasar terpadu di tingkat pekon yang menjangkau seluruh siklus hidup, dari bayi sampai lanjut usia.",
+    "jenis_intervensi": "gizi_dan_stunting",
+    "kementerian": "Kementerian Kesehatan RI",
+    "opd": [
+     "Dinkes"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "lokasi",
+    "sumber_dana": "apbd_kabupaten",
+    "frekuensi": "bulanan",
+    "desil_min": 1,
+    "desil_maks": 10,
+    "biaya_satuan_tahunan": null,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Berupa layanan, bukan bantuan. Berperan sebagai sumber data pemantauan gizi dan kesehatan yang dapat memperbarui kondisi keluarga pada sistem ini.",
+    "faktor_risiko": [
+     {
+      "kode": "R03",
+      "nama": "Balita bermasalah gizi atau stunting"
+     },
+     {
+      "kode": "R04",
+      "nama": "Ibu hamil berisiko"
+     },
+     {
+      "kode": "R11",
+      "nama": "Lanjut usia telantar"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "layanan",
+      "label": "Layanan kesehatan siklus hidup",
+      "nominal_per_tahun": null,
+      "satuan": "layanan",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 0
+   },
+   {
+    "kode": "ATENSI",
+    "nama": "Asistensi Rehabilitasi Sosial",
+    "singkatan": "ATENSI",
+    "deskripsi": "Layanan rehabilitasi sosial menyeluruh bagi penyandang disabilitas, lanjut usia telantar, dan anak yang memerlukan perlindungan khusus. Mencakup alat bantu, pemenuhan kebutuhan dasar, terapi, dan bantuan modal usaha.",
+    "jenis_intervensi": "layanan_disabilitas",
+    "kementerian": "Kementerian Sosial RI, Direktorat Jenderal Rehabilitasi Sosial",
+    "opd": [
+     "Dinsos"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "ad_hoc",
+    "desil_min": 1,
+    "desil_maks": 5,
+    "biaya_satuan_tahunan": 1036411.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Peraturan Menteri Sosial Nomor 7 Tahun 2021 tentang Asistensi Rehabilitasi Sosial"
+    ],
+    "catatan": "Biaya satuan dihitung dari realisasi nyata di Kabupaten Pringsewu tahun 2026: Rp1.036.411.418 bagi sekitar 1.000 penerima. Bentuk manfaat sangat beragam menurut kebutuhan, sehingga nilai rata-rata ini hanya berguna untuk perhitungan anggaran kasar.",
+    "faktor_risiko": [
+     {
+      "kode": "R11",
+      "nama": "Lanjut usia telantar"
+     },
+     {
+      "kode": "R12",
+      "nama": "Penyandang disabilitas"
+     },
+     {
+      "kode": "R18",
+      "nama": "Anggota keluarga berpenyakit kronis"
+     },
+     {
+      "kode": "R20",
+      "nama": "Terdampak bencana"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "paket",
+      "label": "Paket asistensi rehabilitasi sosial",
+      "nominal_per_tahun": 1036411.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 3
+   },
+   {
+    "kode": "SEKOLAH-RAKYAT",
+    "nama": "Sekolah Rakyat",
+    "singkatan": "Sekolah Rakyat",
+    "deskripsi": "Sekolah berasrama tanpa biaya bagi anak dari keluarga miskin ekstrem, mencakup seluruh kebutuhan hidup dan pendidikan.",
+    "jenis_intervensi": "bantuan_pendidikan",
+    "kementerian": "Kementerian Sosial RI",
+    "opd": [
+     "Dinsos",
+     "Disdikbud"
+    ],
+    "tingkat_eksekusi": "pusat_disalurkan_di_daerah",
+    "tindakan_daerah": "Usulkan dan verifikasi",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbn",
+    "frekuensi": "berkelanjutan",
+    "desil_min": 1,
+    "desil_maks": 2,
+    "biaya_satuan_tahunan": null,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Pemerintah Kabupaten Pringsewu dilaporkan sedang mengupayakan hibah lahan untuk lokasi Sekolah Rakyat, sehingga ketersediaannya di daerah ini belum pasti. Biaya satuan tidak ditemukan dan sengaja dikosongkan alih-alih dikira-kira.",
+    "faktor_risiko": [
+     {
+      "kode": "R01",
+      "nama": "Pendapatan sangat rendah atau miskin ekstrem"
+     },
+     {
+      "kode": "R05",
+      "nama": "Anak putus sekolah atau terancam putus sekolah"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "layanan",
+      "label": "Pendidikan berasrama tanpa biaya",
+      "nominal_per_tahun": null,
+      "satuan": "layanan",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 3
+   },
+   {
+    "kode": "KIPK",
+    "nama": "Kartu Indonesia Pintar Kuliah",
+    "singkatan": "KIP Kuliah",
+    "deskripsi": "Pembebasan biaya kuliah disertai bantuan biaya hidup bagi mahasiswa dari keluarga kurang mampu.",
+    "jenis_intervensi": "bantuan_pendidikan",
+    "kementerian": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+    "opd": [
+     "Disdikbud"
+    ],
+    "tingkat_eksekusi": "mandiri_online",
+    "tindakan_daerah": "Dampingi pendaftaran",
+    "basis_data": "mandiri",
+    "sumber_dana": "apbn",
+    "frekuensi": "semesteran",
+    "desil_min": 1,
+    "desil_maks": 4,
+    "biaya_satuan_tahunan": null,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Berada di luar jangkauan deteksi otomatis sistem ini, sebab status kelulusan sekolah menengah tidak tersedia pada DTSEN. Dicantumkan agar tetap muncul pada penelusuran Policy Copilot.",
+    "faktor_risiko": [
+     {
+      "kode": "R06",
+      "nama": "Tidak melanjutkan ke pendidikan tinggi"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "biaya_hidup",
+      "label": "Bantuan biaya hidup bulanan",
+      "nominal_per_tahun": 13200000.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "perkiraan"
+     }
+    ],
+    "jumlah_aturan": 1
+   },
+   {
+    "kode": "BPJSTK-RENTAN",
+    "nama": "Jaminan Sosial Ketenagakerjaan bagi Pekerja Rentan",
+    "singkatan": "BPJS TK Rentan",
+    "deskripsi": "Perlindungan kecelakaan kerja dan kematian bagi pekerja informal, dengan iuran ditanggung anggaran daerah, dana tanggung jawab sosial perusahaan, atau lembaga zakat.",
+    "jenis_intervensi": "pemberdayaan_ekonomi",
+    "kementerian": "Kementerian Ketenagakerjaan RI bersama BPJS Ketenagakerjaan",
+    "opd": [
+     "Dinsos",
+     "Disnakertrans"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "dtsen",
+    "sumber_dana": "apbd_kabupaten",
+    "frekuensi": "bulanan",
+    "desil_min": 1,
+    "desil_maks": 6,
+    "biaya_satuan_tahunan": 201600.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [],
+    "catatan": "Program berbiaya paling ringan pada seluruh katalog ini, hanya sekitar Rp201.600 per orang per tahun, namun menutup risiko yang paling menghancurkan bagi keluarga pekerja informal: kematian pencari nafkah. Nilai ini penting bagi simulator kebijakan, sebab perbandingan antara biaya dan risiko yang ditutupnya sangat menonjol.",
+    "faktor_risiko": [
+     {
+      "kode": "R15",
+      "nama": "Pekerja informal tanpa perlindungan"
+     },
+     {
+      "kode": "R19",
+      "nama": "Kehilangan mata pencaharian mendadak"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "iuran",
+      "label": "Iuran jaminan kecelakaan kerja dan kematian",
+      "nominal_per_tahun": 201600.0,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "cukup_kuat"
+     }
+    ],
+    "jumlah_aturan": 2
+   },
+   {
+    "kode": "KDMP",
+    "nama": "Koperasi Desa dan Kelurahan Merah Putih",
+    "singkatan": "KDMP",
+    "deskripsi": "Koperasi tingkat pekon yang menyediakan gerai kebutuhan pokok, simpan pinjam, dan layanan lain untuk memperpendek rantai pasok dan menekan harga di tingkat pekon.",
+    "jenis_intervensi": "pemberdayaan_ekonomi",
+    "kementerian": "Kementerian Koperasi",
+    "opd": [
+     "DPMP",
+     "Diskoperindag"
+    ],
+    "tingkat_eksekusi": "desa",
+    "tindakan_daerah": "Koordinasikan dengan pemerintah pekon",
+    "basis_data": "lokasi",
+    "sumber_dana": "apbn",
+    "frekuensi": "sekali",
+    "desil_min": 1,
+    "desil_maks": 10,
+    "biaya_satuan_tahunan": null,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "perkiraan",
+    "dasar_hukum": [],
+    "catatan": "Sasarannya kelembagaan pekon, bukan keluarga. Manfaat bagi keluarga bersifat tidak langsung melalui harga kebutuhan pokok dan akses pembiayaan. Tidak layak dijadikan rekomendasi tingkat keluarga.",
+    "faktor_risiko": [
+     {
+      "kode": "R02",
+      "nama": "Rawan pangan rumah tangga"
+     },
+     {
+      "kode": "R14",
+      "nama": "Usaha mikro tanpa akses modal"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "pembiayaan",
+      "label": "Plafon pembiayaan koperasi pekon",
+      "nominal_per_tahun": null,
+      "satuan": "rupiah",
+      "tingkat_keyakinan": "perkiraan"
+     }
+    ],
+    "jumlah_aturan": 0
+   },
+   {
+    "kode": "ADMINDUK",
+    "nama": "Layanan Jemput Bola Administrasi Kependudukan",
+    "singkatan": "Adminduk",
+    "deskripsi": "Penerbitan nomor induk kependudukan, kartu keluarga, dan akta kelahiran melalui pelayanan mendatangi warga.",
+    "jenis_intervensi": "administrasi_kependudukan",
+    "kementerian": "Kementerian Dalam Negeri RI",
+    "opd": [
+     "Disdukcapil"
+    ],
+    "tingkat_eksekusi": "daerah",
+    "tindakan_daerah": "Tetapkan dan salurkan",
+    "basis_data": "lainnya",
+    "sumber_dana": "apbd_kabupaten",
+    "frekuensi": "ad_hoc",
+    "desil_min": 1,
+    "desil_maks": 10,
+    "biaya_satuan_tahunan": 0.0,
+    "kuota_tahunan": null,
+    "status": "aktif",
+    "tingkat_keyakinan": "cukup_kuat",
+    "dasar_hukum": [
+     "Undang-Undang Nomor 24 Tahun 2013 tentang Perubahan atas Undang-Undang Nomor 23 Tahun 2006 tentang Administrasi Kependudukan"
+    ],
+    "catatan": "Bukan bantuan, melainkan pembuka jalan. Selama dokumen kependudukan belum ada, seluruh program lain tidak dapat menjangkau keluarga tersebut, sebaik apa pun penargetannya. Karena itu mesin rekomendasi menempatkannya paling atas ketika terdeteksi masalah dokumen - mendaftarkan keluarga tanpa NIK ke program bantuan hanya akan berujung penolakan berbulan-bulan kemudian.",
+    "faktor_risiko": [
+     {
+      "kode": "R16",
+      "nama": "Tidak memiliki dokumen kependudukan"
+     }
+    ],
+    "manfaat": [
+     {
+      "komponen": "layanan",
+      "label": "Penerbitan dokumen kependudukan",
+      "nominal_per_tahun": null,
+      "satuan": "layanan",
+      "tingkat_keyakinan": "pasti"
+     }
+    ],
+    "jumlah_aturan": 1
+   }
+  ],
+  "catatan": "Nominal bantuan berubah mengikuti kebijakan tahunan. Setiap angka membawa tingkat keyakinannya sendiri; angka bertanda 'perkiraan' wajib dikonfirmasi ke dinas pengampu sebelum dipakai menyusun anggaran."
+ },
+ "rtlh": {
+  "backlog": 1700,
+  "kapasitas_tahunan": 170,
+  "tahun_tuntas": 12.0,
+  "tuntas_dalam_horizon": true,
+  "biaya_tahunan": 2800000000.0,
+  "biaya_total": 33600000000.0,
+  "rincian_sumber": [
+   {
+    "kode": "BSPS",
+    "nama": "Bantuan Stimulan Perumahan Swadaya",
+    "unit_per_tahun": 20,
+    "nominal_per_unit": 20000000,
+    "biaya_tahunan": 400000000.0,
+    "sumber_dana": "APBN",
+    "tingkat_keyakinan": "pasti"
+   },
+   {
+    "kode": "RST",
+    "nama": "Rumah Sejahtera Terpadu",
+    "unit_per_tahun": 30,
+    "nominal_per_unit": 20000000,
+    "biaya_tahunan": 600000000.0,
+    "sumber_dana": "APBN",
+    "tingkat_keyakinan": "cukup_kuat"
+   },
+   {
+    "kode": "RUTILAHU-D",
+    "nama": "Rutilahu APBD Kabupaten",
+    "unit_per_tahun": 80,
+    "nominal_per_unit": 15000000,
+    "biaya_tahunan": 1200000000.0,
+    "sumber_dana": "APBD Kabupaten",
+    "tingkat_keyakinan": "cukup_kuat"
+   },
+   {
+    "kode": "DANA-DESA",
+    "nama": "Dana Desa",
+    "unit_per_tahun": 40,
+    "nominal_per_unit": 15000000,
+    "biaya_tahunan": 600000000.0,
+    "sumber_dana": "Dana Desa",
+    "tingkat_keyakinan": "perkiraan"
+   }
+  ],
+  "lintasan": [
+   {
+    "tahun": 1,
+    "sisa_unit": 1576
+   },
+   {
+    "tahun": 2,
+    "sisa_unit": 1448
+   },
+   {
+    "tahun": 3,
+    "sisa_unit": 1316
+   },
+   {
+    "tahun": 4,
+    "sisa_unit": 1181
+   },
+   {
+    "tahun": 5,
+    "sisa_unit": 1041
+   },
+   {
+    "tahun": 6,
+    "sisa_unit": 897
+   },
+   {
+    "tahun": 7,
+    "sisa_unit": 749
+   },
+   {
+    "tahun": 8,
+    "sisa_unit": 596
+   },
+   {
+    "tahun": 9,
+    "sisa_unit": 439
+   },
+   {
+    "tahun": 10,
+    "sisa_unit": 277
+   },
+   {
+    "tahun": 11,
+    "sisa_unit": 111
+   },
+   {
+    "tahun": 12,
+    "sisa_unit": 0
+   }
+  ],
+  "catatan": [
+   "Dengan kapasitas 170 unit per tahun, sisa kebutuhan 1700 unit tuntas dalam 12 tahun.",
+   "Perhitungan ini tidak memuat kenaikan biaya bahan bangunan maupun perubahan kriteria kelayakan."
+  ],
+  "acuan": {
+   "backlog_pringsewu": 1700,
+   "kuota_apbd_tahunan": 80,
+   "sumber": "Dinas Sosial Kabupaten Pringsewu, realisasi 2025"
+  },
+  "sumber_tersedia": [
+   {
+    "kode": "BSPS",
+    "nama": "Bantuan Stimulan Perumahan Swadaya",
+    "nominal_per_unit": 20000000,
+    "sumber_dana": "APBN",
+    "tingkat_keyakinan": "pasti"
+   },
+   {
+    "kode": "RST",
+    "nama": "Rumah Sejahtera Terpadu",
+    "nominal_per_unit": 20000000,
+    "sumber_dana": "APBN",
+    "tingkat_keyakinan": "cukup_kuat"
+   },
+   {
+    "kode": "RUTILAHU-D",
+    "nama": "Rutilahu APBD Kabupaten",
+    "nominal_per_unit": 15000000,
+    "sumber_dana": "APBD Kabupaten",
+    "tingkat_keyakinan": "cukup_kuat"
+   },
+   {
+    "kode": "DANA-DESA",
+    "nama": "Dana Desa",
+    "nominal_per_unit": 15000000,
+    "sumber_dana": "Dana Desa",
+    "tingkat_keyakinan": "perkiraan"
+   }
+  ],
+  "penafian": "Simulasi ini adalah perhitungan aritmetika cakupan dan biaya berdasarkan aturan kelayakan program serta pagu yang dimasukkan. Simulasi ini BUKAN prediksi dampak kebijakan dan tidak mengandung klaim sebab-akibat. Angka nominal program mengikuti sumber yang tercantum beserta tingkat keyakinannya masing-masing."
+ },
+ "pengaturan": {
+  "berlaku": {
+   "penyedia": "openai",
+   "base_url": "https://api.openai.com/v1",
+   "model": "gpt-4.1-mini",
+   "api_key_tersamar": "sk-pro...aKEA",
+   "ada_kunci": true,
+   "aktif": true,
+   "maks_token": 2400,
+   "suhu": 0.2,
+   "batas_waktu_detik": 60.0,
+   "penghalang_pii": true
+  },
+  "siap": true,
+  "alasan_belum_siap": null,
+  "katalog": [
+   {
+    "kode": "opencode_zen",
+    "nama": "OpenCode Zen",
+    "base_url": "https://opencode.ai/zen/v1",
+    "keterangan": "Gerbang yang menyatukan banyak penyedia dalam satu kunci. Menyediakan beberapa model gratis, sehingga sistem tetap dapat dijalankan penuh tanpa memasang metode pembayaran.",
+    "butuh_kunci": true,
+    "model_disarankan": [
+     "claude-sonnet-4-5",
+     "claude-haiku-4-5",
+     "gemini-3-flash",
+     "hy3-free"
+    ],
+    "petunjuk_kunci": "Dibuat pada konsol OpenCode Zen. Model berbayar menuntut metode pembayaran terpasang."
+   },
+   {
+    "kode": "openai",
+    "nama": "OpenAI",
+    "base_url": "https://api.openai.com/v1",
+    "keterangan": "Layanan asal. Keluarga gpt-5 dan o-series memakai dialek parameter yang berbeda; NADI menyesuaikannya sendiri.",
+    "butuh_kunci": true,
+    "model_disarankan": [
+     "gpt-4.1-mini",
+     "gpt-4o-mini",
+     "gpt-5-mini",
+     "gpt-5"
+    ],
+    "petunjuk_kunci": "Kunci berawalan sk- atau sk-proj-, dibuat di platform.openai.com."
+   },
+   {
+    "kode": "openrouter",
+    "nama": "OpenRouter",
+    "base_url": "https://openrouter.ai/api/v1",
+    "keterangan": "Gerbang lintas penyedia. Nama model ditulis 'penyedia/model'.",
+    "butuh_kunci": true,
+    "model_disarankan": [
+     "openai/gpt-4.1-mini",
+     "anthropic/claude-3.5-haiku",
+     "google/gemini-flash-1.5"
+    ],
+    "petunjuk_kunci": "Kunci berawalan sk-or-, dibuat di openrouter.ai/keys."
+   },
+   {
+    "kode": "groq",
+    "nama": "Groq",
+    "base_url": "https://api.groq.com/openai/v1",
+    "keterangan": "Sangat cepat untuk model terbuka. Berguna ketika jawaban harus muncul seketika saat demo.",
+    "butuh_kunci": true,
+    "model_disarankan": [
+     "llama-3.3-70b-versatile",
+     "llama-3.1-8b-instant"
+    ],
+    "petunjuk_kunci": "Kunci berawalan gsk_, dibuat di console.groq.com."
+   },
+   {
+    "kode": "deepseek",
+    "nama": "DeepSeek",
+    "base_url": "https://api.deepseek.com/v1",
+    "keterangan": "Biaya rendah dengan mutu bahasa yang memadai untuk penjelasan kebijakan.",
+    "butuh_kunci": true,
+    "model_disarankan": [
+     "deepseek-chat"
+    ],
+    "petunjuk_kunci": "Dibuat di platform.deepseek.com."
+   },
+   {
+    "kode": "lokal",
+    "nama": "Model lokal (Ollama / LM Studio)",
+    "base_url": "http://127.0.0.1:11434/v1",
+    "keterangan": "Model berjalan di komputer atau server dinas sendiri. Tidak ada satu kata pun yang keluar dari jaringan. Pilihan paling tepat bila NADI kelak dijalankan di atas data keluarga yang sesungguhnya.",
+    "butuh_kunci": false,
+    "model_disarankan": [
+     "qwen2.5:7b-instruct",
+     "llama3.1:8b",
+     "gemma2:9b"
+    ],
+    "petunjuk_kunci": "Tidak memerlukan kunci. Pastikan Ollama berjalan lebih dahulu."
+   },
+   {
+    "kode": "lainnya",
+    "nama": "Penyedia lain",
+    "base_url": "",
+    "keterangan": "Alamat apa pun yang menyediakan titik akhir bergaya OpenAI.",
+    "butuh_kunci": true,
+    "model_disarankan": [],
+    "petunjuk_kunci": null
+   }
+  ],
+  "keterangan_kunci": "Kunci API disimpan pada berkas .env di server, bukan di dalam basis data - berkas basis data memang dimaksudkan untuk disalin, dan rahasia tidak boleh ikut tersalin bersamanya. Kunci yang sudah tersimpan tidak dapat ditampilkan kembali oleh siapa pun; bila hilang, ganti dengan yang baru.",
+  "penghalang_pii": "Berlaku untuk penyedia mana pun. Setiap muatan diperiksa tepat sebelum dikirim, dan permintaan dibatalkan bila memuat pengenal pribadi."
+ },
+ "contoh_tanya": {
+  "dapat_dijawab": [
+   "Program apa saja yang menangani rumah tidak layak huni, dan dinas mana pelaksananya?",
+   "Apa arti desil kesejahteraan dan dari mana angkanya berasal?",
+   "Kecamatan mana yang tingkat kemiskinannya paling tinggi?",
+   "Berapa nominal Program Keluarga Harapan untuk komponen anak SMA?",
+   "Apa bedanya garis kemiskinan dan garis kerentanan?",
+   "Seberapa akurat model kerentanan NADI?",
+   "Faktor risiko apa saja yang ditangani Program Sembako?",
+   "Mengapa Kecamatan Pagelaran Utara berisiko lebih tinggi?"
+  ],
+  "tidak_dapat_dijawab": [
+   "Apakah keluarga KLG-XXXX layak menerima bantuan? (kelayakan ditetapkan verifikasi petugas dan musyawarah pekon, bukan copilot)",
+   "Siapa nama kepala keluarga ini? (sistem tidak menyimpan nama, nomor induk kependudukan, maupun alamat)",
+   "Berapa angka kemiskinan tahun depan? (sistem tidak memperkirakan angka makro)",
+   "Bantuan siapa yang sebaiknya dihentikan? (sistem tidak dipakai untuk menghentikan bantuan siapa pun)"
+  ],
+  "status_layanan": {
+   "siap": true,
+   "alasan": null,
+   "mode": "daring",
+   "catatan_mode_luring": "Dalam mode luring, copilot tetap menjawab dari basis pengetahuan yang sama dengan bahasa templat. Seluruh angka identik; yang hilang hanya keluwesan kalimatnya. Seluruh skor, rekomendasi, dan simulasi tetap berjalan penuh sebab semuanya dihitung secara lokal."
+  }
+ }
+}

@@ -1,0 +1,462 @@
+/* Observatory details stay local to the dashboard; classic keeps its layout. */
+.ringkasan-hero,
+.ringkasan-section-heading {
+  display: none;
+}
+
+html:not([data-theme="futuristik"]) .ringkasan-page.space-y-5 > .ringkasan-stat-grid {
+  margin-top: 0;
+}
+
+html[data-theme="futuristik"] .ringkasan-page {
+  --ringkasan-chart-grid: #243345;
+  --ringkasan-chart-axis: #34465a;
+  --ringkasan-chart-label: #a6b8c9;
+  --ringkasan-chart-series: #53dfdc;
+  --ringkasan-chart-dot: #101c2c;
+  --ringkasan-chart-hover: rgb(83 223 220 / 5%);
+}
+
+html[data-theme="futuristik"] .ringkasan-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid #29454f;
+  border-radius: 20px;
+  background:
+    radial-gradient(ellipse at 83% 18%, rgb(30 101 106 / 14%), transparent 55%),
+    linear-gradient(112deg, #112433 0%, #101d2b 54%, #0d1928 100%);
+  box-shadow: inset 0 1px rgb(204 249 248 / 3%), 0 14px 40px rgb(0 0 0 / 9%);
+}
+
+html[data-theme="futuristik"] .ringkasan-hero::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 0 48%;
+  content: "";
+  opacity: .33;
+  background-image: linear-gradient(rgb(130 194 201 / 7%) 1px, transparent 1px), linear-gradient(90deg, rgb(130 194 201 / 7%) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: linear-gradient(to right, transparent, #000);
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-copy {
+  padding: 29px 0 26px 30px;
+}
+
+html[data-theme="futuristik"] .ringkasan-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #74dfdc;
+  font-size: 9px;
+  font-weight: 650;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+}
+
+html[data-theme="futuristik"] .ringkasan-eyebrow > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #53dfdc;
+  box-shadow: 0 0 0 4px rgb(83 223 220 / 9%);
+}
+
+html[data-theme="futuristik"] .ringkasan-hero h2 {
+  margin: 13px 0 0;
+  color: #edf5fc;
+  font-size: clamp(26px, 2.7vw, 38px);
+  font-weight: 600;
+  letter-spacing: -.045em;
+  line-height: 1.2;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero h2 > span {
+  color: #83e2de;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-copy > p {
+  margin-top: 12px;
+  color: #a3b5c7;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 19px;
+  margin-top: 20px;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-actions:empty {
+  display: none;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-actions > a {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .18s ease, box-shadow .18s ease, color .18s ease;
+}
+
+html[data-theme="futuristik"] .ringkasan-action-primary {
+  padding: 0 14px;
+  border: 1px solid #75e8df;
+  background: #68e0d8;
+  color: #08232d;
+  box-shadow: 0 3px 15px rgb(83 223 220 / 10%);
+}
+
+html[data-theme="futuristik"] .ringkasan-action-primary:hover {
+  background: #91ede6;
+  box-shadow: 0 3px 22px rgb(83 223 220 / 20%);
+}
+
+html[data-theme="futuristik"] .ringkasan-action-secondary {
+  padding: 0 2px;
+  color: #c7d7e6;
+}
+
+html[data-theme="futuristik"] .ringkasan-action-secondary:hover {
+  color: #80e6de;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-actions > a:focus-visible {
+  outline: 2px solid #8ff3ea;
+  outline-offset: 4px;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px 10px;
+  margin-top: 18px;
+  color: #8ea8bb;
+  font-size: 9px;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-meta > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+html[data-theme="futuristik"] .ringkasan-hero-meta > i {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #536879;
+}
+
+html[data-theme="futuristik"] .ringkasan-observatory {
+  position: relative;
+  align-self: center;
+  margin: 0 22px 12px -5px;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit-value {
+  position: absolute;
+  top: 49.6%;
+  left: 51.2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit-value > span:first-child {
+  color: #8caebc;
+  font-size: 8px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit-value > strong {
+  color: #d5fbf6;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -.06em;
+  line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit-value > span:last-child {
+  color: #9bbbc8;
+  font-size: 9px;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit-caption {
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #8faebf;
+  font-size: 9px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+html[data-theme="futuristik"] .ringkasan-orbit-caption-line {
+  display: block;
+  width: 14px;
+  height: 2px;
+  border-radius: 2px;
+  background: #53dfdc;
+}
+
+html[data-theme="futuristik"] .ringkasan-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 27px;
+}
+
+html[data-theme="futuristik"] .ringkasan-section-heading > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+html[data-theme="futuristik"] .ringkasan-section-index {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #283b4c;
+  border-radius: 6px;
+  color: #8ba3b8;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+}
+
+html[data-theme="futuristik"] .ringkasan-section-heading h2 {
+  color: #dce8f3;
+  font-size: 13px;
+  font-weight: 550;
+  letter-spacing: -.015em;
+}
+
+html[data-theme="futuristik"] .ringkasan-section-note {
+  color: #8c9fb3;
+  font-size: 10px;
+  text-align: right;
+}
+
+html[data-theme="futuristik"] .ringkasan-section-heading + * {
+  margin-top: 13px;
+}
+
+html[data-theme="futuristik"] .ringkasan-analysis-grid > .kartu > header {
+  min-height: 78px;
+}
+
+html[data-theme="futuristik"] .ringkasan-risk-bars {
+  padding: 3px 0 5px;
+}
+
+html[data-theme="futuristik"] .ringkasan-risk-bars > div + div {
+  margin-top: 18px;
+}
+
+html[data-theme="futuristik"] .ringkasan-risk-bars > div > .h-2 {
+  height: 6px;
+  margin-top: 9px;
+  background: #202e40;
+}
+
+html[data-theme="futuristik"] .ringkasan-risk-footer {
+  margin-top: 22px;
+  gap: 20px;
+  padding-top: 19px;
+}
+
+html[data-theme="futuristik"] .ringkasan-risk-footer .angka {
+  margin-top: 5px;
+  font-size: 23px;
+  letter-spacing: -.035em;
+}
+
+html[data-theme="futuristik"] .ringkasan-tooltip {
+  border-color: #344c63;
+  border-radius: 10px;
+  background: #132237;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 30%);
+}
+
+html[data-theme="futuristik"] .ringkasan-region-table thead {
+  background: rgb(33 49 67 / 42%);
+}
+
+html[data-theme="futuristik"] .ringkasan-region-table th {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 9px;
+  letter-spacing: .09em;
+}
+
+html[data-theme="futuristik"] .ringkasan-region-table td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+html[data-theme="futuristik"] .ringkasan-region-table th:first-child,
+html[data-theme="futuristik"] .ringkasan-region-table td:first-child {
+  padding-left: 12px;
+}
+
+html[data-theme="futuristik"] .ringkasan-region-table th:last-child,
+html[data-theme="futuristik"] .ringkasan-region-table td:last-child {
+  padding-right: 12px;
+}
+
+html[data-theme="futuristik"] .ringkasan-queue-item {
+  position: relative;
+  padding: 17px 17px 17px 20px;
+  border-color: #27394d;
+  border-radius: 11px;
+  background: linear-gradient(125deg, #152638, #111e2d);
+}
+
+html[data-theme="futuristik"] .ringkasan-queue-item::before {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 2px;
+  height: 24px;
+  content: "";
+  background: #53dfdc;
+}
+
+html[data-theme="futuristik"] .ringkasan-queue-item > .angka {
+  color: #edf5fc;
+  font-size: 25px;
+  letter-spacing: -.04em;
+}
+
+html[data-theme="futuristik"] .ringkasan-queue-item > div:last-child {
+  max-width: 260px;
+  margin-top: 7px;
+  line-height: 1.6;
+}
+
+@media (min-width: 1600px) {
+  html[data-theme="futuristik"] .ringkasan-hero {
+    grid-template-columns: minmax(0, 1fr) 360px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-observatory {
+    max-height: 265px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-orbit {
+    max-height: 265px;
+  }
+}
+
+@media (max-width: 1199px) {
+  html[data-theme="futuristik"] .ringkasan-hero {
+    grid-template-columns: minmax(0, 1fr) 230px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-hero-copy {
+    padding-left: 24px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-orbit-value > strong {
+    font-size: 38px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-desktop-break {
+    display: none;
+  }
+}
+
+@media (max-width: 639px) {
+  html[data-theme="futuristik"] .ringkasan-hero {
+    grid-template-columns: minmax(0, 1fr);
+    border-radius: 15px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-hero-copy {
+    padding: 24px 22px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-hero h2 {
+    font-size: clamp(25px, 6vw, 34px);
+  }
+
+  html[data-theme="futuristik"] .ringkasan-observatory {
+    display: none;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-hero-actions {
+    gap: 8px 16px;
+    margin-top: 16px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-hero-meta {
+    line-height: 1.7;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-section-heading {
+    align-items: flex-start;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-section-heading h2 {
+    max-width: 200px;
+    font-size: 12px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-section-note {
+    max-width: 110px;
+    padding-top: 5px;
+    font-size: 9px;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-risk-footer .angka {
+    font-size: 21px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme="futuristik"] .ringkasan-hero-actions > a {
+    transition: none;
+  }
+}
+
+@media print {
+  html[data-theme="futuristik"] .ringkasan-hero {
+    display: none;
+  }
+
+  html[data-theme="futuristik"] .ringkasan-page {
+    --ringkasan-chart-grid: #e2e8f0;
+    --ringkasan-chart-axis: #cbd5e1;
+    --ringkasan-chart-label: #475569;
+    --ringkasan-chart-series: #2a78d6;
+    --ringkasan-chart-dot: #fff;
+  }
+}
